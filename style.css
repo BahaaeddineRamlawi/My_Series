@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Iceland';
+    src: url('./Fonts/Iceland/Iceland-Regular.ttf');
+
+}
+
+@font-face {
+    font-family: 'Grenze Gotisch';
+    src: url('./Fonts/Grenze_Gotisch/GrenzeGotisch-ExtraLight.ttf');
+
+}
+
+
+
+body {
+    font-family: 'Iceland', cursive;
+    font-family: 'Grenze Gotisch', cursive;
+    margin: 0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page{ 
+    width: 100%;
+    min-height: 200vh;
+    background-position: center;
+    background-size: cover;
+    background:linear-gradient(180deg,  #870000  10%, #181818 30%, #000 90%) ;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
+h2{
+    position: relative;
+    color: #fff;
+    padding: 11px 1px;
+    font-size: 45px;
+    font-family: Grenze Gotisch;
+    font-weight: bold;
+    line-height: 0.75;
+}
+
+h2:after{
+    content: '';
+    position: absolute;
+    align-items: center;
+    width: 70%;
+    left: 15%;
+    height: 2px;
+    bottom: 0;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #2C3539 10%, #757575 30%, white 50%, #757575 70%, #2C3539 90%) ;;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+    font-family: Grenze Gotisch;
+    line-height: 20px;
+    padding-left: 3px;
+}
+
+.date-text{
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-right: 30px;
+    font-family: Iceland;
+    color: #fff;
+}
+
+.series{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-right: 30px;
+}
+.series li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding-right: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.series li img{
+    width: 240px;
+    border-radius: 12px;
+    height: 350px;
+    margin-bottom: 8px;
+    border-color: #660000;
+    border-style: solid ;
+    filter: grayscale(0);
+}
+
+.series li img:hover{
+    filter: grayscale(1);
+    transform: scale(1.1) translateY(-10px);
+    border: solid 2px;
+    border-color: white;
+}
+
+@media screen and (max-width: 650px) {
+    .page{
+        padding-left: 11%;
+    }
+}
