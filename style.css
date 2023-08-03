@@ -41,6 +41,129 @@ body {
     padding-left: 2%;
 }
 
+.seriespage{ 
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    background-position: center;
+    background:linear-gradient(180deg,  #870000  10%, #181818 30%, #000 90%) ;
+    box-sizing: border-box;
+    padding-left: 2%;
+    display: flex;
+}
+
+.seriespage img{
+    height: 540px;
+    width: 360px;
+    border-radius: 20px;
+}
+
+@keyframes animate {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    75% {
+        background-position: 50% 100%;
+    }
+    100% {  
+      background-position: 100% 0%;
+    }
+  }
+
+.infposter{
+    position: sticky;
+    width: 360px;
+    height: 540px;
+    border-radius: 20px;
+}
+
+.infposter:before,
+.infposter:after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  background: linear-gradient(45deg, #fff, #df0404, #870000, #b60101, #df0404, #fff);
+  background-size: 400% 400%;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  border-radius: 20px;
+  z-index: -1;
+  animation: animate 8s ease alternate infinite;
+}
+.infposter:after {
+  filter: blur(20px);
+}
+
+.seriespage p{
+    color: #fff;
+    font-size: 20px;
+    font-family: Grenze Gotisch;
+    line-height: 30px;
+    padding: 5px 30px;
+}
+
+.seriespage h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: Grenze Gotisch;
+    line-height: 35px;
+    padding: 10px 0 30px 30px;
+}
+
+.seriespage p span{
+    color: #fff;
+    font-size: 20px;
+    font-family: Grenze Gotisch;
+    line-height: 20px;
+    padding: 0 5px 5px 30px;
+    font-weight: bold;
+}
+
+audio{
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #870000;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: #fff;
+    text-shadow: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+    text-shadow: none;
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: #7a0101;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #7a0101;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+audio::-webkit-media-controls-mute-button {
+    margin-right: 10px;
+}
+
 h2{
     position: relative;
     color: #fff;
@@ -61,6 +184,10 @@ h2:after{
     bottom: 0;
     border-radius: 2px;
     background: linear-gradient(90deg, #2C3539 10%, #757575 30%, white 50%, #757575 70%, #2C3539 90%) ;;
+}
+
+a{
+    text-decoration: none;
 }
 
 p{
@@ -117,8 +244,23 @@ p{
     border-color: white;
 }
 
+
+
+
 @media screen and (max-width: 650px) {
     .page{
-        padding-left: 11%;
+        padding-left: 0%;
+    }
+    .series{
+        padding-right: 0;
+    }
+    .seriespage{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .description{
+        padding: 50px;
     }
 }
