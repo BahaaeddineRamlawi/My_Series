@@ -15,7 +15,7 @@ const list = [
   "Jessica Jones-3-dtb",
   "La Casa De Papel-5-iab",
   "Locke and Key-3-hdm",
-  "Loki-1-etf",
+  "Loki-2-etf",
   "MacGyver-5-eav",
   "Man vs Bee-1-cvv",
   "Moon Knight-1-aef",
@@ -54,10 +54,14 @@ const list = [
   "Lockwood & Co-1-aeh",
   "The Night Agent-1-atd",
   "Yellowjackets-2-mtu",
-  "The Office-5-cov",
+  "The Office-9-cov",
+  "Black Summer-2-dha",
+  "What If...?-2-aes",
+  "Love & Death-1-dbv",
+  "Night Has Come-1-tmh"
 ];
 let i = 0;
-//"One of Us Is Lying-1-mdt","Love and Death-1-dbv","The Cleaning Lady-1-bdv",
+//"One of Us Is Lying-1-mdt","The Cleaning Lady-1-bdv",
 //"1899-1-msh","Pretty Little Liars-1-dmt"
 
 const sortedlist = list.sort();
@@ -86,24 +90,26 @@ const genre = {
 while (i < sortedlist.length) {
   const n = sortedlist[i];
   const name = n.substr(0, n.length - 6);
+  var picname = n.substr(0, n.length - 6);
+  if(picname.includes("?")){ picname = picname.replace("?","!");};
   const g1 = n.substr(n.length - 3, 1);
   const g2 = n.substr(n.length - 2, 1);
   const g3 = n.substr(n.length - 1, 1);
   const sn = n.charAt(n.length - 5);
   if (name.length < 50) {
-    const result = `<li><img src="Posters/${name}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${name}.html" target="_blank"><h2>${name}</h2></a>
-                        <p>Seasons: ${sn}</p><p>Genres: ${genre[g1]} ${genre[g2]} ${genre[g3]}</p></li>`;
+    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${picname}.html" target="_blank"><h2>${name}</h2></a>
+                        <p>Seasons: ${sn}</p><p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p></li>`;
     document.querySelector(".series").innerHTML += result;
   } else {
-    const result = `<li><img src="Posters/${name}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${name}.html" target="_blank"><h2 style="font-size: 30px;">${name}</h2></a>
-                                <p>Seasons: ${sn}</p><p>Genres: ${genre[g1]} ${genre[g2]} ${genre[g3]}</p></li>`;
+    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${picname}.html" target="_blank"><h2 style="font-size: 30px;">${name}</h2></a>
+                        <p>Seasons: ${sn}</p><p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p></li>`;
     document.querySelector(".series").innerHTML += result;
   }
   window["music" + i] = document.getElementById(`${name}`);
   function play(music) {
     var play = music.play();
     play.catch((e) => {
-      console.log("Click to Play");
+      console.log("Click to Play -- "+e);
     });
   }
   function stop(music) {
@@ -123,9 +129,9 @@ function onFirstClick(event) {
 }
 document.addEventListener("click", onFirstClick);
 
-function openPageOnKeyPress(event) {
-  if (event.keyCode === 70) {
-    window.location.href = "./futureseries.html";
-  }
-}
-document.addEventListener("keydown", openPageOnKeyPress);
+// function openPageOnKeyPress(event) {
+//   if (event.keyCode === 70) {
+//     window.location.href = "./futureseries.html";
+//   }
+// }
+// document.addEventListener("keydown", openPageOnKeyPress);
