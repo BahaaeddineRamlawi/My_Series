@@ -64,8 +64,8 @@ const list = [
   "City on Fire-1-cdv",
   "Luke Cage-2-abq",
   "Pyramid Game-1-tum",
-  "Daredevil-2-aeb",
-  "Monsters at Work-1-cfv",
+  "Daredevil-3-aeb",
+  "Monsters at Work-2-cfv",
   "Shōgun-1-dav",
   "The Defenders-1-adq",
   "Black Knight-1-sav",
@@ -74,7 +74,8 @@ const list = [
   "Chicken Nugget-1-cmv",
   "See-1-aes",
   "Not Dead Yet-1-ovv",
-  "Don't Trust the B---- In Apartment 23-1-ovv"
+  "Don't Trust the B---- In Apartment 23-1-ovv",
+  "Echo-1-abq",
 ];
 let i = 0;
 //"One of Us Is Lying-1-mdt","The Cleaning Lady-1-bdv",
