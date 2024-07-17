@@ -13,11 +13,11 @@ while (i < sortedList.length) {
   const g2 = threegenre[1];
   const g3 = threegenre[2];
   if (name.length < 50) {
-    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${picname}.html" target="_blank"><h2>${name}</h2></a>
+    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="series.html?series_name=${encodeURIComponent(name)}" target="_blank"><h2>${name}</h2></a>
                         <p>Seasons: ${sn}</p><p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p></li>`;
     document.querySelector(".series").innerHTML += result;
   } else {
-    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${picname}.html" target="_blank"><h2 style="font-size: 30px;">${name}</h2></a>
+    const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="series.html?series_name=${encodeURIComponent(name)}" target="_blank"><h2 style="font-size: 30px;">${name}</h2></a>
                         <p>Seasons: ${sn}</p><p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p></li>`;
     document.querySelector(".series").innerHTML += result;
   }

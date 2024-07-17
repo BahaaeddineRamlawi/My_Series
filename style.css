@@ -144,6 +144,7 @@ body::-webkit-scrollbar-thumb {
   font-family: Grenze Gotisch;
   line-height: 30px;
   padding: 5px 30px;
+  max-width: 900px;
 }
 
 .seriespage h1 {

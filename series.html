@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">Series Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="seriesinfo.js" defer></script>
+    <script>
+      window.onload = function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const seriesName = urlParams.get('series_name');
+        const series = seriesData[seriesName];
+
+        if (series) {
+          document.getElementById('pageTitle').textContent = seriesName;
+          document.getElementById('series-title').textContent = `${series.name} (${series.year})`;
+          document.getElementById('series-description').textContent = series.description;
+          document.getElementById('series-creators').innerHTML = `<span>Creators:</span> ${series.creators}`;
+          document.getElementById('series-writers').innerHTML = `<span>Writers:</span> ${series.writer}`;
+          document.getElementById('series-director').innerHTML = `<span>Director:</span> ${series.director}`;
+          document.getElementById('series-seasons').innerHTML = `No. of seasons: ${series.seasons}`;
+          document.getElementById('series-episodes').innerHTML = `No. of episodes: ${series.episodes}`;
+          document.getElementById('series-running-time').innerHTML = `Running time: ${series.runningTime}`;
+          document.getElementById('series-genres').innerHTML = `Genres: ${series.genres.join(' - ')}`;
+          document.getElementById('series-rating').innerHTML = `My Rating: ${series.rating}`;
+          document.getElementById('series-poster').src = series.poster;
+          document.getElementById('series-audio').src = series.audio;
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div class="seriespage">
+      <div class="infposter">
+        <img id="series-poster" src="" alt="Series Poster" />
+      </div>
+      <div class="description">
+        <h1 id="series-title"></h1>
+        <p id="series-description"></p>
+        <p id="series-creators"><span>Creators:</span></p>
+        <p id="series-writers"><span>Writers:</span></p>
+        <p id="series-director"><span>Director:</span></p>
+        <p id="series-seasons">No. of seasons:</p>
+        <p id="series-episodes">No. of episodes:</p>
+        <p id="series-running-time">Running time:</p>
+        <p id="series-genres">Genres:</p>
+        <p class="rating" id="series-rating">My Rating:</p>
+        <audio id="series-audio" controls controlsList="nodownload noplaybackrate">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </body>
+</html>
