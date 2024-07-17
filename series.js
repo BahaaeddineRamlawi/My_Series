@@ -1,16 +1,17 @@
 let i = 0;
 
-while (i < sortedlist.length) {
-  const n = sortedlist[i];
-  const name = n.substr(0, n.length - 6);
-  var picname = n.substr(0, n.length - 6);
+while (i < sortedList.length) {
+  const n = sortedList[i];
+  const name = n.name;
+  var picname = name;
   if (picname.includes("?")) {
     picname = picname.replace("?", "!");
   }
-  const g1 = n.substr(n.length - 3, 1);
-  const g2 = n.substr(n.length - 2, 1);
-  const g3 = n.substr(n.length - 1, 1);
-  const sn = n.charAt(n.length - 5);
+  const threegenre = n.genre;
+  const sn = n.seasons;
+  const g1 = threegenre[0];
+  const g2 = threegenre[1];
+  const g3 = threegenre[2];
   if (name.length < 50) {
     const result = `<li><img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="stop(music${i})" alt="${name}" id="${i}"><a href="Series/${picname}.html" target="_blank"><h2>${name}</h2></a>
                         <p>Seasons: ${sn}</p><p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p></li>`;
