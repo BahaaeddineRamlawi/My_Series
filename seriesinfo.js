@@ -530,7 +530,7 @@ const seriesData = {
     description:
       "Luke Cage undergoes an experiment that accidentally gives him superpowers and makes his skin unbreakable. Things take an unexpected turn when he starts fighting corruption.",
     year: "2016-2018",
-    rating: "-",
+    rating: "4.1",
     runningTime: "44-69 minutes",
     seasons: 2,
     episodes: 26,

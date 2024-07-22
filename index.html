@@ -7,95 +7,108 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="page">
-        <div class="date-glitch">
-            <div class="date-text" data-text="2021 - 2024">
-                2021 - 2024
+    <div class="home-screen-blur">
+        <div class="navbar">
+            <div class="date-glitch">
+                <div class="date-text" data-text="2021 - 2024">
+                    2021 - 2024
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button id="muteButton" aria-label="Mute">
+                    <img src="assets/speaker-icon.png" alt="Mute" class="icon" id="muteIcon">
+                    <img src="assets/muted-icon.png" alt="Unmute" class="icon hidden" id="unmuteIcon">
+                </button>
+                <button id="stopMusicButton">Stop Background Music</button>
             </div>
         </div>
-        <div class="series_audio">
-            <audio id="Agent Carter" src="Sound/Agent Carter.mp3" preload="auto" loop ></audio>
-            <audio id="Anne Rice's Mayfair Witches" src="Sound/Anne Rice's Mayfair Witches.mp3" preload="auto" loop ></audio>
-            <audio id="Archive81" src="Sound/Archive81.mp3" preload="auto" loop ></audio>
-            <audio id="Band of Brothers" src="Sound/Band of Brothers.mp3" preload="auto" loop ></audio>
-            <audio id="Dark" src="Sound/Dark.mp3" preload="auto" loop ></audio>
-            <audio id="Ginny & Georgia" src="Sound/Ginny & Georgia.mp3" preload="auto" loop ></audio>
-            <audio id="Grand Army" src="Sound/Grand Army.mp3" preload="auto" loop ></audio>
-            <audio id="Halo" src="Sound/Halo.mp3" preload="auto" loop ></audio>
-            <audio id="Hawkeye" src="Sound/Hawkeye.mp3" preload="auto" loop ></audio>
-            <audio id="House of The Dragons" src="Sound/House of The Dragons.mp3" preload="auto" loop ></audio>
-            <audio id="I Am Groot" src="Sound/I Am Groot.mp3" preload="auto" loop ></audio>
-            <audio id="ICarly" src="Sound/ICarly.mp3" preload="auto" loop ></audio>
-            <audio id="Imposters" src="Sound/Imposters.mp3" preload="auto" loop ></audio>
-            <audio id="Jessica Jones" src="Sound/Jessica Jones.mp3" preload="auto" loop ></audio>
-            <audio id="La Casa De Papel" src="Sound/La Casa De Papel.mp3" preload="auto" loop ></audio>
-            <audio id="Locke & Key" src="Sound/Locke & Key.mp3" preload="auto" loop ></audio>
-            <audio id="Loki" src="Sound/Loki.mp3" preload="auto" loop ></audio>
-            <audio id="MacGyver" src="Sound/MacGyver.mp3" preload="auto" loop ></audio>
-            <audio id="Man vs Bee" src="Sound/Man vs Bee.mp3" preload="auto" loop ></audio>
-            <audio id="Moon Knight" src="Sound/Moon Knight.mp3" preload="auto" loop ></audio>
-            <audio id="Mr. Iglesias" src="Sound/Mr. Iglesias.mp3" preload="auto" loop ></audio>
-            <audio id="Ms. Marvel" src="Sound/Ms. Marvel.mp3" preload="auto" loop ></audio>
-            <audio id="Prison Break" src="Sound/Prison Break.mp3" preload="auto" loop ></audio>
-            <audio id="Reacher" src="Sound/Reacher.mp3" preload="auto" loop ></audio>
-            <audio id="Resident Evil" src="Sound/Resident Evil.mp3" preload="auto" loop ></audio>
-            <audio id="Scream Queens" src="Sound/Scream Queens.mp3" preload="auto" loop ></audio>
-            <audio id="She-Hulk Attorney at Law" src="Sound/She-Hulk Attorney at Law.mp3" preload="auto" loop ></audio>
-            <audio id="Squid Game" src="Sound/Squid Game.mp3" preload="auto" loop ></audio>
-            <audio id="Stay Close" src="Sound/Stay Close.mp3" preload="auto" loop ></audio>
-            <audio id="The Falcon And The Winter Soldier" src="Sound/The Falcon And The Winter Soldier.mp3" preload="auto" loop ></audio>
-            <audio id="The Flight Attendant" src="Sound/The Flight Attendant.mp3" preload="auto" loop ></audio>
-            <audio id="The Last Of Us" src="Sound/The Last Of Us.mp3" preload="auto" loop ></audio>
-            <audio id="The Outsider" src="Sound/The Outsider.mp3" preload="auto" loop ></audio>
-            <audio id="The Punisher" src="Sound/The Punisher.mp3" preload="auto" loop ></audio>
-            <audio id="The Queen's Gambit" src="Sound/The Queen's Gambit.mp3" preload="auto" loop ></audio>
-            <audio id="The Terminal List" src="Sound/The Terminal List.mp3" preload="auto" loop ></audio>
-            <audio id="The Wilds" src="Sound/The Wilds.mp3" preload="auto" loop ></audio>
-            <audio id="The Witcher Blood Origin" src="Sound/The Witcher Blood Origin.mp3" preload="auto" loop ></audio>
-            <audio id="The Witcher" src="Sound/The Witcher.mp3" preload="auto" loop ></audio>
-            <audio id="The Woman In The House Across The Street From The Girl In The Window" src="Sound/The Woman In The House Across The Street From The Girl In The Window.mp3" preload="auto" loop ></audio>
-            <audio id="United States of Al" src="Sound/United States of Al.mp3" preload="auto" loop ></audio>
-            <audio id="Wanda Vision" src="Sound/Wanda Vision.mp3" preload="auto" loop ></audio>
-            <audio id="Wednesday" src="Sound/Wednesday.mp3" preload="auto" loop ></audio>
-            <audio id="Y The Last Man" src="Sound/Y The Last Man.mp3" preload="auto" loop ></audio>
-            <audio id="Young Sheldon" src="Sound/Young Sheldon.mp3" preload="auto" loop ></audio>
-            <audio id="The Rookie" src="Sound/The Rookie.mp3" preload="auto" loop ></audio>
-            <audio id="Pretty Little Liars" src="Sound/Pretty Little Liars.mp3" preload="auto" loop ></audio>
-            <audio id="The Boss Baby Back in Business" src="Sound/The Boss Baby Back in Business.mp3" preload="auto" loop ></audio>
-            <audio id="Secret Invasion" src="Sound/Secret Invasion.mp3" preload="auto" loop ></audio>
-            <audio id="The Peripheral" src="Sound/The Peripheral.mp3" preload="auto" loop ></audio>
-            <audio id="Gotham Knights" src="Sound/Gotham Knights.mp3" preload="auto" loop ></audio>
-            <audio id="From" src="Sound/From.mp3" preload="auto" loop ></audio>
-            <audio id="The Lazarus Project" src="Sound/The Lazarus Project.mp3" preload="auto" loop ></audio>
-            <audio id="Lockwood & Co" src="Sound/Lockwood & Co.mp3" preload="auto" loop ></audio>
-            <audio id="The Night Agent" src="Sound/The Night Agent.mp3" preload="auto" loop ></audio>
-            <audio id="Yellowjackets" src="Sound/Yellowjackets.mp3" preload="auto" loop ></audio>
-            <audio id="The Office" src="Sound/The Office.mp3" preload="auto" loop ></audio>
-            <audio id="Black Summer" src="Sound/Black Summer.mp3" preload="auto" loop ></audio>
-            <audio id="What If...?" src="Sound/What If...!.mp3" preload="auto" loop ></audio>
-            <audio id="Love & Death" src="Sound/Love & Death.mp3" preload="auto" loop ></audio>
-            <audio id="Night Has Come" src="Sound/Night Has Come.mp3" preload="auto" loop ></audio>
-            <audio id="Ted" src="Sound/Ted.mp3" preload="auto" loop ></audio>
-            <audio id="Iron Fist" src="Sound/Iron Fist.mp3" preload="auto" loop ></audio>
-            <audio id="City on Fire" src="Sound/City on Fire.mp3" preload="auto" loop ></audio>
-            <audio id="Luke Cage" src="Sound/Luke Cage.mp3" preload="auto" loop ></audio>
-            <audio id="Pyramid Game" src="Sound/Pyramid Game.mp3" preload="auto" loop ></audio>
-            <audio id="Daredevil" src="Sound/Daredevil.mp3" preload="auto" loop ></audio>
-            <audio id="The Defenders" src="Sound/The Defenders.mp3" preload="auto" loop ></audio>
-            <audio id="Monsters at Work" src="Sound/Monsters at Work.mp3" preload="auto" loop ></audio>
-            <audio id="Shōgun" src="Sound/Shōgun.mp3" preload="auto" loop ></audio>
-            <audio id="Black Knight" src="Sound/Black Knight.mp3" preload="auto" loop ></audio>
-            <audio id="Manhunt" src="Sound/Manhunt.mp3" preload="auto" loop ></audio>
-            <audio id="Dead Boy Detectives" src="Sound/Dead Boy Detectives.mp3" preload="auto" loop ></audio>
-            <audio id="Chicken Nugget" src="Sound/Chicken Nugget.mp3" preload="auto" loop ></audio>
-            <audio id="See" src="Sound/See.mp3" preload="auto" loop ></audio>
-            <audio id="Not Dead Yet" src="Sound/Not Dead Yet.mp3" preload="auto" loop ></audio>
-            <audio id="Don't Trust the B---- In Apartment 23" src="Sound/Don't Trust the B---- In Apartment 23.mp3" preload="auto" loop ></audio>
-            <audio id="Echo" src="Sound/Echo.mp3" preload="auto" loop ></audio>
-            <audio id="The 8 Show" src="Sound/The 8 Show.mp3" preload="auto" loop ></audio>
-            <div class="series">
-                <script type="text/javascript" src="data.js"></script>
-                <script type="text/javascript" src="series.js"></script>
+        <div class="page">
+            
+            <div class="series_audio">
+                <audio id="initialMusic" src="assets/New York Jazz Lounge.mp3" preload="auto" loop ></audio>
+                <audio id="Agent Carter" src="Sound/Agent Carter.mp3" preload="auto" loop ></audio>
+                <audio id="Anne Rice's Mayfair Witches" src="Sound/Anne Rice's Mayfair Witches.mp3" preload="auto" loop ></audio>
+                <audio id="Archive81" src="Sound/Archive81.mp3" preload="auto" loop ></audio>
+                <audio id="Band of Brothers" src="Sound/Band of Brothers.mp3" preload="auto" loop ></audio>
+                <audio id="Dark" src="Sound/Dark.mp3" preload="auto" loop ></audio>
+                <audio id="Ginny & Georgia" src="Sound/Ginny & Georgia.mp3" preload="auto" loop ></audio>
+                <audio id="Grand Army" src="Sound/Grand Army.mp3" preload="auto" loop ></audio>
+                <audio id="Halo" src="Sound/Halo.mp3" preload="auto" loop ></audio>
+                <audio id="Hawkeye" src="Sound/Hawkeye.mp3" preload="auto" loop ></audio>
+                <audio id="House of The Dragons" src="Sound/House of The Dragons.mp3" preload="auto" loop ></audio>
+                <audio id="I Am Groot" src="Sound/I Am Groot.mp3" preload="auto" loop ></audio>
+                <audio id="ICarly" src="Sound/ICarly.mp3" preload="auto" loop ></audio>
+                <audio id="Imposters" src="Sound/Imposters.mp3" preload="auto" loop ></audio>
+                <audio id="Jessica Jones" src="Sound/Jessica Jones.mp3" preload="auto" loop ></audio>
+                <audio id="La Casa De Papel" src="Sound/La Casa De Papel.mp3" preload="auto" loop ></audio>
+                <audio id="Locke & Key" src="Sound/Locke & Key.mp3" preload="auto" loop ></audio>
+                <audio id="Loki" src="Sound/Loki.mp3" preload="auto" loop ></audio>
+                <audio id="MacGyver" src="Sound/MacGyver.mp3" preload="auto" loop ></audio>
+                <audio id="Man vs Bee" src="Sound/Man vs Bee.mp3" preload="auto" loop ></audio>
+                <audio id="Moon Knight" src="Sound/Moon Knight.mp3" preload="auto" loop ></audio>
+                <audio id="Mr. Iglesias" src="Sound/Mr. Iglesias.mp3" preload="auto" loop ></audio>
+                <audio id="Ms. Marvel" src="Sound/Ms. Marvel.mp3" preload="auto" loop ></audio>
+                <audio id="Prison Break" src="Sound/Prison Break.mp3" preload="auto" loop ></audio>
+                <audio id="Reacher" src="Sound/Reacher.mp3" preload="auto" loop ></audio>
+                <audio id="Resident Evil" src="Sound/Resident Evil.mp3" preload="auto" loop ></audio>
+                <audio id="Scream Queens" src="Sound/Scream Queens.mp3" preload="auto" loop ></audio>
+                <audio id="She-Hulk Attorney at Law" src="Sound/She-Hulk Attorney at Law.mp3" preload="auto" loop ></audio>
+                <audio id="Squid Game" src="Sound/Squid Game.mp3" preload="auto" loop ></audio>
+                <audio id="Stay Close" src="Sound/Stay Close.mp3" preload="auto" loop ></audio>
+                <audio id="The Falcon And The Winter Soldier" src="Sound/The Falcon And The Winter Soldier.mp3" preload="auto" loop ></audio>
+                <audio id="The Flight Attendant" src="Sound/The Flight Attendant.mp3" preload="auto" loop ></audio>
+                <audio id="The Last Of Us" src="Sound/The Last Of Us.mp3" preload="auto" loop ></audio>
+                <audio id="The Outsider" src="Sound/The Outsider.mp3" preload="auto" loop ></audio>
+                <audio id="The Punisher" src="Sound/The Punisher.mp3" preload="auto" loop ></audio>
+                <audio id="The Queen's Gambit" src="Sound/The Queen's Gambit.mp3" preload="auto" loop ></audio>
+                <audio id="The Terminal List" src="Sound/The Terminal List.mp3" preload="auto" loop ></audio>
+                <audio id="The Wilds" src="Sound/The Wilds.mp3" preload="auto" loop ></audio>
+                <audio id="The Witcher Blood Origin" src="Sound/The Witcher Blood Origin.mp3" preload="auto" loop ></audio>
+                <audio id="The Witcher" src="Sound/The Witcher.mp3" preload="auto" loop ></audio>
+                <audio id="The Woman In The House Across The Street From The Girl In The Window" src="Sound/The Woman In The House Across The Street From The Girl In The Window.mp3" preload="auto" loop ></audio>
+                <audio id="United States of Al" src="Sound/United States of Al.mp3" preload="auto" loop ></audio>
+                <audio id="Wanda Vision" src="Sound/Wanda Vision.mp3" preload="auto" loop ></audio>
+                <audio id="Wednesday" src="Sound/Wednesday.mp3" preload="auto" loop ></audio>
+                <audio id="Y The Last Man" src="Sound/Y The Last Man.mp3" preload="auto" loop ></audio>
+                <audio id="Young Sheldon" src="Sound/Young Sheldon.mp3" preload="auto" loop ></audio>
+                <audio id="The Rookie" src="Sound/The Rookie.mp3" preload="auto" loop ></audio>
+                <audio id="Pretty Little Liars" src="Sound/Pretty Little Liars.mp3" preload="auto" loop ></audio>
+                <audio id="The Boss Baby Back in Business" src="Sound/The Boss Baby Back in Business.mp3" preload="auto" loop ></audio>
+                <audio id="Secret Invasion" src="Sound/Secret Invasion.mp3" preload="auto" loop ></audio>
+                <audio id="The Peripheral" src="Sound/The Peripheral.mp3" preload="auto" loop ></audio>
+                <audio id="Gotham Knights" src="Sound/Gotham Knights.mp3" preload="auto" loop ></audio>
+                <audio id="From" src="Sound/From.mp3" preload="auto" loop ></audio>
+                <audio id="The Lazarus Project" src="Sound/The Lazarus Project.mp3" preload="auto" loop ></audio>
+                <audio id="Lockwood & Co" src="Sound/Lockwood & Co.mp3" preload="auto" loop ></audio>
+                <audio id="The Night Agent" src="Sound/The Night Agent.mp3" preload="auto" loop ></audio>
+                <audio id="Yellowjackets" src="Sound/Yellowjackets.mp3" preload="auto" loop ></audio>
+                <audio id="The Office" src="Sound/The Office.mp3" preload="auto" loop ></audio>
+                <audio id="Black Summer" src="Sound/Black Summer.mp3" preload="auto" loop ></audio>
+                <audio id="What If...?" src="Sound/What If...!.mp3" preload="auto" loop ></audio>
+                <audio id="Love & Death" src="Sound/Love & Death.mp3" preload="auto" loop ></audio>
+                <audio id="Night Has Come" src="Sound/Night Has Come.mp3" preload="auto" loop ></audio>
+                <audio id="Ted" src="Sound/Ted.mp3" preload="auto" loop ></audio>
+                <audio id="Iron Fist" src="Sound/Iron Fist.mp3" preload="auto" loop ></audio>
+                <audio id="City on Fire" src="Sound/City on Fire.mp3" preload="auto" loop ></audio>
+                <audio id="Luke Cage" src="Sound/Luke Cage.mp3" preload="auto" loop ></audio>
+                <audio id="Pyramid Game" src="Sound/Pyramid Game.mp3" preload="auto" loop ></audio>
+                <audio id="Daredevil" src="Sound/Daredevil.mp3" preload="auto" loop ></audio>
+                <audio id="The Defenders" src="Sound/The Defenders.mp3" preload="auto" loop ></audio>
+                <audio id="Monsters at Work" src="Sound/Monsters at Work.mp3" preload="auto" loop ></audio>
+                <audio id="Shōgun" src="Sound/Shōgun.mp3" preload="auto" loop ></audio>
+                <audio id="Black Knight" src="Sound/Black Knight.mp3" preload="auto" loop ></audio>
+                <audio id="Manhunt" src="Sound/Manhunt.mp3" preload="auto" loop ></audio>
+                <audio id="Dead Boy Detectives" src="Sound/Dead Boy Detectives.mp3" preload="auto" loop ></audio>
+                <audio id="Chicken Nugget" src="Sound/Chicken Nugget.mp3" preload="auto" loop ></audio>
+                <audio id="See" src="Sound/See.mp3" preload="auto" loop ></audio>
+                <audio id="Not Dead Yet" src="Sound/Not Dead Yet.mp3" preload="auto" loop ></audio>
+                <audio id="Don't Trust the B---- In Apartment 23" src="Sound/Don't Trust the B---- In Apartment 23.mp3" preload="auto" loop ></audio>
+                <audio id="Echo" src="Sound/Echo.mp3" preload="auto" loop ></audio>
+                <audio id="The 8 Show" src="Sound/The 8 Show.mp3" preload="auto" loop ></audio>
+                <div class="series">
+                    <script type="text/javascript" src="data.js"></script>
+                    <script type="text/javascript" src="series.js"></script>
+                </div>
             </div>
         </div>
     </div>

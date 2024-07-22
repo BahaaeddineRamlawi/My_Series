@@ -26,10 +26,15 @@ html {
 }
 
 body {
-  font-family: "Iceland", cursive;
   font-family: "Grenze Gotisch", cursive;
   margin: 0;
   background: linear-gradient(180deg, #870000 10%, #181818 30%, #000 90%);
+}
+
+.home-screen-blur{
+  filter: blur(10px);
+  transition: filter 0.5s;
+  padding-top: 20px;
 }
 
 body::-webkit-scrollbar-track {
@@ -244,7 +249,9 @@ p {
 .date-glitch {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  min-width: 200px;
+  align-items: center;
+  margin: 0 10px;
 }
 
 .date-text {
@@ -309,8 +316,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
-  filter: blur(10px);
-  transition: filter 0.5s;
   justify-content: space-around;
 }
 
@@ -347,26 +352,15 @@ p {
   border-color: white;
 }
 
-.blur-out {
-  filter: blur(0);
-}
-
 .rating {
   font-size: 25px;
   font-weight: bold;
 }
 
 @media screen and (max-width: 770px) {
-  .page {
-    padding-left: 0%;
-  }
-  .series {
-    padding-right: 0;
-  }
   .seriespage {
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 0%;
   }
   .description {
     padding: 0;
@@ -388,4 +382,67 @@ p {
     height: 375px;
     width: 250px;
   }
+  .navbar{
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 20px;
+    width: 100% !important; 
+  }
+  .home-screen-blur{
+    padding-top: 50px !important;
+  }
+  .navbar button {
+    font-size: 12px !important;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px;
+  border: #7a0101 2px solid;
+  border-right: 0px;
+  z-index: 1000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.navbar button {
+  background-color: #7a0101;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 20px;
+}
+
+.navbar button:hover {
+  background-color: #480101;
+}
+
+.navbar .icon {
+  width: 24px;
+  height: 24px;
+}
+
+#muteIcon {
+  display: block;
+}
+
+#unmuteIcon {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-buttons{
+  display: flex;
 }
