@@ -14,8 +14,20 @@ const seriesData = {
     writer:
       "Jack Kirby, Stan Lee, Christopher Markus, Stephen McFeely and others",
     genres: ["Action-adventure", "Period drama", "Spy-fi", "Superhero"],
-    poster: "./Posters/Agent Carter.png",
-    audio: "./Sound/Agent Carter.mp3",
+  },
+  "All of Us Are Dead": {
+    name: "All of Us Are Dead",
+    description:
+      "Trapped students must escape their high school which has become ground zero for a zombie virus outbreak.",
+    year: "2022-",
+    rating: "3.7",
+    runningTime: "53-72 minutes",
+    seasons: 1,
+    episodes: 12,
+    creators: "Chun Sung-il, Lee Jae-kyoo and Kim Nam-su",
+    director: "Lee Jae-kyoo and Kim Nam-su",
+    writer: "Chun Sung-il",
+    genres: ["Coming-of-age", "Horror", "Zombie apocalypse"],
   },
   "Anne Rice's Mayfair Witches": {
     name: "Anne Rice's Mayfair Witches",
@@ -32,10 +44,8 @@ const seriesData = {
     writer:
       "Michelle Ashford, Esta Spalding, Michael Goldbach, Lindsey Villarreal and others",
     genres: ["Supernatural", "Thriller", "Drama"],
-    poster: "./Posters/Anne Rice's Mayfair Witches.png",
-    audio: "./Sound/Anne Rice's Mayfair Witches.mp3",
   },
-  "Archive81": {
+  Archive81: {
     name: "Archive 81",
     description:
       "An archivist takes a job restoring damaged videotapes, but finds themselves getting pulled into a mystery involving the missing director and a mysterious cult that they were documenting.",
@@ -50,8 +60,6 @@ const seriesData = {
     writer:
       "Paul Harris Boardman, Rebecca Sonnenshine, Michael Narducci, Evan Bleiweiss and others",
     genres: ["Analog horror", "Supernatural fiction", "Mystery", "Drama"],
-    poster: "./Posters/Archive81.png",
-    audio: "./Sound/Archive81.mp3",
   },
   "Band of Brothers": {
     name: "Band of Brothers",
@@ -67,8 +75,6 @@ const seriesData = {
       "Phil Alden Robinson, Richard Loncraine, Mikael Salomon, David Nutter and others",
     writer: "Erik Jendresen, Tom Hanks, John Orloff, E. Max Frye and others",
     genres: ["War drama"],
-    poster: "./Posters/Band of Brothers.png",
-    audio: "./Sound/Band of Brothers.mp3",
   },
   "Black Knight": {
     name: "Black Knight",
@@ -83,8 +89,6 @@ const seriesData = {
     director: "Cho Ui-seok and Kim Hyun-deok",
     writer: "Cho Ui-seok and Kim Hyun-deok",
     genres: ["Science fiction", "Dystopian", "Action"],
-    poster: "./Posters/Black Knight.png",
-    audio: "./Sound/Black Knight.mp3",
   },
   "Black Summer": {
     name: "Black Summer",
@@ -99,8 +103,6 @@ const seriesData = {
     director: "John Hyams, Abram Cox",
     writer: "Karl Schaefer, John Hyams, Abram Cox, Daniel Schaefer and others",
     genres: ["Apocalyptic fiction", "Drama", "Horror", "Action"],
-    poster: "./Posters/Black Summer.png",
-    audio: "./Sound/Black Summer.mp3",
   },
   "Chicken Nugget": {
     name: "Chicken Nugget",
@@ -115,8 +117,6 @@ const seriesData = {
     director: "Lee Byeong-heon",
     writer: "Lee Byeong-heon",
     genres: ["Comedy", "Mystery"],
-    poster: "./Posters/Chicken Nugget.png",
-    audio: "./Sound/Chicken Nugget.mp3",
   },
   "City on Fire": {
     name: "City on Fire",
@@ -131,8 +131,6 @@ const seriesData = {
     director: "Jesse Peretz, Haifaa al-Mansour, and Liz Garbus",
     writer: "Josh Schwartz and Stephanie Savage",
     genres: ["Crime", "Drama"],
-    poster: "./Posters/City on Fire.png",
-    audio: "./Sound/City on Fire.mp3",
   },
   Daredevil: {
     name: "Daredevil",
@@ -148,8 +146,6 @@ const seriesData = {
       "Phil Abraham, Adam Kane, Ken Girotti, Farren Blackburn and others",
     writer: "Drew Goddard, Marco Ramirez, Joe Pokaski, Luke Kalteux and others",
     genres: ["Action-adventure", "Crime drama", "Legal drama", "Superhero"],
-    poster: "./Posters/Daredevil.png",
-    audio: "./Sound/Daredevil.mp3",
   },
   Dark: {
     name: "Dark",
@@ -165,8 +161,6 @@ const seriesData = {
     writer:
       "Baran bo Odar, Jantje Friese, Ronny Schalk, Marc O. Seng, Martin Behnke, Daphne Ferraro",
     genres: ["Science fiction", "Thriller", "Mystery", "Tragedy"],
-    poster: "./Posters/Dark.png",
-    audio: "./Sound/Dark.mp3",
   },
   "Dead Boy Detectives": {
     name: "Dead Boy Detectives",
@@ -183,8 +177,6 @@ const seriesData = {
     writer:
       "Steve Yockey, Shoshana Sachi, Cheech Manohar, Ian Weinreich and others",
     genres: ["Comedy-drama", "Occult detective", "Supernatural horror"],
-    poster: "./Posters/Dead Boy Detectives.png",
-    audio: "./Sound/Dead Boy Detectives.mp3",
   },
   "Don't Trust the B---- In Apartment 23": {
     name: "Don't Trust the B---- In Apartment 23",
@@ -201,8 +193,6 @@ const seriesData = {
     writer:
       "Nahnatchka Khan, Sally Bradford McKenna, Casey Johnson, David Windsor and others",
     genres: ["Sitcom"],
-    poster: "./Posters/Don't Trust the B---- In Apartment 23.png",
-    audio: "./Sound/Don't Trust the B---- In Apartment 23.mp3",
   },
   Echo: {
     name: "Echo",
@@ -218,8 +208,6 @@ const seriesData = {
     writer:
       "Marion Dayre, Josh Feldman, Steven Paul Judd, Ken Kristensen and others",
     genres: ["Action-adventure", "Crime", "Superhero"],
-    poster: "./Posters/Echo.png",
-    audio: "./Sound/Echo.mp3",
   },
   From: {
     name: "From",
@@ -234,8 +222,6 @@ const seriesData = {
     director: "Jack Bender, Brad Turner, Jennifer Liao and Alexandra La Roche",
     writer: "John Griffin, Javier Grillo-Marxuach and Vivian Lee",
     genres: ["Science fiction", "Horror"],
-    poster: "./Posters/From.png",
-    audio: "./Sound/From.mp3",
   },
   "Ginny & Georgia": {
     name: "Ginny & Georgia",
@@ -252,8 +238,6 @@ const seriesData = {
     writer:
       "Sarah Lampert, Debra J. Fisher, David Monahan, Danielle Hoover and others",
     genres: ["Comedy drama"],
-    poster: "./Posters/Ginny & Georgia.png",
-    audio: "./Sound/Ginny & Georgia.mp3",
   },
   "Gotham Knights": {
     name: "Gotham Knights",
@@ -270,8 +254,6 @@ const seriesData = {
     writer:
       "Natalie Abrams, Chad Fiveash, James Patrick Stoteraux, David Paul Francis and others",
     genres: ["Action", "Crime drama", "Superhero"],
-    poster: "./Posters/Gotham Knights.png",
-    audio: "./Sound/Gotham Knights.mp3",
   },
   "Grand Army": {
     name: "Grand Army",
@@ -288,16 +270,14 @@ const seriesData = {
     writer:
       "Katie Cappiello, Hilary Bettis, Randy McKinnon, Andy Parker and others",
     genres: ["Teen drama"],
-    poster: "./Posters/Grand Army.png",
-    audio: "./Sound/Grand Army.mp3",
   },
   Halo: {
     name: "Halo",
     description:
       "Master Chief, a cybernetically enhanced super-soldier, defends humanity from the alien Covenant in the 26th century.",
-    year: "2022-",
-    rating: "3.5",
-    runningTime: "40–59 minutes",
+    year: "2022-2024",
+    rating: "3.9",
+    runningTime: "40–61 minutes",
     seasons: 2,
     episodes: 17,
     creators: "Steven Kane and Kyle Killen",
@@ -306,8 +286,6 @@ const seriesData = {
     writer:
       "Kyle Killen, Steven Kane, Richard E. Robbins, Silka Luisa and others",
     genres: ["Action-adventure", "Drama", "Military science fiction"],
-    poster: "./Posters/Halo.png",
-    audio: "./Sound/Halo.mp3",
   },
   Hawkeye: {
     name: "Hawkeye",
@@ -323,8 +301,6 @@ const seriesData = {
     writer:
       "Jonathan Igla, Elisa Climent, Katie Mathewson, Tanner Bean and others",
     genres: ["Action-adventure", "Buddy comedy", "Crime", "Superhero"],
-    poster: "./Posters/Hawkeye.png",
-    audio: "./Sound/Hawkeye.mp3",
   },
   "House of The Dragons": {
     name: "House of The Dragons",
@@ -340,8 +316,6 @@ const seriesData = {
       "Miguel Sapochnik, Greg Yaitanes, Clare Kilner, Geeta Vasant Patel and others",
     writer: "George R. R. Martin, Ryan Condal, Sara Hess and Charmaine DeGraté",
     genres: ["Action", "Adventure", "Fantasy", "Serial drama"],
-    poster: "./Posters/House of The Dragons.png",
-    audio: "./Sound/House of Dragons.mp3",
   },
   "I Am Groot": {
     name: "I Am Groot",
@@ -356,8 +330,6 @@ const seriesData = {
     director: "Kirsten Lepore",
     writer: "Kirsten Lepore",
     genres: ["Comedy", "Family", "Science fiction", "Superhero"],
-    poster: "./Posters/I Am Groot.png",
-    audio: "./Sound/I Am Groot.mp3",
   },
   ICarly: {
     name: "ICarly",
@@ -373,8 +345,6 @@ const seriesData = {
       "Phill Lewis, Jean Sagal, Anthony Rich, Morenike Joela Evans and others",
     writers: "Ali Schouten, Jay Kogen, Steve Armogida, Jim Armogida and others",
     genres: ["Sitcom"],
-    poster: "./Posters/ICarly.png",
-    audio: "./Sound/ICarly.mp3",
   },
   Imposters: {
     name: "Imposters",
@@ -390,8 +360,6 @@ const seriesData = {
     writers:
       "Adam Brooks, Paul Adelstein, Kathy Greenberg, Emily Cook and others",
     genres: ["Dark comedy"],
-    poster: "./Posters/Imposters.png",
-    audio: "./Sound/Imposters.mp3",
   },
   "Iron Fist": {
     name: "Iron Fist",
@@ -408,8 +376,6 @@ const seriesData = {
     writers:
       "Scott Buck, Quinton Peeples, Scott Reynolds, Cristine Chambers and others",
     genres: ["Action", "Drama", "Martial arts", "Superhero"],
-    poster: "./Posters/Iron Fist.png",
-    audio: "./Sound/Iron Fist.mp3",
   },
   "Jessica Jones": {
     name: "Jessica Jones",
@@ -432,8 +398,22 @@ const seriesData = {
       "Superhero",
       "Crime drama",
     ],
-    poster: "./Posters/Jessica Jones.png",
-    audio: "./Sound/Jessica Jones.mp3",
+  },
+  "John Doe": {
+    name: "John Doe",
+    description:
+      "A mysterious man rises from the primordial waters of an isolated island, possessing knowledge of literally everything in the world except for who he is. While he searches for clues to his missing identity, he uses his unique talent to help the Seattle police department solve 'impossible' crimes. Not everyone is convinced that John Doe is a hero, however, especially Lt. Jamie Avery, who investigates him in her own way.",
+    year: "2002-2003",
+    rating: "",
+    runningTime: "44 minutes",
+    seasons: 1,
+    episodes: 21,
+    creators: "Brandon Camp and Mike Thompson",
+    director:
+      "Mimi Leder, Henry Bronchtein, Bill L. Norton, Félix Enríquez Alcalá and others",
+    writers:
+      "Brandon Camp, Mike Thompson, Gardner Stern, Russel Friend and others",
+    genres: ["Drama", "Science fiction"],
   },
   "La Casa De Papel": {
     name: "La Casa De Papel",
@@ -448,8 +428,6 @@ const seriesData = {
     director: "Jesús Colmenar",
     writers: "Álex Pina",
     genres: ["Heist", "Crime drama", "Thriller"],
-    poster: "./Posters/La Casa De Papel.png",
-    audio: "./Sound/La Casa De Papel.mp3",
   },
   "Locke & Key": {
     name: "Locke & Key",
@@ -466,8 +444,6 @@ const seriesData = {
     writers:
       "Joe Hill, Aron Eli Coleite, Liz Phang, Meredith Averill and others",
     genres: ["Fantasy drama", "Supernatural horror"],
-    poster: "./Posters/Locke & Key.png",
-    audio: "./Sound/Locke & Key.mp3",
   },
   "Lockwood & Co": {
     name: "Lockwood & Co",
@@ -482,8 +458,6 @@ const seriesData = {
     director: "William McGregor, Catherine Morshead and Joe Cornish",
     writers: "Joy Wilkinson, Kara Smith, Joe Cornish, Ed Hime and others",
     genres: ["Action-adventure", "Detective", "Drama", "Supernatural horror"],
-    poster: "./Posters/Lockwood & Co.png",
-    audio: "./Sound/Lockwood & Co.mp3",
   },
   Loki: {
     name: "Loki",
@@ -506,8 +480,6 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
-    poster: "./Posters/Loki.png",
-    audio: "./Sound/Loki.mp3",
   },
   "Love & Death": {
     name: "Love & Death",
@@ -522,8 +494,6 @@ const seriesData = {
     director: "Lesli Linka Glatter and Clark Johnson",
     writers: "David E. Kelley",
     genres: ["Biographical drama", "Crime"],
-    poster: "./Posters/Love & Death.png",
-    audio: "./Sound/Love & Death.mp3",
   },
   "Luke Cage": {
     name: "Luke Cage",
@@ -546,8 +516,6 @@ const seriesData = {
       "Neo-Western",
       "Superhero",
     ],
-    poster: "./Posters/Luke Cage.png",
-    audio: "./Sound/Luke Cage.mp3",
   },
   MacGyver: {
     name: "MacGyver",
@@ -562,8 +530,6 @@ const seriesData = {
     director: "James Wan",
     writers: "Paul Downs Colaizzo",
     genres: ["Action-adventure"],
-    poster: "./Posters/MacGyver.png",
-    audio: "./Sound/MacGyver.mp3",
   },
   "Man vs Bee": {
     name: "Man vs Bee",
@@ -578,8 +544,6 @@ const seriesData = {
     director: "David Kerr",
     writers: "William Davies",
     genres: ["Comedy", "Slapstick"],
-    poster: "./Posters/Man vs Bee.png",
-    audio: "./Sound/Man vs Bee.mp3",
   },
   Manhunt: {
     name: "Manhunt",
@@ -595,8 +559,6 @@ const seriesData = {
     writers:
       "Monica Beletsky, Matt Johnson, Tim Brittain, Ben H. Winters and others",
     genres: ["Conspiracy thriller", "Historical drama"],
-    poster: "./Posters/Manhunt.png",
-    audio: "./Sound/Manhunt.mp3",
   },
   "Monsters at Work": {
     name: "Monsters at Work",
@@ -612,8 +574,6 @@ const seriesData = {
     writers:
       "Colleen Evanson, Frank Contreras, Michelle Spitz, Bobs Gannaway and others",
     genres: ["Comedy", "Fantasy"],
-    poster: "./Posters/Monsters at Work.png",
-    audio: "./Sound/Monsters at Work.mp3",
   },
   "Moon Knight": {
     name: "Moon Knight",
@@ -634,8 +594,6 @@ const seriesData = {
       "Psychological horror",
       "Superhero",
     ],
-    poster: "./Posters/Moon Knight.png",
-    audio: "./Sound/Moon Knight.mp3",
   },
   "Mr. Iglesias": {
     name: "Mr. Iglesias",
@@ -652,8 +610,6 @@ const seriesData = {
     writers:
       "Kevin Hench, Luisa Leschin, Isaac Gonzalez, Peter Murrieta and others",
     genres: ["Comedy", "Sitcom"],
-    poster: "./Posters/Mr. Iglesias.png",
-    audio: "./Sound/Mr. Iglesias.mp3",
   },
   "Ms. Marvel": {
     name: "Ms. Marvel",
@@ -669,8 +625,6 @@ const seriesData = {
     writers:
       "Bisha K. Ali, Kate Gritmon, Freddy Syborn, Sabir Pirzada and others",
     genres: ["Action-adventure", "Comedy", "Coming-of-age", "Superhero"],
-    poster: "./Posters/Ms. Marvel.png",
-    audio: "./Sound/Ms. Marvel.mp3",
   },
   "Night Has Come": {
     name: "Night Has Come",
@@ -685,8 +639,6 @@ const seriesData = {
     director: "Im Dae Woong",
     writers: "Kang Min Ji",
     genres: ["Thriller", "Mystery", "Horror", "Youth"],
-    poster: "./Posters/Night Has Come.png",
-    audio: "./Sound/Night Has Come.mp3",
   },
   "Not Dead Yet": {
     name: "Not Dead Yet",
@@ -703,8 +655,6 @@ const seriesData = {
     writers:
       "Casey Johnson, David Windsor, Marc Firek, Josh Greenberg and others",
     genres: ["Sitcom"],
-    poster: "./Posters/Not Dead Yet.png",
-    audio: "./Sound/Not Dead Yet.mp3",
   },
   "Prison Break": {
     name: "Prison Break",
@@ -719,8 +669,6 @@ const seriesData = {
     director: "Brett Ratner",
     writers: "Matt Olmstead and Nick Santora",
     genres: ["Serial drama", "Crime drama", "Action thriller"],
-    poster: "./Posters/Prison Break.png",
-    audio: "./Sound/Prison Break.mp3",
   },
   "Pyramid Game": {
     name: "Pyramid Game",
@@ -735,8 +683,6 @@ const seriesData = {
     director: "Park So-yeon",
     writers: "Choi Soo-i",
     genres: ["Psychological thriller", "Survival", "Mystery"],
-    poster: "./Posters/Pyramid Game.png",
-    audio: "./Sound/Pyramid Game.mp3",
   },
   Reacher: {
     name: "Reacher",
@@ -753,8 +699,6 @@ const seriesData = {
     writers:
       "Nick Santora, Scott Sullivan, Aadrita Mukerji, Cait Duffy and others",
     genres: ["Action", "Crime drama", "Detective fiction", "Thriller"],
-    poster: "./Posters/Reacher.png",
-    audio: "./Sound/Reacher.mp3",
   },
   "Resident Evil": {
     name: "Resident Evil",
@@ -771,8 +715,6 @@ const seriesData = {
     writers:
       "Tara Knight, Andrew Dabb, Mary Leah Sutton, Jeff Howard and others",
     genres: ["Action", "Biopunk", "Horror", "Zombie apocalypse"],
-    poster: "./Posters/Resident Evil.png",
-    audio: "./Sound/Resident Evil.mp3",
   },
   "Scream Queens": {
     name: "Scream Queens",
@@ -794,8 +736,6 @@ const seriesData = {
       "Slasher",
       "Absurdist comedy",
     ],
-    poster: "./Posters/Scream Queens.png",
-    audio: "./Sound/Scream Queens.mp3",
   },
   "Secret Invasion": {
     name: "Secret Invasion",
@@ -816,8 +756,6 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
-    poster: "./Posters/Secret Invasion.png",
-    audio: "./Sound/Secret Invasion.mp3",
   },
   See: {
     name: "See",
@@ -834,8 +772,6 @@ const seriesData = {
     writers:
       "Steven Knight, Robert Levine, Hadi Nicholas Deeb, Dan Shotz and others",
     genres: ["Action-adventure", "Drama", "Science fiction", "Thriller"],
-    poster: "./Posters/See.png",
-    audio: "./Sound/See.mp3",
   },
   "She-Hulk Attorney at Law": {
     name: "She-Hulk Attorney at Law",
@@ -856,8 +792,6 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
-    poster: "./Posters/She-Hulk Attorney at Law.png",
-    audio: "./Sound/She-Hulk Attorney at Law.mp3",
   },
   Shōgun: {
     name: "Shōgun",
@@ -874,8 +808,6 @@ const seriesData = {
     writers:
       "Rachel Kondo, Justin Marks, Shannon Goss, Nigel Williams and others",
     genres: ["Historical drama", "Action"],
-    poster: "./Posters/Shōgun.png",
-    audio: "./Sound/Shōgun.mp3",
   },
   "Squid Game": {
     name: "Squid Game",
@@ -890,8 +822,6 @@ const seriesData = {
     director: "Hwang Dong-hyuk",
     writers: "Hwang Dong-hyuk",
     genres: ["Survival", "Thriller", "Horror", "Drama", "Action"],
-    poster: "./Posters/Squid Game.png",
-    audio: "./Sound/Squid Game.mp3",
   },
   "Stay Close": {
     name: "Stay Close",
@@ -907,14 +837,12 @@ const seriesData = {
     writers:
       "Danny Brocklehurst, Mick Ford, Charlotte Coben, Victoria Asare-Archer",
     genres: ["Crime drama", "Mystery-thriller"],
-    poster: "./Posters/Stay Close.png",
-    audio: "./Sound/Stay Close.mp3",
   },
   Ted: {
     name: "Ted",
     description:
       "By 1993, Ted the foul-mouthed teddy bear's moment of fame has passed. He's moved back in with his best friend, likable but awkward 16-year-old John Bennett, who lives in a working-class Boston home with his parents, Matty and Susan, and cousin Blaire. Matty's a blustering, blue-collar Bostonian who thinks he's the unequivocal boss of the house and doesn't like anyone challenging him, particularly his liberal-minded niece. Susan is kind, selfless and almost pathologically sweet when it comes to caring for her family. Blaire is a smart and politically correct college student who's not afraid to speak her mind and frequently clashes with her more traditionalist family.",
-    year: "2024",
+    year: "2024-",
     rating: "3.9",
     runningTime: "33-51 minutes",
     seasons: 1,
@@ -924,8 +852,6 @@ const seriesData = {
     writers:
       "Seth MacFarlane, Paul Corrigan, Brad Walsh, Dana Gould, and others",
     genres: ["Comedy"],
-    poster: "./Posters/Ted.png",
-    audio: "./Sound/Ted.mp3",
   },
   "The 8 Show": {
     name: "The 8 Show",
@@ -940,8 +866,6 @@ const seriesData = {
     director: "Han Jae-rim",
     writer: "Han Jae-rim",
     genres: ["Dark comedy", "Thriller", "Satirical drama"],
-    poster: "./Posters/The 8 Show.png",
-    audio: "./Sound/The 8 Show.mp3",
   },
   "The Boss Baby Back in Business": {
     name: "The Boss Baby Back in Business",
@@ -958,8 +882,6 @@ const seriesData = {
     writers:
       "Alexandra Decas, Melanie Kirschbaum, Brandon Sawyer, JD Ryznar, and others",
     genres: ["Comedy"],
-    poster: "./Posters/The Boss Baby Back in Business.png",
-    audio: "./Sound/The Boss Baby Back in Business.mp3",
   },
   "The Defenders": {
     name: "The Defenders",
@@ -975,8 +897,6 @@ const seriesData = {
       "S. J. Clarkson, Peter Hoar, Phil Abraham, Uta Briesewitz, and others",
     writers: "Douglas Petrie, Marco Ramirez, and Lauren Schmidt Hissrich",
     genres: ["Action", "Drama", "Superhero"],
-    poster: "./Posters/The Defenders.png",
-    audio: "./Sound/The Defenders.mp3",
   },
   "The Falcon And The Winter Soldier": {
     name: "The Falcon And The Winter Soldier",
@@ -997,8 +917,6 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
-    poster: "./Posters/The Falcon And The Winter Soldier.png",
-    audio: "./Sound/The Falcon And The Winter Soldier.mp3",
   },
   "The Flight Attendant": {
     name: "The Flight Attendant",
@@ -1015,8 +933,6 @@ const seriesData = {
     writers:
       "Steve Yockey, Chris Bohjalian, Kara Lee Corthron, Ryan Jennifer Jones, and others",
     genres: ["Thriller", "Comedy drama", "Dark comedy", "Mystery"],
-    poster: "./Posters/The Flight Attendant.png",
-    audio: "./Sound/The Flight Attendant.mp3",
   },
   "The Last Of Us": {
     name: "The Last Of Us",
@@ -1032,8 +948,6 @@ const seriesData = {
       "Craig Mazin, Neil Druckmann, Jeremy Webb, Jasmila Žbanić, and others",
     writers: "Craig Mazin and Neil Druckmann",
     genres: ["Post-apocalyptic", "Drama", "Thriller"],
-    poster: "./Posters/The Last Of Us.png",
-    audio: "./Sound/The Last Of Us.mp3",
   },
   "The Lazarus Project": {
     name: "The Lazarus Project",
@@ -1048,8 +962,6 @@ const seriesData = {
     director: "Marco Kreuzpaintner, Laura Scrivano, Akaash Meeda",
     writers: "Joe Barton",
     genres: ["Science fiction", "Action", "Thriller", "Drama"],
-    poster: "./Posters/The Lazarus Project.png",
-    audio: "./Sound/The Lazarus Project.mp3",
   },
   "The Night Agent": {
     name: "The Night Agent",
@@ -1064,8 +976,6 @@ const seriesData = {
     director: "Seth Gordon, Guy Ferland, Ramaa Mosley, Adam Arkin, and others",
     writers: "Shawn Ryan, Munis Rashid, Seth Fisher, Corey Deshon, and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
-    poster: "./Posters/The Night Agent.png",
-    audio: "./Sound/The Night Agent.mp3",
   },
   "The Office": {
     name: "The Office",
@@ -1082,8 +992,6 @@ const seriesData = {
     writers:
       "Steve Carell, Mindy Kaling, B. J. Novak, Paul Lieberstein, and others",
     genres: ["Mockumentary", "Workplace comedy", "Cringe comedy", "Sitcom"],
-    poster: "./Posters/The Office.png",
-    audio: "./Sound/The Office.mp3",
   },
   "The Outsider": {
     name: "The Outsider",
@@ -1099,8 +1007,6 @@ const seriesData = {
       "Jason Bateman, Andrew Bernstein, Igor Martinović, Karyn Kusama, and others",
     writers: "Richard Price, Jessie Nickson-Lopez, Dennis Lehane",
     genres: ["Crime drama", "Mystery", "Horror"],
-    poster: "./Posters/The Outsider.png",
-    audio: "./Sound/The Outsider.mp3",
   },
   "The Peripheral": {
     name: "The Peripheral",
@@ -1115,8 +1021,6 @@ const seriesData = {
     director: "Vincenzo Natali, Alrick Riley",
     writers: "Scott B. Smith, Jamie Chan, Greg Plageman",
     genres: ["Science fiction", "Thriller", "Drama"],
-    poster: "./Posters/The Peripheral.png",
-    audio: "./Sound/The Peripheral.mp3",
   },
   "The Punisher": {
     name: "The Punisher",
@@ -1132,8 +1036,6 @@ const seriesData = {
     writers:
       "Steve Lightfoot, Dario Scardapane, Michael Jones-Morales, Christine Boylan",
     genres: ["Action", "Conspiracy thriller", "Crime drama", "Superhero"],
-    poster: "./Posters/The Punisher.png",
-    audio: "./Sound/The Punisher.mp3",
   },
   "The Queen's Gambit": {
     name: "The Queen's Gambit",
@@ -1148,8 +1050,6 @@ const seriesData = {
     director: "Scott Frank",
     writers: "Scott Frank",
     genres: ["Coming-of-age", "Period drama"],
-    poster: "./Posters/The Queen's Gambit.png",
-    audio: "./Sound/The Queen's Gambit.mp3",
   },
   "The Rookie": {
     name: "The Rookie",
@@ -1164,8 +1064,6 @@ const seriesData = {
     director: "Liz Friedlander",
     writers: "Alexi Hawley",
     genres: ["Police procedural", "Crime drama", "Action"],
-    poster: "./Posters/The Rookie.png",
-    audio: "./Sound/The Rookie.mp3",
   },
   "The Terminal List": {
     name: "The Terminal List",
@@ -1182,8 +1080,6 @@ const seriesData = {
     writers:
       "David DiGilio, Daniel Shattuck, John Lopez, Tolu Awosika and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
-    poster: "./Posters/The Terminal List.png",
-    audio: "./Sound/The Terminal List.mp3",
   },
   "The Wilds": {
     name: "The Wilds",
@@ -1200,8 +1096,6 @@ const seriesData = {
     writers:
       "Sarah Streicher, Daniel Paige, Tonya Kong, Shalisha Francis-Feusner and others",
     genres: ["Drama"],
-    poster: "./Posters/The Wilds.png",
-    audio: "./Sound/The Wilds.mp3",
   },
   "The Witcher Blood Origin": {
     name: "The Witcher Blood Origin",
@@ -1217,8 +1111,6 @@ const seriesData = {
     writers:
       "Alex Meenehan, Aaron Stewart-Ahn, Tania Lotia, Kiersten Van Horne and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
-    poster: "./Posters/The Witcher Blood Origin.png",
-    audio: "./Sound/The Witcher Blood Origin.mp3",
   },
   "The Witcher": {
     name: "The Witcher",
@@ -1235,8 +1127,6 @@ const seriesData = {
     writers:
       "Lauren Schmidt Hissrich, Jenny Klein, Beau DeMayo, Declan de Barra and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
-    poster: "./Posters/The Witcher.png",
-    audio: "./Sound/The Witcher.mp3",
   },
   "The Woman In The House Across The Street From The Girl In The Window": {
     name: "The Woman In The House Across The Street From The Girl In The Window",
@@ -1251,10 +1141,6 @@ const seriesData = {
     director: "Michael Lehmann",
     writers: "Rachel Ramras, Hugh Davidson, Larry Dorf",
     genres: ["Dark comedy", "Mystery", "Thriller"],
-    poster:
-      "./Posters/The Woman In The House Across The Street From The Girl In The Window.png",
-    audio:
-      "./Sound/The Woman In The House Across The Street From The Girl In The Window.mp3",
   },
   "United States of Al": {
     name: "United States of Al",
@@ -1270,8 +1156,6 @@ const seriesData = {
     writers:
       "Andy Gordon, Bobby Telatovich, Habib Zahori, Maria Ferrari and others",
     genres: ["Sitcom"],
-    poster: "./Posters/United States of Al.png",
-    audio: "./Sound/United States of Al.mp3",
   },
   "Wanda Vision": {
     name: "Wanda Vision",
@@ -1287,8 +1171,6 @@ const seriesData = {
     writers:
       "Jac Schaeffer, Gretchen Enders, Megan McDonnell, Bobak Esfarjani and others",
     genres: ["Drama", "Mystery", "Romance", "Sitcom", "Superhero"],
-    poster: "./Posters/Wanda Vision.png",
-    audio: "./Sound/Wanda Vision.mp3",
   },
   Wednesday: {
     name: "Wednesday",
@@ -1304,8 +1186,6 @@ const seriesData = {
     writers:
       "Charles Addams, Miles Millar, Alfred Gough, Kayla Alpert and others",
     genres: ["Comedy horror", "Coming-of-age", "Supernatural"],
-    poster: "./Posters/Wednesday.png",
-    audio: "./Sound/Wednesday.mp3",
   },
   "What If...?": {
     name: "What If...?",
@@ -1320,8 +1200,6 @@ const seriesData = {
     director: "Bryan Andrews and Stephan Franck",
     writers: "A. C. Bradley and Matthew Chauncey",
     genres: ["Action-adventure", "Anthology", "Science fiction", "Superhero"],
-    poster: "./Posters/What If...!.png",
-    audio: "./Sound/What If...!.mp3",
   },
   "Y The Last Man": {
     name: "Y The Last Man",
@@ -1338,8 +1216,6 @@ const seriesData = {
     writers:
       "Pia Guerra, Brian K. Vaughan, Tian Jun Gu, Donnetta Lavinia Grays and others",
     genres: ["Action-adventure", "Drama", "Post-apocalyptic"],
-    poster: "./Posters/Y The Last Man.png",
-    audio: "./Sound/Y The Last Man.mp3",
   },
   Yellowjackets: {
     name: "Yellowjackets",
@@ -1361,8 +1237,6 @@ const seriesData = {
       "Thriller",
       "Survival",
     ],
-    poster: "./Posters/Yellowjackets.png",
-    audio: "./Sound/Yellowjackets.mp3",
   },
   "Young Sheldon": {
     name: "Young Sheldon",
@@ -1379,7 +1253,5 @@ const seriesData = {
     writers:
       "Chuck Lorre, Steven Molaro, Kurt Koehler, David Bickel and others",
     genres: ["Period sitcom"],
-    poster: "./Posters/Young Sheldon.png",
-    audio: "./Sound/Young Sheldon.mp3",
   },
 };

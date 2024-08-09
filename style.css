@@ -34,7 +34,7 @@ body {
 .home-screen-blur{
   filter: blur(10px);
   transition: filter 0.5s;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 body::-webkit-scrollbar-track {
@@ -163,7 +163,7 @@ body::-webkit-scrollbar-thumb {
 .seriespage p span {
   color: #fff;
   font-size: 20px;
-  font-family: Grenze Gotisch;
+  font-family: "Grenze Gotisch";
   line-height: 20px;
   padding: 0 5px 5px 30px;
   font-weight: bold;
@@ -242,7 +242,7 @@ a {
 p {
   color: #fff;
   font-size: 20px;
-  font-family: Grenze Gotisch;
+  font-family: "Grenze Gotisch";
   line-height: 20px;
 }
 
@@ -335,6 +335,11 @@ p {
   padding-bottom: 10px;
 }
 
+.series li p span{
+  font-weight: bold;
+  font-family: "Grenze Gotisch";
+}
+
 .series li img {
   width: 250px;
   border-radius: 12px;
@@ -388,7 +393,7 @@ p {
     width: 100% !important; 
   }
   .home-screen-blur{
-    padding-top: 50px !important;
+    padding-top: 70px !important;
   }
   .navbar button {
     font-size: 12px !important;

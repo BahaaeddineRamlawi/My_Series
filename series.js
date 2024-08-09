@@ -20,6 +20,7 @@ while (i < sortedList.length) {
   if (picname.includes("?")) {
     picname = picname.replace("?", "!");
   }
+  const status = n.status;
   const threegenre = n.genre;
   const sn = n.seasons;
   const g1 = threegenre[0];
@@ -33,6 +34,7 @@ while (i < sortedList.length) {
                     </a>
                     <p>Seasons: ${sn}</p>
                     <p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p>
+                    <p>Status: <span>${status}</span></p>
                   </li>`;
   document.querySelector(".series").innerHTML += result;
 

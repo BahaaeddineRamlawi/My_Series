@@ -9,12 +9,16 @@
     <script>
       window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
-        const seriesName = urlParams.get('series_name');
+        let seriesName = urlParams.get('series_name');
         const series = seriesData[seriesName];
+
+        if (seriesName.includes("?")) {
+          seriesName = seriesName.replace("?", "!");
+        }
 
         if (series) {
           document.getElementById('pageTitle').textContent = seriesName;
-          document.getElementById('series-title').textContent = `${series.name} (${series.year})`;
+          document.getElementById('series-title').textContent = `${seriesName} (${series.year})`;
           document.getElementById('series-description').textContent = series.description;
           document.getElementById('series-creators').innerHTML = `<span>Creators:</span> ${series.creators}`;
           document.getElementById('series-writers').innerHTML = `<span>Writers:</span> ${series.writer}`;
@@ -24,8 +28,8 @@
           document.getElementById('series-running-time').innerHTML = `Running time: ${series.runningTime}`;
           document.getElementById('series-genres').innerHTML = `Genres: ${series.genres.join(' - ')}`;
           document.getElementById('series-rating').innerHTML = `My Rating: ${series.rating}`;
-          document.getElementById('series-poster').src = series.poster;
-          document.getElementById('series-audio').src = series.audio;
+          document.getElementById('series-poster').src = `./Posters/${seriesName}.png`;
+          document.getElementById('series-audio').src = `./Sound/${seriesName}.mp3`;
         }
       };
     </script>
