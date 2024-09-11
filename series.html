@@ -10,15 +10,18 @@
       window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
         let seriesName = urlParams.get('series_name');
+        let originalname = seriesName;
         const series = seriesData[seriesName];
 
         if (seriesName.includes("?")) {
-          seriesName = seriesName.replace("?", "!");
+          seriesName = seriesName.replace("?", "!"); 
+        } else if(seriesName.includes(":")){
+          seriesName = seriesName.replace(":", ";");
         }
 
         if (series) {
-          document.getElementById('pageTitle').textContent = seriesName;
-          document.getElementById('series-title').textContent = `${seriesName} (${series.year})`;
+          document.getElementById('pageTitle').textContent = originalname;
+          document.getElementById('series-title').textContent = `${originalname} (${series.year})`;
           document.getElementById('series-description').textContent = series.description;
           document.getElementById('series-creators').innerHTML = `<span>Creators:</span> ${series.creators}`;
           document.getElementById('series-writers').innerHTML = `<span>Writers:</span> ${series.writer}`;

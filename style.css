@@ -31,7 +31,7 @@ body {
   background: linear-gradient(180deg, #870000 10%, #181818 30%, #000 90%);
 }
 
-.home-screen-blur{
+.home-screen-blur {
   filter: blur(10px);
   transition: filter 0.5s;
   padding-top: 40px;
@@ -335,7 +335,7 @@ p {
   padding-bottom: 10px;
 }
 
-.series li p span{
+.series li p span {
   font-weight: bold;
   font-family: "Grenze Gotisch";
 }
@@ -363,6 +363,20 @@ p {
 }
 
 @media screen and (max-width: 770px) {
+  .date-text {
+    font-size: 30px;
+  }
+  .date-glitch {
+    min-width: 150px;
+  }
+  .navbar .icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .navbar button {
+    padding: 7px !important;
+    margin: 5px !important;
+  }
   .seriespage {
     flex-direction: column;
     flex-wrap: wrap;
@@ -387,12 +401,12 @@ p {
     height: 375px;
     width: 250px;
   }
-  .navbar{
+  .navbar {
     border-top-left-radius: 0px !important;
     border-bottom-right-radius: 20px;
-    width: 100% !important; 
+    width: 100% !important;
   }
-  .home-screen-blur{
+  .home-screen-blur {
     padding-top: 70px !important;
   }
   .navbar button {
@@ -448,6 +462,6 @@ p {
   display: none;
 }
 
-.nav-buttons{
+.nav-buttons {
   display: flex;
 }

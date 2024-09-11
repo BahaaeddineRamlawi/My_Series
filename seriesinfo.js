@@ -302,6 +302,22 @@ const seriesData = {
       "Jonathan Igla, Elisa Climent, Katie Mathewson, Tanner Bean and others",
     genres: ["Action-adventure", "Buddy comedy", "Crime", "Superhero"],
   },
+  House: {
+    name: "House",
+    description:
+      "TDr. Gregory House, although a medical unconventional, is very skilled and experienced in leading a team of medical diagnostics. He manages to decode the many complications that arise in the hospital.",
+    year: "2004-2012",
+    rating: "",
+    runningTime: "41–49 minutes",
+    seasons: 8,
+    episodes: 177,
+    creators: "	David Shore",
+    director:
+      "Deran Sarafian, Greg Yaitanes, David Straiton, Hugh Laurie and others",
+    writer:
+      "Lawrence Kaplow, Peter Blake, Thomas L. Moran, Doris Egan and others",
+    genres: ["Medical drama", "Black comedy"],
+  },
   "House of The Dragons": {
     name: "House of The Dragons",
     description:
@@ -404,7 +420,7 @@ const seriesData = {
     description:
       "A mysterious man rises from the primordial waters of an isolated island, possessing knowledge of literally everything in the world except for who he is. While he searches for clues to his missing identity, he uses his unique talent to help the Seattle police department solve 'impossible' crimes. Not everyone is convinced that John Doe is a hero, however, especially Lt. Jamie Avery, who investigates him in her own way.",
     year: "2002-2003",
-    rating: "",
+    rating: "4.0",
     runningTime: "44 minutes",
     seasons: 1,
     episodes: 21,
@@ -655,6 +671,21 @@ const seriesData = {
     writers:
       "Casey Johnson, David Windsor, Marc Firek, Josh Greenberg and others",
     genres: ["Sitcom"],
+  },
+  "Orphan Black: Echoes": {
+    name: "Orphan Black: Echoes",
+    description:
+      "Taking place in 2052, 37 years since the end of the original 'Orphan Black' series, Echoes follows the life of the now adult Kira, played by Krysten Ritter, and her wife as they try to help an amnesiac woman. The futuristic series takes a deep dive into an exploration of the scientific manipulation of human existence. A group of women weave their way into each other's lives and embark on a thrilling journey, unraveling the mystery of their identity and uncovering a heartwrenching story of love and betrayal.",
+    year: "2023-",
+    rating: "-",
+    runningTime: "41–48 minutes",
+    seasons: 1,
+    episodes: 10,
+    creators: "Anna Fishko",
+    director: "John Fawcett, Dawn Wilkinson, Ingrid Jungermann and Samir Rehem",
+    writers:
+      "Anna Fishko, Sharyn Rothstein, Amy Louise Johnson and C. Quintana",
+    genres: ["Science fiction", "Drama", "Thriller"],
   },
   "Prison Break": {
     name: "Prison Break",

@@ -6,8 +6,8 @@ let isMuted = false; // Track mute state
 let isPlayingBackgroundMusic = true; // Track background music state
 
 // Set up initial music on page load
-window.addEventListener('load', () => {
-  initialMusic = document.getElementById('initialMusic'); // Set the initial music element
+window.addEventListener("load", () => {
+  initialMusic = document.getElementById("initialMusic"); // Set the initial music element
   if (initialMusic) {
     play(initialMusic); // Play the initial music when the page loads
   }
@@ -19,6 +19,8 @@ while (i < sortedList.length) {
   var picname = name;
   if (picname.includes("?")) {
     picname = picname.replace("?", "!");
+  } else if (picname.includes(":")) {
+    picname = picname.replace(":", ";");
   }
   const status = n.status;
   const threegenre = n.genre;
@@ -26,14 +28,20 @@ while (i < sortedList.length) {
   const g1 = threegenre[0];
   const g2 = threegenre[1];
   const g3 = threegenre[2];
-  
+
   const result = `<li>
                     <img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="restoreInitialMusic()" alt="${name}" id="${i}">
-                    <a href="series.html?series_name=${encodeURIComponent(name)}" target="_blank">
-                      <h2${name.length < 50 ? '' : ' style="font-size: 30px;"'}>${name}</h2>
+                    <a href="series.html?series_name=${encodeURIComponent(
+                      name
+                    )}" target="_blank">
+                      <h2${
+                        name.length < 50 ? "" : ' style="font-size: 30px;"'
+                      }>${name}</h2>
                     </a>
                     <p>Seasons: ${sn}</p>
-                    <p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p>
+                    <p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${
+    genre[g3]
+  }</p>
                     <p>Status: <span>${status}</span></p>
                   </li>`;
   document.querySelector(".series").innerHTML += result;
@@ -86,61 +94,61 @@ function onFirstClick(event) {
 
 document.addEventListener("click", onFirstClick);
 
-document.addEventListener('DOMContentLoaded', () => {
-  const muteButton = document.getElementById('muteButton');
-  const muteIcon = document.getElementById('muteIcon');
-  const unmuteIcon = document.getElementById('unmuteIcon');
-  const stopMusicButton = document.getElementById('stopMusicButton');
-  const audioElements = document.querySelectorAll('audio'); // Select all audio elements
+document.addEventListener("DOMContentLoaded", () => {
+  const muteButton = document.getElementById("muteButton");
+  const muteIcon = document.getElementById("muteIcon");
+  const unmuteIcon = document.getElementById("unmuteIcon");
+  const stopMusicButton = document.getElementById("stopMusicButton");
+  const audioElements = document.querySelectorAll("audio"); // Select all audio elements
 
   // Function to mute or unmute all audio elements
   const toggleMute = () => {
-    audioElements.forEach(audio => {
+    audioElements.forEach((audio) => {
       audio.volume = isMuted ? 1 : 0; // Set volume to 0 for mute, 1 for unmute
     });
     isMuted = !isMuted;
-    muteIcon.style.display = isMuted ? 'none' : 'block';
-    unmuteIcon.style.display = isMuted ? 'block' : 'none';
+    muteIcon.style.display = isMuted ? "none" : "block";
+    unmuteIcon.style.display = isMuted ? "block" : "none";
   };
 
   // Function to stop or play background music
   const toggleBackgroundMusic = () => {
     if (isPlayingBackgroundMusic) {
       initialMusic.pause();
-      stopMusicButton.textContent = 'Play Background Music';
+      stopMusicButton.textContent = "Play Background Music";
     } else {
-      initialMusic.play().catch(e => {
+      initialMusic.play().catch((e) => {
         console.log("Click to Play -- " + e);
       });
-      stopMusicButton.textContent = 'Stop Background Music';
+      stopMusicButton.textContent = "Stop Background Music";
     }
     isPlayingBackgroundMusic = !isPlayingBackgroundMusic;
   };
 
   // Mute button functionality
-  muteButton.addEventListener('click', toggleMute);
+  muteButton.addEventListener("click", toggleMute);
 
   // Stop/Play background music button functionality
-  stopMusicButton.addEventListener('click', toggleBackgroundMusic);
+  stopMusicButton.addEventListener("click", toggleBackgroundMusic);
 
   // Hover functionality for series audio elements
-  const seriesElements = document.querySelectorAll('.series img');
+  const seriesElements = document.querySelectorAll(".series img");
   seriesElements.forEach((img, index) => {
     const audio = document.getElementById(img.alt);
-    img.addEventListener('mouseenter', () => {
+    img.addEventListener("mouseenter", () => {
       if (audio) {
         initialMusic.pause();
-        audio.play().catch(e => {
+        audio.play().catch((e) => {
           console.log("Hover to Play -- " + e);
         });
       }
     });
-    img.addEventListener('mouseleave', () => {
+    img.addEventListener("mouseleave", () => {
       if (audio) {
         audio.pause();
         audio.currentTime = 0; // Reset to the beginning
         if (isPlayingBackgroundMusic) {
-          initialMusic.play().catch(e => {
+          initialMusic.play().catch((e) => {
             console.log("Click to Play -- " + e);
           });
         }
@@ -150,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Start initial music
   if (initialMusic) {
-    initialMusic.play().catch(e => {
+    initialMusic.play().catch((e) => {
       console.log("Click to Play -- " + e);
     });
   }
