@@ -12,6 +12,9 @@ const seriesData = {
     director: "Dolly Wells and Tom Vaughan",
     writer: "Poppy Cogan, Ruby Thomas, Zia Ahmed and Ajoke Ibironke",
     genres: ["Mystert", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "mtv",
+    status: "On Going",
   },
   "Agatha All Along": {
     name: "Agatha All Along",
@@ -27,6 +30,9 @@ const seriesData = {
     writer:
       "Jac Schaeffer, Laura Donney, Cameron Squires, Giovanna Sarquis and others",
     genres: ["Black comedy", "Fantasy", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "pfq",
+    status: "On Going",
   },
   "Agent Carter": {
     name: "Agent Carter",
@@ -43,6 +49,9 @@ const seriesData = {
     writer:
       "Jack Kirby, Stan Lee, Christopher Markus, Stephen McFeely and others",
     genres: ["Action-adventure", "Period drama", "Spy-fi", "Superhero"],
+    seasonsWatched: 2,
+    genreChars: "sad",
+    status: "Cancelled",
   },
   "All of Us Are Dead": {
     name: "All of Us Are Dead",
@@ -57,6 +66,9 @@ const seriesData = {
     director: "Lee Jae-kyoo and Kim Nam-su",
     writer: "Chun Sung-il",
     genres: ["Coming-of-age", "Horror", "Zombie apocalypse"],
+    seasonsWatched: 1,
+    genreChars: "hzv",
+    status: "On Going",
   },
   "Anne Rice's Mayfair Witches": {
     name: "Anne Rice's Mayfair Witches",
@@ -73,6 +85,9 @@ const seriesData = {
     writer:
       "Michelle Ashford, Esta Spalding, Michael Goldbach, Lindsey Villarreal and others",
     genres: ["Supernatural", "Thriller", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "tds",
+    status: "Ended",
   },
   Archive81: {
     name: "Archive 81",
@@ -89,6 +104,9 @@ const seriesData = {
     writer:
       "Paul Harris Boardman, Rebecca Sonnenshine, Michael Narducci, Evan Bleiweiss and others",
     genres: ["Analog horror", "Supernatural fiction", "Mystery", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "mdh",
+    status: "Cancelled",
   },
   "Band of Brothers": {
     name: "Band of Brothers",
@@ -104,6 +122,9 @@ const seriesData = {
       "Phil Alden Robinson, Richard Loncraine, Mikael Salomon, David Nutter and others",
     writer: "Erik Jendresen, Tom Hanks, John Orloff, E. Max Frye and others",
     genres: ["War drama"],
+    seasonsWatched: 1,
+    genreChars: "wda",
+    status: "Ended",
   },
   "Black Knight": {
     name: "Black Knight",
@@ -118,6 +139,9 @@ const seriesData = {
     director: "Cho Ui-seok and Kim Hyun-deok",
     writer: "Cho Ui-seok and Kim Hyun-deok",
     genres: ["Science fiction", "Dystopian", "Action"],
+    seasonsWatched: 1,
+    genreChars: "sav",
+    status: "Ended",
   },
   "Black Summer": {
     name: "Black Summer",
@@ -132,6 +156,9 @@ const seriesData = {
     director: "John Hyams, Abram Cox",
     writer: "Karl Schaefer, John Hyams, Abram Cox, Daniel Schaefer and others",
     genres: ["Apocalyptic fiction", "Drama", "Horror", "Action"],
+    seasonsWatched: 2,
+    genreChars: "dha",
+    status: "Cancelled",
   },
   "Chicken Nugget": {
     name: "Chicken Nugget",
@@ -146,6 +173,9 @@ const seriesData = {
     director: "Lee Byeong-heon",
     writer: "Lee Byeong-heon",
     genres: ["Comedy", "Mystery"],
+    seasonsWatched: 1,
+    genreChars: "cmv",
+    status: "Ended",
   },
   "City on Fire": {
     name: "City on Fire",
@@ -160,6 +190,9 @@ const seriesData = {
     director: "Jesse Peretz, Haifaa al-Mansour, and Liz Garbus",
     writer: "Josh Schwartz and Stephanie Savage",
     genres: ["Crime", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "cdv",
+    status: "Ended",
   },
   Daredevil: {
     name: "Daredevil",
@@ -175,6 +208,9 @@ const seriesData = {
       "Phil Abraham, Adam Kane, Ken Girotti, Farren Blackburn and others",
     writer: "Drew Goddard, Marco Ramirez, Joe Pokaski, Luke Kalteux and others",
     genres: ["Action-adventure", "Crime drama", "Legal drama", "Superhero"],
+    seasonsWatched: 3,
+    genreChars: "aeb",
+    status: "On Going",
   },
   Dark: {
     name: "Dark",
@@ -190,6 +226,9 @@ const seriesData = {
     writer:
       "Baran bo Odar, Jantje Friese, Ronny Schalk, Marc O. Seng, Martin Behnke, Daphne Ferraro",
     genres: ["Science fiction", "Thriller", "Mystery", "Tragedy"],
+    seasonsWatched: 3,
+    genreChars: "tmd",
+    status: "Ended",
   },
   "Dead Boy Detectives": {
     name: "Dead Boy Detectives",
@@ -206,6 +245,9 @@ const seriesData = {
     writer:
       "Steve Yockey, Shoshana Sachi, Cheech Manohar, Ian Weinreich and others",
     genres: ["Comedy-drama", "Occult detective", "Supernatural horror"],
+    seasonsWatched: 1,
+    genreChars: "cdh",
+    status: "On Going",
   },
   "Don't Trust the B---- In Apartment 23": {
     name: "Don't Trust the B---- In Apartment 23",
@@ -222,6 +264,9 @@ const seriesData = {
     writer:
       "Nahnatchka Khan, Sally Bradford McKenna, Casey Johnson, David Windsor and others",
     genres: ["Sitcom"],
+    seasonsWatched: 2,
+    genreChars: "oov",
+    status: "Ended",
   },
   Echo: {
     name: "Echo",
@@ -237,6 +282,9 @@ const seriesData = {
     writer:
       "Marion Dayre, Josh Feldman, Steven Paul Judd, Ken Kristensen and others",
     genres: ["Action-adventure", "Crime", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "abq",
+    status: "Ended",
   },
   From: {
     name: "From",
@@ -251,6 +299,9 @@ const seriesData = {
     director: "Jack Bender, Brad Turner, Jennifer Liao and Alexandra La Roche",
     writer: "John Griffin, Javier Grillo-Marxuach and Vivian Lee",
     genres: ["Science fiction", "Horror"],
+    seasonsWatched: 2,
+    genreChars: "hsv",
+    status: "On Going",
   },
   "Ginny & Georgia": {
     name: "Ginny & Georgia",
@@ -267,6 +318,9 @@ const seriesData = {
     writer:
       "Sarah Lampert, Debra J. Fisher, David Monahan, Danielle Hoover and others",
     genres: ["Comedy drama"],
+    seasonsWatched: 2,
+    genreChars: "cdv",
+    status: "On Going",
   },
   "Gotham Knights": {
     name: "Gotham Knights",
@@ -283,6 +337,9 @@ const seriesData = {
     writer:
       "Natalie Abrams, Chad Fiveash, James Patrick Stoteraux, David Paul Francis and others",
     genres: ["Action", "Crime drama", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "acd",
+    status: "Cancelled",
   },
   "Grand Army": {
     name: "Grand Army",
@@ -299,6 +356,9 @@ const seriesData = {
     writer:
       "Katie Cappiello, Hilary Bettis, Randy McKinnon, Andy Parker and others",
     genres: ["Teen drama"],
+    seasonsWatched: 1,
+    genreChars: "kdv",
+    status: "Ended",
   },
   Halo: {
     name: "Halo",
@@ -315,6 +375,9 @@ const seriesData = {
     writer:
       "Kyle Killen, Steven Kane, Richard E. Robbins, Silka Luisa and others",
     genres: ["Action-adventure", "Drama", "Military science fiction"],
+    seasonsWatched: 2,
+    genreChars: "sae",
+    status: "Cancelled",
   },
   Hawkeye: {
     name: "Hawkeye",
@@ -330,6 +393,9 @@ const seriesData = {
     writer:
       "Jonathan Igla, Elisa Climent, Katie Mathewson, Tanner Bean and others",
     genres: ["Action-adventure", "Buddy comedy", "Crime", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "cab",
+    status: "On Going",
   },
   "High Potential": {
     name: "High Potential",
@@ -345,6 +411,9 @@ const seriesData = {
     writer:
       "Drew Goddard, Todd Harthan, Marc Halsey, Diane Ruggiero-Wright and others",
     genres: ["Drama", "Crime"],
+    seasonsWatched: 1,
+    genreChars: "bdv",
+    status: "On Going",
   },
   House: {
     name: "House",
@@ -361,6 +430,9 @@ const seriesData = {
     writer:
       "Lawrence Kaplow, Peter Blake, Thomas L. Moran, Doris Egan and others",
     genres: ["Medical drama", "Black comedy"],
+    seasonsWatched: 3,
+    genreChars: "gpv",
+    status: "Ended",
   },
   "House of The Dragons": {
     name: "House of The Dragons",
@@ -376,6 +448,9 @@ const seriesData = {
       "Miguel Sapochnik, Greg Yaitanes, Clare Kilner, Geeta Vasant Patel and others",
     writer: "George R. R. Martin, Ryan Condal, Sara Hess and Charmaine DeGraté",
     genres: ["Action", "Adventure", "Fantasy", "Serial drama"],
+    seasonsWatched: 2,
+    genreChars: "fda",
+    status: "On Going",
   },
   "I Am Groot": {
     name: "I Am Groot",
@@ -390,6 +465,9 @@ const seriesData = {
     director: "Kirsten Lepore",
     writer: "Kirsten Lepore",
     genres: ["Comedy", "Family", "Science fiction", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "scv",
+    status: "On Going",
   },
   ICarly: {
     name: "ICarly",
@@ -405,6 +483,9 @@ const seriesData = {
       "Phill Lewis, Jean Sagal, Anthony Rich, Morenike Joela Evans and others",
     writers: "Ali Schouten, Jay Kogen, Steve Armogida, Jim Armogida and others",
     genres: ["Sitcom"],
+    seasonsWatched: 3,
+    genreChars: "ocv",
+    status: "Ended",
   },
   Imposters: {
     name: "Imposters",
@@ -420,6 +501,9 @@ const seriesData = {
     writers:
       "Adam Brooks, Paul Adelstein, Kathy Greenberg, Emily Cook and others",
     genres: ["Dark comedy"],
+    seasonsWatched: 2,
+    genreChars: "pvv",
+    status: "Cancelled",
   },
   "Iron Fist": {
     name: "Iron Fist",
@@ -436,6 +520,9 @@ const seriesData = {
     writers:
       "Scott Buck, Quinton Peeples, Scott Reynolds, Cristine Chambers and others",
     genres: ["Action", "Drama", "Martial arts", "Superhero"],
+    seasonsWatched: 2,
+    genreChars: "adq",
+    status: "Cancelled",
   },
   "Jessica Jones": {
     name: "Jessica Jones",
@@ -458,6 +545,9 @@ const seriesData = {
       "Superhero",
       "Crime drama",
     ],
+    seasonsWatched: 3,
+    genreChars: "dtb",
+    status: "Ended",
   },
   "John Doe": {
     name: "John Doe",
@@ -474,6 +564,9 @@ const seriesData = {
     writers:
       "Brandon Camp, Mike Thompson, Gardner Stern, Russel Friend and others",
     genres: ["Drama", "Science fiction"],
+    seasonsWatched: 1,
+    genreChars: "dsv",
+    status: "Cancelled",
   },
   "La Casa De Papel": {
     name: "La Casa De Papel",
@@ -488,6 +581,9 @@ const seriesData = {
     director: "Jesús Colmenar",
     writers: "Álex Pina",
     genres: ["Heist", "Crime drama", "Thriller"],
+    seasonsWatched: 3,
+    genreChars: "iab",
+    status: "Ended",
   },
   "Locke & Key": {
     name: "Locke & Key",
@@ -504,6 +600,9 @@ const seriesData = {
     writers:
       "Joe Hill, Aron Eli Coleite, Liz Phang, Meredith Averill and others",
     genres: ["Fantasy drama", "Supernatural horror"],
+    seasonsWatched: 3,
+    genreChars: "hdm",
+    status: "Ended",
   },
   "Lockwood & Co": {
     name: "Lockwood & Co",
@@ -518,6 +617,9 @@ const seriesData = {
     director: "William McGregor, Catherine Morshead and Joe Cornish",
     writers: "Joy Wilkinson, Kara Smith, Joe Cornish, Ed Hime and others",
     genres: ["Action-adventure", "Detective", "Drama", "Supernatural horror"],
+    seasonsWatched: 1,
+    genreChars: "aeh",
+    status: "Cancelled",
   },
   Loki: {
     name: "Loki",
@@ -540,6 +642,9 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
+    seasonsWatched: 2,
+    genreChars: "etf",
+    status: "On Going",
   },
   "Love & Death": {
     name: "Love & Death",
@@ -554,6 +659,9 @@ const seriesData = {
     director: "Lesli Linka Glatter and Clark Johnson",
     writers: "David E. Kelley",
     genres: ["Biographical drama", "Crime"],
+    seasonsWatched: 1,
+    genreChars: "dbv",
+    status: "Ended",
   },
   "Luke Cage": {
     name: "Luke Cage",
@@ -576,6 +684,9 @@ const seriesData = {
       "Neo-Western",
       "Superhero",
     ],
+    seasonsWatched: 2,
+    genreChars: "abq",
+    status: "Cancelled",
   },
   MacGyver: {
     name: "MacGyver",
@@ -590,6 +701,9 @@ const seriesData = {
     director: "James Wan",
     writers: "Paul Downs Colaizzo",
     genres: ["Action-adventure"],
+    seasonsWatched: 5,
+    genreChars: "eav",
+    status: "Ended",
   },
   "Man vs Bee": {
     name: "Man vs Bee",
@@ -604,6 +718,9 @@ const seriesData = {
     director: "David Kerr",
     writers: "William Davies",
     genres: ["Comedy", "Slapstick"],
+    seasonsWatched: 1,
+    genreChars: "cvv",
+    status: "Ended",
   },
   Manhunt: {
     name: "Manhunt",
@@ -619,6 +736,9 @@ const seriesData = {
     writers:
       "Monica Beletsky, Matt Johnson, Tim Brittain, Ben H. Winters and others",
     genres: ["Conspiracy thriller", "Historical drama"],
+    seasonsWatched: 1,
+    genreChars: "tdv",
+    status: "Ended",
   },
   "Monsters at Work": {
     name: "Monsters at Work",
@@ -634,6 +754,9 @@ const seriesData = {
     writers:
       "Colleen Evanson, Frank Contreras, Michelle Spitz, Bobs Gannaway and others",
     genres: ["Comedy", "Fantasy"],
+    seasonsWatched: 2,
+    genreChars: "cfv",
+    status: "On Going",
   },
   "Moon Knight": {
     name: "Moon Knight",
@@ -654,6 +777,9 @@ const seriesData = {
       "Psychological horror",
       "Superhero",
     ],
+    seasonsWatched: 1,
+    genreChars: "aef",
+    status: "Ended",
   },
   "Mr. Iglesias": {
     name: "Mr. Iglesias",
@@ -670,6 +796,9 @@ const seriesData = {
     writers:
       "Kevin Hench, Luisa Leschin, Isaac Gonzalez, Peter Murrieta and others",
     genres: ["Comedy", "Sitcom"],
+    seasonsWatched: 3,
+    genreChars: "ocv",
+    status: "Ended",
   },
   "Ms. Marvel": {
     name: "Ms. Marvel",
@@ -685,6 +814,9 @@ const seriesData = {
     writers:
       "Bisha K. Ali, Kate Gritmon, Freddy Syborn, Sabir Pirzada and others",
     genres: ["Action-adventure", "Comedy", "Coming-of-age", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "eca",
+    status: "Ended",
   },
   "Night Has Come": {
     name: "Night Has Come",
@@ -699,6 +831,9 @@ const seriesData = {
     director: "Im Dae Woong",
     writers: "Kang Min Ji",
     genres: ["Thriller", "Mystery", "Horror", "Youth"],
+    seasonsWatched: 1,
+    genreChars: "tmh",
+    status: "Ended",
   },
   "Not Dead Yet": {
     name: "Not Dead Yet",
@@ -715,9 +850,12 @@ const seriesData = {
     writers:
       "Casey Johnson, David Windsor, Marc Firek, Josh Greenberg and others",
     genres: ["Sitcom"],
+    seasonsWatched: 2,
+    genreChars: "ovv",
+    status: "Ended",
   },
   "Orphan Black: Echoes": {
-    name: "Orphan Black: Echoes",
+    name: "Orphan Black; Echoes",
     description:
       "Taking place in 2052, 37 years since the end of the original 'Orphan Black' series, Echoes follows the life of the now adult Kira, played by Krysten Ritter, and her wife as they try to help an amnesiac woman. The futuristic series takes a deep dive into an exploration of the scientific manipulation of human existence. A group of women weave their way into each other's lives and embark on a thrilling journey, unraveling the mystery of their identity and uncovering a heartwrenching story of love and betrayal.",
     year: "2023-",
@@ -730,6 +868,9 @@ const seriesData = {
     writers:
       "Anna Fishko, Sharyn Rothstein, Amy Louise Johnson and C. Quintana",
     genres: ["Science fiction", "Drama", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "sct",
+    status: "On Going",
   },
   "Prison Break": {
     name: "Prison Break",
@@ -744,6 +885,9 @@ const seriesData = {
     director: "Brett Ratner",
     writers: "Matt Olmstead and Nick Santora",
     genres: ["Serial drama", "Crime drama", "Action thriller"],
+    seasonsWatched: 5,
+    genreChars: "amt",
+    status: "Ended",
   },
   "Pyramid Game": {
     name: "Pyramid Game",
@@ -758,6 +902,9 @@ const seriesData = {
     director: "Park So-yeon",
     writers: "Choi Soo-i",
     genres: ["Psychological thriller", "Survival", "Mystery"],
+    seasonsWatched: 1,
+    genreChars: "tum",
+    status: "Ended",
   },
   Reacher: {
     name: "Reacher",
@@ -774,6 +921,9 @@ const seriesData = {
     writers:
       "Nick Santora, Scott Sullivan, Aadrita Mukerji, Cait Duffy and others",
     genres: ["Action", "Crime drama", "Detective fiction", "Thriller"],
+    seasonsWatched: 2,
+    genreChars: "atc",
+    status: "On Going",
   },
   "Resident Evil": {
     name: "Resident Evil",
@@ -790,6 +940,9 @@ const seriesData = {
     writers:
       "Tara Knight, Andrew Dabb, Mary Leah Sutton, Jeff Howard and others",
     genres: ["Action", "Biopunk", "Horror", "Zombie apocalypse"],
+    seasonsWatched: 1,
+    genreChars: "ahd",
+    status: "Cancelled",
   },
   "Scream Queens": {
     name: "Scream Queens",
@@ -811,6 +964,9 @@ const seriesData = {
       "Slasher",
       "Absurdist comedy",
     ],
+    seasonsWatched: 2,
+    genreChars: "hcd",
+    status: "Ended",
   },
   "Secret Invasion": {
     name: "Secret Invasion",
@@ -831,6 +987,9 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
+    seasonsWatched: 1,
+    genreChars: "aes",
+    status: "Ended",
   },
   See: {
     name: "See",
@@ -847,6 +1006,9 @@ const seriesData = {
     writers:
       "Steven Knight, Robert Levine, Hadi Nicholas Deeb, Dan Shotz and others",
     genres: ["Action-adventure", "Drama", "Science fiction", "Thriller"],
+    seasonsWatched: 3,
+    genreChars: "aes",
+    status: "Ended",
   },
   "She-Hulk Attorney at Law": {
     name: "She-Hulk Attorney at Law",
@@ -867,6 +1029,9 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
+    seasonsWatched: 1,
+    genreChars: "ecd",
+    status: "Ended",
   },
   Shōgun: {
     name: "Shōgun",
@@ -883,6 +1048,9 @@ const seriesData = {
     writers:
       "Rachel Kondo, Justin Marks, Shannon Goss, Nigel Williams and others",
     genres: ["Historical drama", "Action"],
+    seasonsWatched: 1,
+    genreChars: "dav",
+    status: "Ended",
   },
   "Squid Game": {
     name: "Squid Game",
@@ -897,6 +1065,9 @@ const seriesData = {
     director: "Hwang Dong-hyuk",
     writers: "Hwang Dong-hyuk",
     genres: ["Survival", "Thriller", "Horror", "Drama", "Action"],
+    seasonsWatched: 1,
+    genreChars: "atu",
+    status: "On Going",
   },
   "Stay Close": {
     name: "Stay Close",
@@ -912,6 +1083,9 @@ const seriesData = {
     writers:
       "Danny Brocklehurst, Mick Ford, Charlotte Coben, Victoria Asare-Archer",
     genres: ["Crime drama", "Mystery-thriller"],
+    seasonsWatched: 1,
+    genreChars: "mbt",
+    status: "Ended",
   },
   Ted: {
     name: "Ted",
@@ -927,6 +1101,9 @@ const seriesData = {
     writers:
       "Seth MacFarlane, Paul Corrigan, Brad Walsh, Dana Gould, and others",
     genres: ["Comedy"],
+    seasonsWatched: 1,
+    genreChars: "cvv",
+    status: "On Going",
   },
   "The 8 Show": {
     name: "The 8 Show",
@@ -941,6 +1118,9 @@ const seriesData = {
     director: "Han Jae-rim",
     writer: "Han Jae-rim",
     genres: ["Dark comedy", "Thriller", "Satirical drama"],
+    seasonsWatched: 1,
+    genreChars: "ctd",
+    status: "Ended",
   },
   "The Boss Baby Back in Business": {
     name: "The Boss Baby Back in Business",
@@ -957,6 +1137,9 @@ const seriesData = {
     writers:
       "Alexandra Decas, Melanie Kirschbaum, Brandon Sawyer, JD Ryznar, and others",
     genres: ["Comedy"],
+    seasonsWatched: 3,
+    genreChars: "cef",
+    status: "Ended",
   },
   "The Defenders": {
     name: "The Defenders",
@@ -972,6 +1155,9 @@ const seriesData = {
       "S. J. Clarkson, Peter Hoar, Phil Abraham, Uta Briesewitz, and others",
     writers: "Douglas Petrie, Marco Ramirez, and Lauren Schmidt Hissrich",
     genres: ["Action", "Drama", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "adq",
+    status: "Ended",
   },
   "The Falcon And The Winter Soldier": {
     name: "The Falcon And The Winter Soldier",
@@ -992,6 +1178,9 @@ const seriesData = {
       "Science fiction",
       "Superhero",
     ],
+    seasonsWatched: 1,
+    genreChars: "cea",
+    status: "Ended",
   },
   "The Flight Attendant": {
     name: "The Flight Attendant",
@@ -1008,6 +1197,9 @@ const seriesData = {
     writers:
       "Steve Yockey, Chris Bohjalian, Kara Lee Corthron, Ryan Jennifer Jones, and others",
     genres: ["Thriller", "Comedy drama", "Dark comedy", "Mystery"],
+    seasonsWatched: 2,
+    genreChars: "mct",
+    status: "Ended",
   },
   "The Last Of Us": {
     name: "The Last Of Us",
@@ -1023,6 +1215,9 @@ const seriesData = {
       "Craig Mazin, Neil Druckmann, Jeremy Webb, Jasmila Žbanić, and others",
     writers: "Craig Mazin and Neil Druckmann",
     genres: ["Post-apocalyptic", "Drama", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "aew",
+    status: "On Going",
   },
   "The Lazarus Project": {
     name: "The Lazarus Project",
@@ -1037,6 +1232,9 @@ const seriesData = {
     director: "Marco Kreuzpaintner, Laura Scrivano, Akaash Meeda",
     writers: "Joe Barton",
     genres: ["Science fiction", "Action", "Thriller", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "sat",
+    status: "Cancelled",
   },
   "The Night Agent": {
     name: "The Night Agent",
@@ -1051,6 +1249,9 @@ const seriesData = {
     director: "Seth Gordon, Guy Ferland, Ramaa Mosley, Adam Arkin, and others",
     writers: "Shawn Ryan, Munis Rashid, Seth Fisher, Corey Deshon, and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "atd",
+    status: "Ended",
   },
   "The Office": {
     name: "The Office",
@@ -1067,6 +1268,9 @@ const seriesData = {
     writers:
       "Steve Carell, Mindy Kaling, B. J. Novak, Paul Lieberstein, and others",
     genres: ["Mockumentary", "Workplace comedy", "Cringe comedy", "Sitcom"],
+    seasonsWatched: 9,
+    genreChars: "cov",
+    status: "Ended",
   },
   "The Outsider": {
     name: "The Outsider",
@@ -1082,6 +1286,9 @@ const seriesData = {
       "Jason Bateman, Andrew Bernstein, Igor Martinović, Karyn Kusama, and others",
     writers: "Richard Price, Jessie Nickson-Lopez, Dennis Lehane",
     genres: ["Crime drama", "Mystery", "Horror"],
+    seasonsWatched: 1,
+    genreChars: "hbm",
+    status: "Cancelled",
   },
   "The Peripheral": {
     name: "The Peripheral",
@@ -1096,6 +1303,9 @@ const seriesData = {
     director: "Vincenzo Natali, Alrick Riley",
     writers: "Scott B. Smith, Jamie Chan, Greg Plageman",
     genres: ["Science fiction", "Thriller", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "std",
+    status: "Cancelled",
   },
   "The Punisher": {
     name: "The Punisher",
@@ -1111,6 +1321,9 @@ const seriesData = {
     writers:
       "Steve Lightfoot, Dario Scardapane, Michael Jones-Morales, Christine Boylan",
     genres: ["Action", "Conspiracy thriller", "Crime drama", "Superhero"],
+    seasonsWatched: 2,
+    genreChars: "bat",
+    status: "Ended",
   },
   "The Queen's Gambit": {
     name: "The Queen's Gambit",
@@ -1125,6 +1338,9 @@ const seriesData = {
     director: "Scott Frank",
     writers: "Scott Frank",
     genres: ["Coming-of-age", "Period drama"],
+    seasonsWatched: 1,
+    genreChars: "dvv",
+    status: "Ended",
   },
   "The Rookie": {
     name: "The Rookie",
@@ -1139,6 +1355,9 @@ const seriesData = {
     director: "Liz Friedlander",
     writers: "Alexi Hawley",
     genres: ["Police procedural", "Crime drama", "Action"],
+    seasonsWatched: 6,
+    genreChars: "adb",
+    status: "On Going",
   },
   "The Terminal List": {
     name: "The Terminal List",
@@ -1155,6 +1374,9 @@ const seriesData = {
     writers:
       "David DiGilio, Daniel Shattuck, John Lopez, Tolu Awosika and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
+    seasonsWatched: 1,
+    genreChars: "adb",
+    status: "Ended",
   },
   "The Wilds": {
     name: "The Wilds",
@@ -1171,6 +1393,9 @@ const seriesData = {
     writers:
       "Sarah Streicher, Daniel Paige, Tonya Kong, Shalisha Francis-Feusner and others",
     genres: ["Drama"],
+    seasonsWatched: 2,
+    genreChars: "dmu",
+    status: "Cancelled",
   },
   "The Witcher Blood Origin": {
     name: "The Witcher Blood Origin",
@@ -1186,6 +1411,9 @@ const seriesData = {
     writers:
       "Alex Meenehan, Aaron Stewart-Ahn, Tania Lotia, Kiersten Van Horne and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
+    seasonsWatched: 1,
+    genreChars: "fda",
+    status: "Ended",
   },
   "The Witcher": {
     name: "The Witcher",
@@ -1202,6 +1430,9 @@ const seriesData = {
     writers:
       "Lauren Schmidt Hissrich, Jenny Klein, Beau DeMayo, Declan de Barra and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
+    seasonsWatched: 3,
+    genreChars: "efd",
+    status: "On Going",
   },
   "The Woman In The House Across The Street From The Girl In The Window": {
     name: "The Woman In The House Across The Street From The Girl In The Window",
@@ -1216,6 +1447,9 @@ const seriesData = {
     director: "Michael Lehmann",
     writers: "Rachel Ramras, Hugh Davidson, Larry Dorf",
     genres: ["Dark comedy", "Mystery", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "mtc",
+    status: "Ended",
   },
   "United States of Al": {
     name: "United States of Al",
@@ -1231,6 +1465,9 @@ const seriesData = {
     writers:
       "Andy Gordon, Bobby Telatovich, Habib Zahori, Maria Ferrari and others",
     genres: ["Sitcom"],
+    seasonsWatched: 2,
+    genreChars: "ocv",
+    status: "Cancelled",
   },
   "Wanda Vision": {
     name: "Wanda Vision",
@@ -1246,6 +1483,9 @@ const seriesData = {
     writers:
       "Jac Schaeffer, Gretchen Enders, Megan McDonnell, Bobak Esfarjani and others",
     genres: ["Drama", "Mystery", "Romance", "Sitcom", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "rmd",
+    status: "Ended",
   },
   Wednesday: {
     name: "Wednesday",
@@ -1261,9 +1501,12 @@ const seriesData = {
     writers:
       "Charles Addams, Miles Millar, Alfred Gough, Kayla Alpert and others",
     genres: ["Comedy horror", "Coming-of-age", "Supernatural"],
+    seasonsWatched: 1,
+    genreChars: "fcm",
+    status: "On Going",
   },
   "What If...?": {
-    name: "What If...?",
+    name: "What If...!",
     description:
       "Reimagining noteworthy events in the Marvel Cinematic Universe and creating a multiverse of infinite possibilities.",
     year: "2021-",
@@ -1275,6 +1518,9 @@ const seriesData = {
     director: "Bryan Andrews and Stephan Franck",
     writers: "A. C. Bradley and Matthew Chauncey",
     genres: ["Action-adventure", "Anthology", "Science fiction", "Superhero"],
+    seasonsWatched: 2,
+    genreChars: "aes",
+    status: "On Going",
   },
   "Y The Last Man": {
     name: "Y The Last Man",
@@ -1291,6 +1537,9 @@ const seriesData = {
     writers:
       "Pia Guerra, Brian K. Vaughan, Tian Jun Gu, Donnetta Lavinia Grays and others",
     genres: ["Action-adventure", "Drama", "Post-apocalyptic"],
+    seasonsWatched: 1,
+    genreChars: "dea",
+    status: "Ended",
   },
   Yellowjackets: {
     name: "Yellowjackets",
@@ -1312,6 +1561,9 @@ const seriesData = {
       "Thriller",
       "Survival",
     ],
+    seasonsWatched: 2,
+    genreChars: "mtu",
+    status: "On Going",
   },
   "Young Sheldon": {
     name: "Young Sheldon",
@@ -1320,13 +1572,45 @@ const seriesData = {
     year: "2017-2024",
     rating: "4.2",
     runningTime: "18–21 minutes",
-    seasons: 6,
-    episodes: 127,
+    seasons: 7,
+    episodes: 141,
     creators: "Chuck Lorre and Steven Molaro",
     director:
       "Jason Alexander, Casey Childs, Timothy Marx, Craig T. Nelson and others",
     writers:
       "Chuck Lorre, Steven Molaro, Kurt Koehler, David Bickel and others",
     genres: ["Period sitcom"],
+    seasonsWatched: 7,
+    genreChars: "ocd",
+    status: "Ended",
   },
+};
+
+const sortedSeriesData = Object.fromEntries(
+  Object.entries(seriesData).sort(([a], [b]) => a.localeCompare(b))
+);
+
+
+const genre = {
+  a: "Action",
+  b: "Crime",
+  c: "Comedy",
+  d: "Drama",
+  e: "Adventure",
+  f: "Fantasy",
+  g: "Medical",
+  t: "Thriller",
+  h: "Horror",
+  m: "Mystery",
+  s: "Sci-Fi",
+  r: "Romance",
+  w: "War",
+  i: "Heist",
+  o: "Sitcom",
+  k: "Adolescence",
+  u: "Survival",
+  p: "Dark Comedy",
+  q: "Superhero",
+  z: "Zombie apocalypse",
+  v: "",
 };

@@ -13,40 +13,38 @@ window.addEventListener("load", () => {
   }
 });
 
-while (i < sortedList.length) {
-  const n = sortedList[i];
-  const name = n.name;
-  var picname = name;
-  if (picname.includes("?")) {
-    picname = picname.replace("?", "!");
-  } else if (picname.includes(":")) {
-    picname = picname.replace(":", ";");
-  }
-  const status = n.status;
-  const threegenre = n.genre;
-  const sn = n.seasons;
-  const g1 = threegenre[0];
-  const g2 = threegenre[1];
-  const g3 = threegenre[2];
+for (const [key, value] of Object.entries(sortedSeriesData)) {
+  const seriesName = key;
+  var picname = value.name;
+  // if (picname.includes("?")) {
+  //   picname = picname.replace("?", "!");
+  // } else if (picname.includes(":")) {
+  //   picname = picname.replace(":", ";");
+  // }
+  const status = value.status;
+  const sn = value.seasonsWatched;
+  const g1 = value.genreChars[0];
+  const g2 = value.genreChars[1];
+  const g3 = value.genreChars[2];
 
   const result = `<li>
-                    <img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="restoreInitialMusic()" alt="${name}" id="${i}">
+                    <img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="restoreInitialMusic()" alt="${seriesName}" id="${i}">
                     <a href="series.html?series_name=${encodeURIComponent(
-                      name
+                      seriesName
                     )}" target="_blank">
                       <h2${
-                        name.length < 50 ? "" : ' style="font-size: 30px;"'
-                      }>${name}</h2>
+                        seriesName.length < 50
+                          ? ""
+                          : ' style="font-size: 30px;"'
+                      }>${seriesName}</h2>
                     </a>
                     <p>Seasons: ${sn}</p>
-                    <p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${
-    genre[g3]
-  }</p>
+                    <p>Genres:&nbsp ${genre[g1]}&nbsp ${genre[g2]}&nbsp ${genre[g3]}</p>
                     <p>Status: <span>${status}</span></p>
                   </li>`;
   document.querySelector(".series").innerHTML += result;
 
-  window["music" + i] = document.getElementById(`${name}`);
+  window["music" + i] = document.getElementById(`${seriesName}`);
   i++;
 }
 

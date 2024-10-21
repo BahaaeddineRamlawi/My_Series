@@ -9,15 +9,9 @@
     <script>
       window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
-        let seriesName = urlParams.get('series_name');
-        let originalname = seriesName;
-        const series = seriesData[seriesName];
-
-        if (seriesName.includes("?")) {
-          seriesName = seriesName.replace("?", "!"); 
-        } else if(seriesName.includes(":")){
-          seriesName = seriesName.replace(":", ";");
-        }
+        let originalname = urlParams.get('series_name');
+        const series = sortedSeriesData[originalname];
+        let seriesName = series.name;
 
         if (series) {
           document.getElementById('pageTitle').textContent = originalname;
