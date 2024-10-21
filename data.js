@@ -1,4 +1,6 @@
 const list = [
+  { name: "A Good Girl's Guide to Murder", seasons: 1, genre: "mtv", status: "On Going" },
+  { name: "Agatha All Along", seasons: 1, genre: "pfq", status: "On Going" },
   { name: "Agent Carter", seasons: 2, genre: "sad", status: "Cancelled" },
   { name: "All of Us Are Dead", seasons: 1, genre: "hzv", status: "Not Done" },
   { name: "Anne Rice's Mayfair Witches", seasons: 1, genre: "tds", status: "Ended" },
@@ -19,7 +21,8 @@ const list = [
   { name: "Grand Army", seasons: 1, genre: "kdv", status: "Ended" },
   { name: "Halo", seasons: 2, genre: "sae", status: "Cancelled" },
   { name: "Hawkeye", seasons: 1, genre: "cab", status: "Not Done" },
-  { name: "House", seasons: 1, genre: "gpv", status: "Done" },
+  { name: "High Potential", seasons: 1, genre: "bdv", status: "On Going" },
+  { name: "House", seasons: 2, genre: "gpv", status: "Done" },
   { name: "House of The Dragons", seasons: 2, genre: "fda", status: "Not Done" },
   { name: "I Am Groot", seasons: 1, genre: "scv", status: "Not Done" },
   { name: "ICarly", seasons: 3, genre: "ocv", status: "Ended" },

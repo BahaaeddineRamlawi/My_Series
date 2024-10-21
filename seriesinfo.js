@@ -1,4 +1,33 @@
 const seriesData = {
+  "A Good Girl's Guide to Murder": {
+    name: "A Good Girl's Guide to Murder",
+    description:
+      "Pip Fitz-Amobi, a brilliant woman, is unsure whether schoolgirl Andie Bell was killed by her lover Sal Singh five years ago; they must see how far they will go to protect Pip from learning the truth if Sal Singh turns out not to be the murderer.",
+    year: "2024-",
+    rating: "",
+    runningTime: " 40-48 minutes",
+    seasons: 1,
+    episodes: 6,
+    creators: "Poppy Cogan",
+    director: "Dolly Wells and Tom Vaughan",
+    writer: "Poppy Cogan, Ruby Thomas, Zia Ahmed and Ajoke Ibironke",
+    genres: ["Mystert", "Thriller"],
+  },
+  "Agatha All Along": {
+    name: "Agatha All Along",
+    description:
+      "Set after the events of 'WandaVision', Agatha Harkness recruits some unlikely allies on her quest to regain her former powers and uncover the secrets of the Darkhold.",
+    year: "2024",
+    rating: "",
+    runningTime: " - minutes",
+    seasons: 1,
+    episodes: 9,
+    creators: "Jac Schaeffer",
+    director: "Jac Schaeffer, Rachel Goldberg and Gandja Monteiro",
+    writer:
+      "Jac Schaeffer, Laura Donney, Cameron Squires, Giovanna Sarquis and others",
+    genres: ["Black comedy", "Fantasy", "Superhero"],
+  },
   "Agent Carter": {
     name: "Agent Carter",
     description:
@@ -302,6 +331,21 @@ const seriesData = {
       "Jonathan Igla, Elisa Climent, Katie Mathewson, Tanner Bean and others",
     genres: ["Action-adventure", "Buddy comedy", "Crime", "Superhero"],
   },
+  "High Potential": {
+    name: "High Potential",
+    description:
+      "Morgan, a single mom with three kids and an exceptional mind, helps solve an unsolvable crime when she rearranges some evidence during her shift as a cleaner for the police department. When they discover she has a knack for putting things in order because of her high intellectual potential, she is brought on as a consultant to work with a by-the-book seasoned detective, Karadec. Together they form an unusual and unstoppable team.",
+    year: "2024",
+    rating: "",
+    runningTime: "- minutes",
+    seasons: 1,
+    episodes: 4,
+    creators: "Drew Goddard",
+    director: "Alethea Jones and Marc Webb",
+    writer:
+      "Drew Goddard, Todd Harthan, Marc Halsey, Diane Ruggiero-Wright and others",
+    genres: ["Drama", "Crime"],
+  },
   House: {
     name: "House",
     description:
@@ -311,7 +355,7 @@ const seriesData = {
     runningTime: "41–49 minutes",
     seasons: 8,
     episodes: 177,
-    creators: "	David Shore",
+    creators: "David Shore",
     director:
       "Deran Sarafian, Greg Yaitanes, David Straiton, Hugh Laurie and others",
     writer:
