@@ -16,11 +16,6 @@ window.addEventListener("load", () => {
 for (const [key, value] of Object.entries(sortedSeriesData)) {
   const seriesName = key;
   var picname = value.name;
-  // if (picname.includes("?")) {
-  //   picname = picname.replace("?", "!");
-  // } else if (picname.includes(":")) {
-  //   picname = picname.replace(":", ";");
-  // }
   const status = value.status;
   const sn = value.seasonsWatched;
   const g1 = value.genreChars[0];

@@ -89,7 +89,7 @@ const seriesData = {
     genreChars: "tds",
     status: "Ended",
   },
-  Archive81: {
+  "Archive 81": {
     name: "Archive 81",
     description:
       "An archivist takes a job restoring damaged videotapes, but finds themselves getting pulled into a mystery involving the missing director and a mysterious cult that they were documenting.",
