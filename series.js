@@ -1,15 +1,24 @@
+document.addEventListener('keydown', function(event) {
+  const activeElement = document.activeElement;
+  const isSearchInput = activeElement.id === 'searchInput';
+
+  if (event.key === 'Enter' && !isSearchInput) {
+      event.preventDefault();
+  }
+});
+
 let i = 0;
 let initialMusic;
-let currentMusic = null; // Variable to track the currently playing music
-let initialMusicPosition = 0; // Variable to track the position of the initial music
-let isMuted = false; // Track mute state
-let isPlayingBackgroundMusic = true; // Track background music state
+let currentMusic = null;
+let initialMusicPosition = 0;
+let isMuted = false;
+let isSearch = false;
+let isPlayingBackgroundMusic = true;
 
-// Set up initial music on page load
 window.addEventListener("load", () => {
-  initialMusic = document.getElementById("initialMusic"); // Set the initial music element
+  initialMusic = document.getElementById("initialMusic");
   if (initialMusic) {
-    play(initialMusic); // Play the initial music when the page loads
+    play(initialMusic);
   }
 });
 
@@ -43,10 +52,9 @@ for (const [key, value] of Object.entries(sortedSeriesData)) {
   i++;
 }
 
-// Function to play the given music
 function play(music) {
   if (currentMusic) {
-    stop(currentMusic); // Stop the currently playing music
+    stop(currentMusic);
   }
   currentMusic = music;
   if (currentMusic) {
@@ -57,25 +65,22 @@ function play(music) {
   }
 }
 
-// Function to stop the given music and track position
 function stop(music) {
   if (music) {
     music.pause();
     if (music === initialMusic) {
-      initialMusicPosition = music.currentTime; // Save the position of the initial music
+      initialMusicPosition = music.currentTime;
     }
   }
 }
 
-// Function to restore initial music
 function restoreInitialMusic() {
   if (initialMusic && isPlayingBackgroundMusic) {
-    initialMusic.currentTime = initialMusicPosition; // Resume from the saved position
-    play(initialMusic); // Continue playing the initial music
+    initialMusic.currentTime = initialMusicPosition;
+    play(initialMusic);
   }
 }
 
-// Add blur-out class on the first click
 let isFirstClick = true;
 function onFirstClick(event) {
   if (isFirstClick) {
@@ -91,40 +96,53 @@ document.addEventListener("DOMContentLoaded", () => {
   const muteButton = document.getElementById("muteButton");
   const muteIcon = document.getElementById("muteIcon");
   const unmuteIcon = document.getElementById("unmuteIcon");
+  const pauseButton = document.getElementById("pauseButton");
+  const pauseIcon = document.getElementById("pauseIcon");
+  const playIcon = document.getElementById("playIcon");
+  const searchButton = document.getElementById("searchButton");
+  const searchIcon = document.getElementById("searchIcon");
+  const homeIcon = document.getElementById("homeIcon");
+  const seriespage = document.getElementById("seriespage");
+  const APISeries = document.getElementById("APISeries");
   const stopMusicButton = document.getElementById("stopMusicButton");
-  const audioElements = document.querySelectorAll("audio"); // Select all audio elements
+  const audioElements = document.querySelectorAll("audio");
 
-  // Function to mute or unmute all audio elements
   const toggleMute = () => {
     audioElements.forEach((audio) => {
-      audio.volume = isMuted ? 1 : 0; // Set volume to 0 for mute, 1 for unmute
+      audio.volume = isMuted ? 1 : 0;
     });
     isMuted = !isMuted;
     muteIcon.style.display = isMuted ? "none" : "block";
     unmuteIcon.style.display = isMuted ? "block" : "none";
   };
 
-  // Function to stop or play background music
-  const toggleBackgroundMusic = () => {
+  const toggleSearch = () => {
+    isSearch = !isSearch;
+    searchIcon.style.display = isSearch ? "none" : "block";
+    seriespage.style.display = isSearch ? "none" : "block";
+    homeIcon.style.display = isSearch ? "block" : "none";
+    APISeries.style.display = isSearch ? "block" : "none";
+  };
+
+  const togglePause = () => {
     if (isPlayingBackgroundMusic) {
       initialMusic.pause();
-      stopMusicButton.textContent = "Play Background Music";
+      pauseIcon.style.display = "none";
+      playIcon.style.display = "block";
     } else {
       initialMusic.play().catch((e) => {
         console.log("Click to Play -- " + e);
       });
-      stopMusicButton.textContent = "Stop Background Music";
+      pauseIcon.style.display = "block";
+      playIcon.style.display = "none";
     }
     isPlayingBackgroundMusic = !isPlayingBackgroundMusic;
   };
 
-  // Mute button functionality
   muteButton.addEventListener("click", toggleMute);
+  searchButton.addEventListener("click", toggleSearch);
+  pauseButton.addEventListener("click", togglePause);
 
-  // Stop/Play background music button functionality
-  stopMusicButton.addEventListener("click", toggleBackgroundMusic);
-
-  // Hover functionality for series audio elements
   const seriesElements = document.querySelectorAll(".series img");
   seriesElements.forEach((img, index) => {
     const audio = document.getElementById(img.alt);
@@ -139,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
     img.addEventListener("mouseleave", () => {
       if (audio) {
         audio.pause();
-        audio.currentTime = 0; // Reset to the beginning
+        audio.currentTime = 0;
         if (isPlayingBackgroundMusic) {
           initialMusic.play().catch((e) => {
             console.log("Click to Play -- " + e);
@@ -149,7 +167,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Start initial music
   if (initialMusic) {
     initialMusic.play().catch((e) => {
       console.log("Click to Play -- " + e);

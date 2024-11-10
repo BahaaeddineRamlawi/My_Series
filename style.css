@@ -57,6 +57,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .page {
+  display: block;
   background: linear-gradient(
     180deg,
     #870000 10%,
@@ -108,6 +109,10 @@ body::-webkit-scrollbar-thumb {
 
 .description {
   padding-left: 20px;
+}
+
+.seriespage p b {
+  font-family: Grenze Gotisch;
 }
 
 .infposter {
@@ -169,6 +174,101 @@ body::-webkit-scrollbar-thumb {
   font-weight: bold;
 }
 
+.seasons-container {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.seasons-container img {
+  width: 150px;
+  height: 220px;
+  margin: 20px 5px;
+  border: firebrick 1px solid;
+  border-radius: 10%;
+}
+
+.searchSeriesInfo {
+  width: 100%;
+  padding-top: 20px;
+  background-position: center;
+  background: linear-gradient(180deg, #870000 10%, #181818 30%, #000 90%);
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchSeriesPage {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchSeriesPage p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Grenze Gotisch;
+  line-height: 30px;
+  padding: 5px 30px;
+  max-width: 900px;
+}
+
+.searchSeriesPage h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Grenze Gotisch;
+  line-height: 35px;
+  padding: 10px 0 10px 30px;
+}
+
+.searchSeriesPage p span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Grenze Gotisch";
+  line-height: 20px;
+  padding: 0 5px 5px 30px;
+  font-weight: bold;
+}
+
+.searchSeriesPage img {
+  height: 540px;
+  width: 360px;
+  border-radius: 20px;
+}
+
+.searchSeriesPage p b {
+  font-family: Grenze Gotisch;
+}
+
+.searchedDescription {
+  padding-left: 20px;
+}
+
+.searchedDescription p span {
+  padding: 0 5px 5px 5px;
+}
+
+.searchedDescription a p {
+  text-decoration: underline;
+}
+
+.season {
+  margin: 20px;
+}
+
+.season h3 {
+  font-family: Grenze Gotisch;
+  font-size: 30px;
+  color: white;
+}
+
 audio {
   margin: 20px;
   border: 1px solid white;
@@ -205,6 +305,94 @@ audio::-webkit-media-controls-volume-slider {
 
 audio::-webkit-media-controls-mute-button {
   margin-right: 10px;
+}
+
+.seriessearch {
+  box-sizing: border-box;
+  padding: 1%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.seriessearch button {
+  background-color: #7a0101;
+  border-color: #4d3939;
+  color: white;
+  padding: 0.5%;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Grenze Gotisch;
+  border-radius: 20px;
+}
+
+.seriessearch input {
+  width: 20%;
+  font-family: Grenze Gotisch;
+  font-size: 30px;
+  padding: 0 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 2px solid firebrick;
+  border-radius: 4px;
+}
+
+.seriessearch h1 {
+  position: relative;
+  color: #fff;
+  padding: 11px 4px;
+  font-size: 45px;
+  font-family: Grenze Gotisch;
+  font-weight: bold;
+  line-height: 0.75;
+  margin-bottom: 10px;
+}
+.seriessearch h2 {
+  font-size: 30px;
+}
+
+.seriessearch h2 a {
+  position: relative;
+  color: #fff;
+  padding: 11px 4px;
+  font-size: 30px;
+  font-family: Grenze Gotisch;
+  font-weight: bold;
+  line-height: 0.75;
+}
+
+.seriessearch img {
+  width: 200px;
+  border-radius: 12px;
+  height: 280px;
+  margin-bottom: 8px;
+  border-color: #660000;
+  border-style: solid;
+  filter: grayscale(0);
+}
+
+.APISeries {
+  display: none;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+.searchseries {
+  flex: 0 1 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 8px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -315,7 +503,7 @@ p {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 50px;
   justify-content: space-around;
 }
 
@@ -362,58 +550,6 @@ p {
   font-weight: bold;
 }
 
-@media screen and (max-width: 770px) {
-  .date-text {
-    font-size: 30px;
-  }
-  .date-glitch {
-    min-width: 150px;
-  }
-  .navbar .icon {
-    width: 18px !important;
-    height: 18px !important;
-  }
-  .navbar button {
-    padding: 7px !important;
-    margin: 5px !important;
-  }
-  .seriespage {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .description {
-    padding: 0;
-    padding-top: 15px;
-    text-align: center;
-  }
-  .seriespage h1 {
-    padding: 10px 0 30px 0;
-    text-align: center;
-  }
-  audio {
-    margin: 20px 0;
-  }
-  .infposter {
-    width: 250px;
-    height: 375px;
-  }
-  .seriespage img {
-    height: 375px;
-    width: 250px;
-  }
-  .navbar {
-    border-top-left-radius: 0px !important;
-    border-bottom-right-radius: 20px;
-    width: 100% !important;
-  }
-  .home-screen-blur {
-    padding-top: 70px !important;
-  }
-  .navbar button {
-    font-size: 12px !important;
-  }
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -458,10 +594,100 @@ p {
   display: none;
 }
 
+#searchIcon {
+  display: block;
+}
+
+#homeIcon {
+  display: none;
+}
+
+#pauseIcon {
+  display: block;
+}
+
+#playIcon {
+  display: none;
+}
+
 .hidden {
   display: none;
 }
 
 .nav-buttons {
   display: flex;
+}
+
+@media screen and (max-width: 770px) {
+  .date-text {
+    font-size: 30px;
+  }
+  .date-glitch {
+    min-width: 150px;
+  }
+  .navbar .icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .navbar button {
+    padding: 7px !important;
+    margin: 5px !important;
+  }
+  .seriespage {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .searchSeriesPage {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .description {
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;
+  }
+  .searchedDescription {
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;
+  }
+  .seasons-container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .seriespage h1 {
+    padding: 10px 0 30px 0;
+    text-align: center;
+  }
+  .searchSeriesPage h1 {
+    padding: 10px 0 30px 0;
+    text-align: center;
+  }
+  .searchSeriesPage img {
+    height: 375px;
+    width: 250px;
+  }
+  audio {
+    margin: 20px 0;
+  }
+  .infposter {
+    width: 250px;
+    height: 375px;
+  }
+  .seriespage img {
+    height: 375px;
+    width: 250px;
+  }
+  .navbar {
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 20px;
+    width: 100% !important;
+  }
+  .home-screen-blur {
+    padding-top: 70px !important;
+  }
+  .navbar button {
+    font-size: 12px !important;
+  }
 }

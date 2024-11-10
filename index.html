@@ -16,13 +16,20 @@
             </div>
             <div class="nav-buttons">
                 <button id="muteButton" aria-label="Mute">
-                    <img src="assets/speaker-icon.png" alt="Mute" class="icon" id="muteIcon">
-                    <img src="assets/muted-icon.png" alt="Unmute" class="icon hidden" id="unmuteIcon">
+                    <img src="assets/speakerIcon.png" alt="Mute" class="icon" id="muteIcon">
+                    <img src="assets/mutedIcon.png" alt="Unmute" class="icon hidden" id="unmuteIcon">
                 </button>
-                <button id="stopMusicButton">Stop Background Music</button>
+                <button id="searchButton" aria-label="Search">
+                    <img src="assets/searchIcon.png" alt="Search" class="icon" id="searchIcon">
+                    <img src="assets/homeIcon.png" alt="Home" class="icon hidden" id="homeIcon">
+                </button>
+                <button id="pauseButton" aria-label="Search">
+                    <img src="assets/pauseIcon.png" alt="Pause" class="icon" id="pauseIcon">
+                    <img src="assets/playIcon.png" alt="Play" class="icon hidden" id="playIcon">
+                </button>
             </div>
         </div>
-        <div class="page">
+        <div class="page" id="seriespage">
             <div class="series_audio">
                 <audio id="initialMusic" src="assets/New York Jazz Lounge.mp3" preload="auto" loop ></audio>
                 <audio id="Agent Carter" src="Sound/Agent Carter.mp3" preload="auto" loop ></audio>
@@ -116,6 +123,15 @@
                     <script type="text/javascript" src="series.js"></script>
                 </div>
             </div>
+        </div>
+        <div class="APISeries" id="APISeries">
+            <div class="seriessearch">
+                <h1>Search for a Series</h1>
+                <input type="text" id="searchInput" placeholder="Enter series name">
+                <button onclick="searchSeries()">Search</button>
+                <div id="results"></div>
+            </div>
+            <script src="APICall.js"></script>
         </div>
     </div>
 </body>
