@@ -8,9 +8,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('pageTitle').textContent = seriesName || 'Series Details';
 
+    let seriesImage;
+
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
+            seriesImage = data.image ? data.image.original : 'assets/noImageAvailable.png';
             document.getElementById('pageTitle').textContent = data.name;
             document.getElementById('series-title').textContent = data.name;
 
@@ -52,8 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>Episodes: ${season.episodeOrder || 'N/A'}</p>
                     <p>Premiered: ${season.premiereDate || 'N/A'}</p>
                     <p>Ended: ${season.endDate || 'N/A'}</p>
-                    <img src="${season.image ? season.image.medium : 'assets/noImageAvailable.png'}" alt="Season ${season.number} poster" class="season-poster">
-                `;
+                    <img src="${season.image ? season.image.medium : seriesImage}" 
+                    alt="Season ${season.number} poster" 
+                    class="season-poster ${!season.image ? 'grayscale' : ''}">
+                    `;
 
                 seasonsContainer.appendChild(seasonDiv);
             });

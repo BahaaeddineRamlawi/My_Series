@@ -1,59 +1,7 @@
-html {
-  box-sizing: border-box;
-  background-color: #000;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-}
-
-@font-face {
-  font-family: "Iceland";
-  src: url("./Fonts/Iceland/Iceland-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Grenze Gotisch";
-  src: url("./Fonts/Grenze_Gotisch/GrenzeGotisch-ExtraLight.ttf");
-}
-
-body {
-  font-family: "Grenze Gotisch", cursive;
-  margin: 0;
-  background: linear-gradient(180deg, #870000 10%, #181818 30%, #000 90%);
-}
-
 .home-screen-blur {
   filter: blur(10px);
   transition: filter 0.5s;
   padding-top: 40px;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #3e3e3e;
-  border: inset 2px black;
-}
-
-body::-webkit-scrollbar {
-  width: 8px;
-  background-color: #3e3e3e;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #510101;
-  min-height: 20px;
-  border-top: solid 1px #870000;
-  border-bottom: solid 1px #870000;
 }
 
 .page {
@@ -89,30 +37,38 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
-@keyframes animate {
-  0% {
-    background-position: 0% 0%;
-  }
-  25% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 0% 100%;
-  }
-  75% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 100% 0%;
-  }
+.seriespage p b {
+  font-family: Grenze Gotisch;
+}
+
+.seriespage p {
+  color: #fff;
+  font-size: 20px;
+  font-family: Grenze Gotisch;
+  line-height: 30px;
+  padding: 5px 30px;
+  max-width: 900px;
+}
+
+.seriespage h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Grenze Gotisch;
+  line-height: 35px;
+  padding: 10px 0 30px 30px;
+}
+
+.seriespage p span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Grenze Gotisch";
+  line-height: 20px;
+  padding: 0 5px 5px 30px;
+  font-weight: bold;
 }
 
 .description {
   padding-left: 20px;
-}
-
-.seriespage p b {
-  font-family: Grenze Gotisch;
 }
 
 .infposter {
@@ -146,32 +102,6 @@ body::-webkit-scrollbar-thumb {
 }
 .infposter:after {
   filter: blur(20px);
-}
-
-.seriespage p {
-  color: #fff;
-  font-size: 20px;
-  font-family: Grenze Gotisch;
-  line-height: 30px;
-  padding: 5px 30px;
-  max-width: 900px;
-}
-
-.seriespage h1 {
-  color: #fff;
-  font-size: 40px;
-  font-family: Grenze Gotisch;
-  line-height: 35px;
-  padding: 10px 0 30px 30px;
-}
-
-.seriespage p span {
-  color: #fff;
-  font-size: 20px;
-  font-family: "Grenze Gotisch";
-  line-height: 20px;
-  padding: 0 5px 5px 30px;
-  font-weight: bold;
 }
 
 .seasons-container {
@@ -269,44 +199,6 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
-audio {
-  margin: 20px;
-  border: 1px solid white;
-  border-radius: 40px;
-}
-
-audio::-webkit-media-controls-panel {
-  background-color: #870000;
-}
-
-audio::-webkit-media-controls-current-time-display {
-  color: #fff;
-  text-shadow: none;
-}
-
-audio::-webkit-media-controls-time-remaining-display {
-  color: #fff;
-  text-shadow: none;
-}
-
-audio::-webkit-media-controls-timeline {
-  background-color: #7a0101;
-  border-radius: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-audio::-webkit-media-controls-volume-slider {
-  background-color: #7a0101;
-  border-radius: 25px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-audio::-webkit-media-controls-mute-button {
-  margin-right: 10px;
-}
-
 .seriessearch {
   box-sizing: border-box;
   padding: 1%;
@@ -383,6 +275,7 @@ audio::-webkit-media-controls-mute-button {
   padding-top: 10px;
   justify-content: space-around;
 }
+
 .searchseries {
   flex: 0 1 0%;
   display: flex;
@@ -393,45 +286,6 @@ audio::-webkit-media-controls-mute-button {
   padding: 8px;
   text-align: center;
   padding-bottom: 10px;
-}
-
-h2 {
-  position: relative;
-  color: #fff;
-  padding: 11px 4px;
-  font-size: 45px;
-  font-family: Grenze Gotisch;
-  font-weight: bold;
-  line-height: 0.75;
-}
-
-h2:after {
-  content: "";
-  position: absolute;
-  width: 70%;
-  left: 15%;
-  height: 2px;
-  bottom: 0;
-  border-radius: 2px;
-  background: linear-gradient(
-    90deg,
-    #2c3539 10%,
-    #757575 30%,
-    white 50%,
-    #757575 70%,
-    #2c3539 90%
-  );
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  color: #fff;
-  font-size: 20px;
-  font-family: "Grenze Gotisch";
-  line-height: 20px;
 }
 
 .date-glitch {
@@ -465,38 +319,9 @@ p {
   animation: glitch-effect 3s infinite;
 }
 
-/* .date-text::third{
-    color: #ff00f7;
-    animation: glitch-effect 4s infinite;
-} */
-
 .date-text::after {
   color: #08cd33;
   animation: glitch-effect 2s infinite;
-}
-
-@keyframes glitch-effect {
-  0% {
-    left: -2px;
-    top: -2px;
-    color: #ff00c8;
-  }
-  25% {
-    left: 2px;
-    top: 0px;
-  }
-  50% {
-    left: -1px;
-    top: 2px;
-  }
-  75% {
-    left: 1px;
-    top: -1px;
-  }
-  100% {
-    left: 0px;
-    top: -2px;
-  }
 }
 
 .series {
@@ -505,10 +330,6 @@ p {
   flex-wrap: wrap;
   margin-top: 50px;
   justify-content: space-around;
-}
-
-.blur-out {
-  filter: blur(0);
 }
 
 .series li {
@@ -586,6 +407,10 @@ p {
   height: 24px;
 }
 
+.nav-buttons {
+  display: flex;
+}
+
 #muteIcon {
   display: block;
 }
@@ -610,41 +435,90 @@ p {
   display: none;
 }
 
-.hidden {
-  display: none;
+h2 {
+  position: relative;
+  color: #fff;
+  padding: 11px 4px;
+  font-size: 45px;
+  font-family: Grenze Gotisch;
+  font-weight: bold;
+  line-height: 0.75;
 }
 
-.nav-buttons {
-  display: flex;
+h2:after {
+  content: "";
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  height: 2px;
+  bottom: 0;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    #2c3539 10%,
+    #757575 30%,
+    white 50%,
+    #757575 70%,
+    #2c3539 90%
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Grenze Gotisch";
+  line-height: 20px;
 }
 
 @media screen and (max-width: 770px) {
+  audio {
+    margin: 20px 0;
+  }
   .date-text {
     font-size: 30px;
   }
   .date-glitch {
     min-width: 150px;
   }
-  .navbar .icon {
-    width: 18px !important;
-    height: 18px !important;
+  .infposter {
+    width: 250px;
+    height: 375px;
   }
-  .navbar button {
-    padding: 7px !important;
-    margin: 5px !important;
+  .home-screen-blur {
+    padding-top: 70px !important;
   }
   .seriespage {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .searchSeriesPage {
-    flex-direction: column;
-    flex-wrap: wrap;
+  .seriespage h1 {
+    padding: 10px 0 30px 0;
+    text-align: center;
+  }
+  .seriespage img {
+    height: 375px;
+    width: 250px;
   }
   .description {
     padding: 0;
     padding-top: 15px;
     text-align: center;
+  }
+  .searchSeriesPage {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .searchSeriesPage h1 {
+    padding: 10px 0 30px 0;
+    text-align: center;
+  }
+  .searchSeriesPage img {
+    height: 375px;
+    width: 250px;
   }
   .searchedDescription {
     padding: 0;
@@ -655,37 +529,18 @@ p {
     justify-content: center;
     text-align: center;
   }
-
-  .seriespage h1 {
-    padding: 10px 0 30px 0;
-    text-align: center;
+  .navbar .icon {
+    width: 18px !important;
+    height: 18px !important;
   }
-  .searchSeriesPage h1 {
-    padding: 10px 0 30px 0;
-    text-align: center;
-  }
-  .searchSeriesPage img {
-    height: 375px;
-    width: 250px;
-  }
-  audio {
-    margin: 20px 0;
-  }
-  .infposter {
-    width: 250px;
-    height: 375px;
-  }
-  .seriespage img {
-    height: 375px;
-    width: 250px;
+  .navbar button {
+    padding: 7px !important;
+    margin: 5px !important;
   }
   .navbar {
     border-top-left-radius: 0px !important;
     border-bottom-right-radius: 20px;
     width: 100% !important;
-  }
-  .home-screen-blur {
-    padding-top: 70px !important;
   }
   .navbar button {
     font-size: 12px !important;

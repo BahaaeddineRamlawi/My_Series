@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Iceland";
+  src: url("./Fonts/Iceland/Iceland-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Grenze Gotisch";
+  src: url("./Fonts/Grenze_Gotisch/GrenzeGotisch-ExtraLight.ttf");
+}
+
+body {
+  font-family: "Grenze Gotisch", cursive;
+  margin: 0;
+  background: linear-gradient(180deg, #870000 10%, #181818 30%, #000 90%);
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #3e3e3e;
+  border: inset 2px black;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #3e3e3e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #510101;
+  min-height: 20px;
+  border-top: solid 1px #870000;
+  border-bottom: solid 1px #870000;
+}
+
+audio {
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #870000;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+  text-shadow: none;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+  text-shadow: none;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #7a0101;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #7a0101;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  margin-right: 10px;
+}
+
+@keyframes glitch-effect {
+  0% {
+    left: -2px;
+    top: -2px;
+    color: #ff00c8;
+  }
+  25% {
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    left: -1px;
+    top: 2px;
+  }
+  75% {
+    left: 1px;
+    top: -1px;
+  }
+  100% {
+    left: 0px;
+    top: -2px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  75% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.blur-out {
+  filter: blur(0);
+}
+
+.hidden {
+  display: none;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}

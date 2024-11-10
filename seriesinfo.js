@@ -430,7 +430,7 @@ const seriesData = {
     writer:
       "Lawrence Kaplow, Peter Blake, Thomas L. Moran, Doris Egan and others",
     genres: ["Medical drama", "Black comedy"],
-    seasonsWatched: 3,
+    seasonsWatched: 5,
     genreChars: "gpv",
     status: "Ended",
   },
