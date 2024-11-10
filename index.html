@@ -129,7 +129,15 @@
             <div class="seriessearch">
                 <h1>Search for a Series</h1>
                 <input type="text" id="searchInput" placeholder="Enter series name">
-                <button onclick="searchSeries()">Search</button>
+                <div>
+                    <button id="seriessearch" onclick="showWatchLaterList()">Watch Later</button>
+                    <button id="seriessearch" onclick="searchSeries('')">Search</button>
+                </div>
+                <div id="watchLaterModal" style="display: none;">
+                    <h2>Watch Later List</h2>
+                    <ul id="watchLaterList"></ul>
+                    <button id="seriessearch" onclick="closeWatchLaterList()">Close</button>
+                </div>
                 <div id="results"></div>
             </div>
             <script src="APICall.js"></script>
