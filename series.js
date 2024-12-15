@@ -1,9 +1,15 @@
 document.addEventListener('keydown', function(event) {
   const activeElement = document.activeElement;
   const isSearchInput = activeElement.id === 'searchInput';
+  const isClickableElement = activeElement.tagName === 'BUTTON' || activeElement.tagName === 'A';
+  console.log(event.key);
+
+  if (event.key === ' ' && isClickableElement && !isSearchInput) {
+    event.preventDefault();
+  }
 
   if (event.key === 'Enter' && !isSearchInput) {
-      event.preventDefault();
+    event.preventDefault();
   }
 });
 
@@ -16,11 +22,18 @@ let isSearch = false;
 let isPlayingBackgroundMusic = true;
 
 window.addEventListener("load", () => {
-  initialMusic = document.getElementById("initialMusic");
+  const musicOptions = ["initialMusic1", "initialMusic2", "initialMusic3"];
+  const randomIndex = Math.floor(Math.random() * musicOptions.length);
+  const selectedMusicId = musicOptions[randomIndex];
+  initialMusic = document.getElementById(selectedMusicId);
   if (initialMusic) {
-    play(initialMusic);
+    playinitial(initialMusic);
   }
 });
+
+function playinitial(musicElement) {
+  musicElement.play(); 
+}
 
 for (const [key, value] of Object.entries(sortedSeriesData)) {
   const seriesName = key;
@@ -122,6 +135,13 @@ document.addEventListener("DOMContentLoaded", () => {
     seriespage.style.display = isSearch ? "none" : "block";
     homeIcon.style.display = isSearch ? "block" : "none";
     APISeries.style.display = isSearch ? "block" : "none";
+    const searchInput = document.getElementById('searchInput');
+
+    if (isSearch) {
+        searchInput.focus();
+    } else {
+        searchInput.blur();
+    }
   };
 
   const togglePause = () => {

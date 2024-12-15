@@ -23,6 +23,7 @@ async function searchSeries(queryHolder) {
             const response = await fetch(`https://api.tvmaze.com/search/shows?q=${query}`);
             const data = await response.json();
             document.getElementById('searchInput').value = '';
+            document.getElementById('searchInput').placeholder = query
 
             data.forEach(item => {
                 const series = item.show;
