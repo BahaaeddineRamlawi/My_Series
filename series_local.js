@@ -46,7 +46,7 @@ for (const [key, value] of Object.entries(sortedSeriesData)) {
   const g3 = value.genreChars[2];
 
   const result = `<li>
-                    <img src="https://raw.githubusercontent.com/BahaaeddineRamlawi/My_Series/main/Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="restoreInitialMusic()" alt="${seriesName}" id="${i}">
+                    <img src="Posters/${picname}.png" onmouseenter="play(music${i})" onmouseleave="restoreInitialMusic()" alt="${seriesName}" id="${i}">
                     <a href="series.html?series_name=${encodeURIComponent(
                       seriesName
                     )}" target="_blank">
