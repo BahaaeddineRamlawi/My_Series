@@ -1587,7 +1587,7 @@ const seriesData = {
       "Andy Fickman, Jody Margolin Hahn, Bob Koherr and Victor Gonzalez",
     writer: "Jed Elinoff, Scott Thomas, Brittany Assaly and Danielle Calvert",
     genres: ["Comedy"],
-    seasonsWatched: 2,
+    seasonsWatched: 1,
     genreChars: "cvv",
     status: "On Going",
   },
