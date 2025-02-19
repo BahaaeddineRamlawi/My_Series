@@ -73,21 +73,21 @@ const seriesData = {
   "Anne Rice's Mayfair Witches": {
     name: "Anne Rice's Mayfair Witches",
     description:
-      "Rowan Fielding, an intuitive young neurosurgeon, discovers that she is the unlikely heir to a family of witches; as she grapples with her newfound powers, she must contend with a sinister presence that has haunted her family for generations.",
-    year: "2023",
-    rating: "3.6",
+      "A renowned neurosurgeon discovers that she is the heiress of a powerful family dynasty of witches which is haunted by an evil spirit for generations.",
+    year: "2023-",
+    rating: "3.7",
     runningTime: "40-60 minutes",
-    seasons: 1,
-    episodes: 8,
+    seasons: 2,
+    episodes: 16,
     creators: "Michelle Ashford and Esta Spalding",
     director:
       "Michael Uppendahl, Axelle Carolyn, Haifaa Al-Mansour, Alexis Ostrander and others",
     writer:
       "Michelle Ashford, Esta Spalding, Michael Goldbach, Lindsey Villarreal and others",
     genres: ["Supernatural", "Thriller", "Drama"],
-    seasonsWatched: 1,
+    seasonsWatched: 2,
     genreChars: "tds",
-    status: "Ended",
+    status: "On Going",
   },
   "Archive 81": {
     name: "Archive 81",
@@ -1156,6 +1156,24 @@ const seriesData = {
     genreChars: "cvv",
     status: "On Going",
   },
+  "That '70s Show": {
+    name: "That '70s Show",
+    description:
+      "Eric, a high school student, and his group of teenage friends struggle to lead purposeful lives whilst going through the tumultuous phase of adolescence.",
+    year: "1998-2006",
+    rating: "-",
+    runningTime: "22 minutes",
+    seasons: 8,
+    episodes: 200,
+    creators: "Bonnie and Terry Turner and Mark Brazill",
+    director: "David Trainer and Terry Hughes",
+    writer:
+      "Bonnie Turner, Terry Turner, Jennifer Ventimilia, Dean Batali and others",
+    genres: ["Teen Sitcom"],
+    seasonsWatched: 1,
+    genreChars: "svv",
+    status: "Ended",
+  },
   "The 8 Show": {
     name: "The 8 Show",
     description:
@@ -1322,6 +1340,23 @@ const seriesData = {
     seasonsWatched: 9,
     genreChars: "cov",
     status: "Ended",
+  },
+  "The Office AU": {
+    name: "The Office AU",
+    description:
+      "Hannah Howard is the managing director of Flinley Craddick. When she gets news that her branch will be shut down to work remotely, she goes into survival mode, making promises she can't keep in order to keep her 'work family' together.",
+    year: "2024-",
+    rating: "4.1",
+    runningTime: "23-26 minutes",
+    seasons: 1,
+    episodes: 8,
+    creators: "Ricky Gervais and Stephen Merchant",
+    director: "Jackie van Beek, Christiaan Van Vuuren	and Jessie Griffin",
+    writer: "Jackie van Beek, Julie De Fina and Jesse Griffin",
+    genres: ["Mockumentary", "Workplace comedy", "Cringe comedy", "Sitcom"],
+    seasonsWatched: 1,
+    genreChars: "cov",
+    status: "On Going",
   },
   "The Outsider": {
     name: "The Outsider",
