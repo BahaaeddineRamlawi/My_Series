@@ -19,8 +19,8 @@
           document.getElementById('series-title').textContent = `${originalname} (${series.year})`;
           document.getElementById('series-description').textContent = series.description;
           document.getElementById('series-creators').innerHTML = `<span>Creators:</span> ${series.creators}`;
-          document.getElementById('series-writers').innerHTML = `<span>Writers:</span> ${series.writer}`;
-          document.getElementById('series-director').innerHTML = `<span>Director:</span> ${series.director}`;
+          document.getElementById('series-writers').innerHTML = `<span>Writers:</span> ${series.writers}`;
+          document.getElementById('series-directors').innerHTML = `<span>Director:</span> ${series.directors}`;
           document.getElementById('series-seasons').innerHTML = `No. of seasons: ${series.seasons}`;
           document.getElementById('series-episodes').innerHTML = `No. of episodes: ${series.episodes}`;
           document.getElementById('series-running-time').innerHTML = `Running time: ${series.runningTime}`;
@@ -42,7 +42,7 @@
         <p id="series-description"></p>
         <p id="series-creators"><span>Creators:</span></p>
         <p id="series-writers"><span>Writers:</span></p>
-        <p id="series-director"><span>Director:</span></p>
+        <p id="series-directors"><span>Director:</span></p>
         <p id="series-seasons">No. of seasons:</p>
         <p id="series-episodes">No. of episodes:</p>
         <p id="series-running-time">Running time:</p>

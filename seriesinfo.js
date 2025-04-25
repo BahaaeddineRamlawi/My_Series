@@ -9,12 +9,49 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Poppy Cogan",
-    director: "Dolly Wells and Tom Vaughan",
-    writer: "Poppy Cogan, Ruby Thomas, Zia Ahmed and Ajoke Ibironke",
-    genres: ["Mystert", "Thriller"],
+    directors: "Dolly Wells and Tom Vaughan",
+    writers: "Poppy Cogan, Ruby Thomas, Zia Ahmed and Ajoke Ibironke",
+    genres: ["Mystery", "Thriller"],
     seasonsWatched: 1,
     genreChars: "mtv",
     status: "On Going",
+  },
+  "A Man on the Inside": {
+    name: "A Man on the Inside",
+    description:
+      "A retired professor gets a new lease on life when a private investigator hires him to go undercover inside a San Francisco retirement home.",
+    year: "2024-",
+    rating: "3.8",
+    runningTime: " 27-34 minutes",
+    seasons: 1,
+    episodes: 8,
+    creators: "	Michael Schur",
+    directors:
+      "Michael Schur, Morgan Sackett, Rebecca Asher, Anu Valia and others",
+    writers:
+      "Janet Leahy, Alex Farber, Bridget Stinson, Hayley Frazier and others",
+    genres: ["Comedy"],
+    seasonsWatched: 1,
+    genreChars: "cvv",
+    status: "On Going",
+  },
+  "A Murder at the End of the World": {
+    name: "A Murder at the End of the World",
+    description:
+      "'A Murder at the End of the World' is a mystery series with a new kind of detective at the helm -- a Gen Z amateur sleuth and tech-savvy hacker named Darby Hart. In the new limited series, Darby and eight other guests are invited by a reclusive billionaire to participate in a retreat at a remote and dazzling location. When one of the other guests is found dead, Darby must put to use all of her combined skills to prove it was in fact murder, all against a tide of competing interests and before the killer takes another life.",
+    year: "2023",
+    rating: "3.7",
+    runningTime: " 42-72 minutes",
+    seasons: 1,
+    episodes: 7,
+    creators: "Brit Marling and Zal Batmanglij",
+    directors: "Brit Marling and Zal Batmanglij",
+    writers:
+      "Brit Marling, Zal Batmanglij, Melanie Marnich and Rebecca Roanhorse",
+    genres: ["Murder mystery", "Psychological thriller"],
+    seasonsWatched: 1,
+    genreChars: "mtv",
+    status: "Ended",
   },
   "Agatha All Along": {
     name: "Agatha All Along",
@@ -26,8 +63,8 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Jac Schaeffer",
-    director: "Jac Schaeffer, Rachel Goldberg and Gandja Monteiro",
-    writer:
+    directors: "Jac Schaeffer, Rachel Goldberg and Gandja Monteiro",
+    writers:
       "Jac Schaeffer, Laura Donney, Cameron Squires, Giovanna Sarquis and others",
     genres: ["Black comedy", "Fantasy", "Superhero"],
     seasonsWatched: 1,
@@ -44,9 +81,9 @@ const seriesData = {
     seasons: 2,
     episodes: 18,
     creators: "Christopher Markus and Stephen McFeely",
-    director:
+    directors:
       "Jennifer Getzinger, Metin Hüseyin, David Platt, Lawrence Trilling and others",
-    writer:
+    writers:
       "Jack Kirby, Stan Lee, Christopher Markus, Stephen McFeely and others",
     genres: ["Action-adventure", "Period drama", "Spy-fi", "Superhero"],
     seasonsWatched: 2,
@@ -63,12 +100,29 @@ const seriesData = {
     seasons: 1,
     episodes: 12,
     creators: "Chun Sung-il, Lee Jae-kyoo and Kim Nam-su",
-    director: "Lee Jae-kyoo and Kim Nam-su",
-    writer: "Chun Sung-il",
+    directors: "Lee Jae-kyoo and Kim Nam-su",
+    writers: "Chun Sung-il",
     genres: ["Coming-of-age", "Horror", "Zombie apocalypse"],
     seasonsWatched: 1,
     genreChars: "hzv",
     status: "On Going",
+  },
+  "And Then There Were None": {
+    name: "And Then There Were None",
+    description:
+      "Ten strangers accept an offer to spend some time on an isolated island. However, things get complicated when a few of them start to die and they realise that the killer is one among them.",
+    year: "2015",
+    rating: "3.8",
+    runningTime: "180 minutes",
+    seasons: 1,
+    episodes: 3,
+    creators: "Agatha Christie",
+    directors: "Craig Viveiros",
+    writers: "Sarah Phelps",
+    genres: ["Mystery", "Drama", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "mdt",
+    status: "Ended",
   },
   "Anne Rice's Mayfair Witches": {
     name: "Anne Rice's Mayfair Witches",
@@ -80,9 +134,9 @@ const seriesData = {
     seasons: 2,
     episodes: 16,
     creators: "Michelle Ashford and Esta Spalding",
-    director:
+    directors:
       "Michael Uppendahl, Axelle Carolyn, Haifaa Al-Mansour, Alexis Ostrander and others",
-    writer:
+    writers:
       "Michelle Ashford, Esta Spalding, Michael Goldbach, Lindsey Villarreal and others",
     genres: ["Supernatural", "Thriller", "Drama"],
     seasonsWatched: 2,
@@ -92,21 +146,38 @@ const seriesData = {
   "Archive 81": {
     name: "Archive 81",
     description:
-      "An archivist takes a job restoring damaged videotapes, but finds themselves getting pulled into a mystery involving the missing director and a mysterious cult that they were documenting.",
+      "An archivist takes a job restoring damaged videotapes, but finds themselves getting pulled into a mystery involving the missing directors and a mysterious cult that they were documenting.",
     year: "2022",
     rating: "3.8",
     runningTime: "45-58 minutes",
     seasons: 1,
     episodes: 8,
     creators: "Rebecca Sonnenshine",
-    director:
+    directors:
       "Rebecca Thomas, Justin Benson, Aaron Moorhead, Haifaa Al Mansour and others",
-    writer:
+    writers:
       "Paul Harris Boardman, Rebecca Sonnenshine, Michael Narducci, Evan Bleiweiss and others",
     genres: ["Analog horror", "Supernatural fiction", "Mystery", "Drama"],
     seasonsWatched: 1,
     genreChars: "mdh",
     status: "Cancelled",
+  },
+  "Bad and Crazy": {
+    name: "Bad and Crazy",
+    description:
+      "Su-yeol is a talented police officer who uses his skills to enrich himself in questionable ways. But his life is turned upside down when the mysterious fanatic K shows up.",
+    year: "2021-2022",
+    rating: "",
+    runningTime: "65-75 minutes",
+    seasons: 1,
+    episodes: 12,
+    creators: "Kim Je-hyeon and Kim Young-kyu",
+    directors: "Yoo Seon-dong",
+    writers: "Kim Sae-bom",
+    genres: ["Mystery", "Drama", "Thriller", "Comedy"],
+    seasonsWatched: 1,
+    genreChars: "mtc",
+    status: "Ended",
   },
   "Band of Brothers": {
     name: "Band of Brothers",
@@ -118,9 +189,9 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Tom Hanks and Steven Spielberg",
-    director:
+    directors:
       "Phil Alden Robinson, Richard Loncraine, Mikael Salomon, David Nutter and others",
-    writer: "Erik Jendresen, Tom Hanks, John Orloff, E. Max Frye and others",
+    writers: "Erik Jendresen, Tom Hanks, John Orloff, E. Max Frye and others",
     genres: ["War drama"],
     seasonsWatched: 1,
     genreChars: "wda",
@@ -136,8 +207,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Cho Ui-seok and Kim Hyun-deok",
-    director: "Cho Ui-seok and Kim Hyun-deok",
-    writer: "Cho Ui-seok and Kim Hyun-deok",
+    directors: "Cho Ui-seok and Kim Hyun-deok",
+    writers: "Cho Ui-seok and Kim Hyun-deok",
     genres: ["Science fiction", "Dystopian", "Action"],
     seasonsWatched: 1,
     genreChars: "sav",
@@ -153,8 +224,8 @@ const seriesData = {
     seasons: 2,
     episodes: 16,
     creators: "Karl Schaefer and John Hyams",
-    director: "John Hyams, Abram Cox",
-    writer: "Karl Schaefer, John Hyams, Abram Cox, Daniel Schaefer and others",
+    directors: "John Hyams, Abram Cox",
+    writers: "Karl Schaefer, John Hyams, Abram Cox, Daniel Schaefer and others",
     genres: ["Apocalyptic fiction", "Drama", "Horror", "Action"],
     seasonsWatched: 2,
     genreChars: "dha",
@@ -170,8 +241,8 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Lee Byeong-heon",
-    director: "Lee Byeong-heon",
-    writer: "Lee Byeong-heon",
+    directors: "Lee Byeong-heon",
+    writers: "Lee Byeong-heon",
     genres: ["Comedy", "Mystery"],
     seasonsWatched: 1,
     genreChars: "cmv",
@@ -187,8 +258,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Josh Schwartz and Stephanie Savage",
-    director: "Jesse Peretz, Haifaa al-Mansour, and Liz Garbus",
-    writer: "Josh Schwartz and Stephanie Savage",
+    directors: "Jesse Peretz, Haifaa al-Mansour, and Liz Garbus",
+    writers: "Josh Schwartz and Stephanie Savage",
     genres: ["Crime", "Drama"],
     seasonsWatched: 1,
     genreChars: "cdv",
@@ -204,9 +275,10 @@ const seriesData = {
     seasons: 3,
     episodes: 39,
     creators: "Drew Goddard",
-    director:
+    directors:
       "Phil Abraham, Adam Kane, Ken Girotti, Farren Blackburn and others",
-    writer: "Drew Goddard, Marco Ramirez, Joe Pokaski, Luke Kalteux and others",
+    writers:
+      "Drew Goddard, Marco Ramirez, Joe Pokaski, Luke Kalteux and others",
     genres: ["Action-adventure", "Crime drama", "Legal drama", "Superhero"],
     seasonsWatched: 3,
     genreChars: "aeb",
@@ -222,8 +294,8 @@ const seriesData = {
     seasons: 3,
     episodes: 26,
     creators: "Baran bo Odar and Jantje Friese",
-    director: "Baran bo Odar",
-    writer:
+    directors: "Baran bo Odar",
+    writers:
       "Baran bo Odar, Jantje Friese, Ronny Schalk, Marc O. Seng, Martin Behnke, Daphne Ferraro",
     genres: ["Science fiction", "Thriller", "Mystery", "Tragedy"],
     seasonsWatched: 3,
@@ -240,9 +312,9 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Steve Yockey",
-    director:
+    directors:
       "Lee Toland Krieger, Glen Winter, Cheryl Dunye, Andi Armaganian and others",
-    writer:
+    writers:
       "Steve Yockey, Shoshana Sachi, Cheech Manohar, Ian Weinreich and others",
     genres: ["Comedy-drama", "Occult detective", "Supernatural horror"],
     seasonsWatched: 1,
@@ -259,9 +331,9 @@ const seriesData = {
     seasons: 2,
     episodes: 26,
     creators: "Nahnatchka Khan",
-    director:
+    directors:
       "Jason Winer, Michael Spiller, Chris Koch, Nanette Burstein and others",
-    writer:
+    writers:
       "Nahnatchka Khan, Sally Bradford McKenna, Casey Johnson, David Windsor and others",
     genres: ["Sitcom"],
     seasonsWatched: 2,
@@ -278,8 +350,8 @@ const seriesData = {
     seasons: 1,
     episodes: 5,
     creators: "Marion Dayre",
-    director: "Sydney Freeland and Catriona McKenzie",
-    writer:
+    directors: "Sydney Freeland and Catriona McKenzie",
+    writers:
       "Marion Dayre, Josh Feldman, Steven Paul Judd, Ken Kristensen and others",
     genres: ["Action-adventure", "Crime", "Superhero"],
     seasonsWatched: 1,
@@ -296,8 +368,8 @@ const seriesData = {
     seasons: 1,
     episodes: 16,
     creators: "Moon Ji-won",
-    director: "Yoo In-shik",
-    writer: "Moon Ji-won",
+    directors: "Yoo In-shik",
+    writers: "Moon Ji-won",
     genres: ["Legal drama"],
     seasonsWatched: 1,
     genreChars: "dvv",
@@ -313,8 +385,8 @@ const seriesData = {
     seasons: 4,
     episodes: 36,
     creators: "Marissa Read and Selyna Warre",
-    director: "Amy York Rubin",
-    writer: "Marissa Read and Selyna Warre",
+    directors: "Amy York Rubin",
+    writers: "Marissa Read and Selyna Warre",
     genres: ["Teen drama", "Comedy"],
     seasonsWatched: 4,
     genreChars: "dcv",
@@ -330,10 +402,10 @@ const seriesData = {
     seasons: 3,
     episodes: 26,
     creators: "John Griffin",
-    director: "Jack Bender, Brad Turner, Jennifer Liao and Alexandra La Roche",
-    writer: "John Griffin, Javier Grillo-Marxuach and Vivian Lee",
+    directors: "Jack Bender, Brad Turner, Jennifer Liao and Alexandra La Roche",
+    writers: "John Griffin, Javier Grillo-Marxuach and Vivian Lee",
     genres: ["Science fiction", "Horror"],
-    seasonsWatched: 2,
+    seasonsWatched: 3,
     genreChars: "hsv",
     status: "On Going",
   },
@@ -347,8 +419,8 @@ const seriesData = {
     seasons: 1,
     episodes: 7,
     creators: "	Chuck Lorre, Steven Molaro and Steve Holland",
-    director: "Mark Cendrowski",
-    writer:
+    directors: "Mark Cendrowski",
+    writers:
       "Chuck Lorre, Steven Molaro, Steve Holland, Connor Kilpatrick and others",
     genres: ["Sitcom"],
     seasonsWatched: 1,
@@ -365,9 +437,9 @@ const seriesData = {
     seasons: 2,
     episodes: 20,
     creators: "Sarah Lampert",
-    director:
+    directors:
       "Anya Adams, Renuka Jeyapalan, Sudz Sutherland, Aleysa Young and others",
-    writer:
+    writers:
       "Sarah Lampert, Debra J. Fisher, David Monahan, Danielle Hoover and others",
     genres: ["Comedy drama"],
     seasonsWatched: 2,
@@ -384,9 +456,9 @@ const seriesData = {
     seasons: 1,
     episodes: 13,
     creators: "Natalie Abrams, Chad Fiveash and James Patrick Stoteraux",
-    director:
+    directors:
       "Danny Cannon, Jeffrey Hunt, Lauren Petzke, Geoffrey Wing Shotz and others",
-    writer:
+    writers:
       "Natalie Abrams, Chad Fiveash, James Patrick Stoteraux, David Paul Francis and others",
     genres: ["Action", "Crime drama", "Superhero"],
     seasonsWatched: 1,
@@ -403,9 +475,9 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Katie Cappiello",
-    director:
+    directors:
       "So Yong Kim, Darnell Martin, Tina Mabry, Silas Howard and others",
-    writer:
+    writers:
       "Katie Cappiello, Hilary Bettis, Randy McKinnon, Andy Parker and others",
     genres: ["Teen drama"],
     seasonsWatched: 1,
@@ -422,9 +494,9 @@ const seriesData = {
     seasons: 2,
     episodes: 17,
     creators: "Steven Kane and Kyle Killen",
-    director:
+    directors:
       "Otto Bathurst, Roel Reiné, Jonathan Liebesman, Jessica Lowrey and others",
-    writer:
+    writers:
       "Kyle Killen, Steven Kane, Richard E. Robbins, Silka Luisa and others",
     genres: ["Action-adventure", "Drama", "Military science fiction"],
     seasonsWatched: 2,
@@ -441,8 +513,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Jonathan Igla",
-    director: "Rhys Thomas and Bert & Bertie",
-    writer:
+    directors: "Rhys Thomas and Bert & Bertie",
+    writers:
       "Jonathan Igla, Elisa Climent, Katie Mathewson, Tanner Bean and others",
     genres: ["Action-adventure", "Buddy comedy", "Crime", "Superhero"],
     seasonsWatched: 1,
@@ -457,10 +529,10 @@ const seriesData = {
     rating: "3.9",
     runningTime: "43-44 minutes",
     seasons: 1,
-    episodes: 7,
+    episodes: 13,
     creators: "Drew Goddard",
-    director: "Alethea Jones and Marc Webb",
-    writer:
+    directors: "Alethea Jones and Marc Webb",
+    writers:
       "Drew Goddard, Todd Harthan, Marc Halsey, Diane Ruggiero-Wright and others",
     genres: ["Drama", "Crime"],
     seasonsWatched: 1,
@@ -477,9 +549,9 @@ const seriesData = {
     seasons: 8,
     episodes: 177,
     creators: "David Shore",
-    director:
+    directors:
       "Deran Sarafian, Greg Yaitanes, David Straiton, Hugh Laurie and others",
-    writer:
+    writers:
       "Lawrence Kaplow, Peter Blake, Thomas L. Moran, Doris Egan and others",
     genres: ["Medical drama", "Black comedy"],
     seasonsWatched: 8,
@@ -496,9 +568,10 @@ const seriesData = {
     seasons: 2,
     episodes: 18,
     creators: "Ryan Condal and George R. R. Martin",
-    director:
+    directors:
       "Miguel Sapochnik, Greg Yaitanes, Clare Kilner, Geeta Vasant Patel and others",
-    writer: "George R. R. Martin, Ryan Condal, Sara Hess and Charmaine DeGraté",
+    writers:
+      "George R. R. Martin, Ryan Condal, Sara Hess and Charmaine DeGraté",
     genres: ["Action", "Adventure", "Fantasy", "Serial drama"],
     seasonsWatched: 2,
     genreChars: "fda",
@@ -514,8 +587,8 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Kirsten Lepore",
-    director: "Kirsten Lepore",
-    writer: "Kirsten Lepore",
+    directors: "Kirsten Lepore",
+    writers: "Kirsten Lepore",
     genres: ["Comedy", "Family", "Science fiction", "Superhero"],
     seasonsWatched: 1,
     genreChars: "scv",
@@ -531,9 +604,9 @@ const seriesData = {
     seasons: 3,
     episodes: 33,
     creators: "Dan Schneider",
-    director:
+    directors:
       "Phill Lewis, Jean Sagal, Anthony Rich, Morenike Joela Evans and others",
-    writer: "Ali Schouten, Jay Kogen, Steve Armogida, Jim Armogida and others",
+    writers: "Ali Schouten, Jay Kogen, Steve Armogida, Jim Armogida and others",
     genres: ["Sitcom"],
     seasonsWatched: 3,
     genreChars: "ocv",
@@ -549,8 +622,9 @@ const seriesData = {
     seasons: 2,
     episodes: 20,
     creators: "Adam Brooks and Paul Adelstein",
-    director: "Adam Brooks, Wayne Yip, Paul Adelstein, April Mullen and others",
-    writer:
+    directors:
+      "Adam Brooks, Wayne Yip, Paul Adelstein, April Mullen and others",
+    writers:
       "Adam Brooks, Paul Adelstein, Kathy Greenberg, Emily Cook and others",
     genres: ["Dark comedy"],
     seasonsWatched: 2,
@@ -567,9 +641,9 @@ const seriesData = {
     seasons: 2,
     episodes: 23,
     creators: "Scott Buck",
-    director:
+    directors:
       "John Dahl, Tom Shankland, Miguel Sapochnik, Uta Briesewitz and others",
-    writer:
+    writers:
       "Scott Buck, Quinton Peeples, Scott Reynolds, Cristine Chambers and others",
     genres: ["Action", "Drama", "Martial arts", "Superhero"],
     seasonsWatched: 2,
@@ -586,9 +660,9 @@ const seriesData = {
     seasons: 3,
     episodes: 39,
     creators: "Melissa Rosenberg",
-    director:
+    directors:
       "S. J. Clarkson, David Petrarca, Stephen Surjik, Simon Cellan Jones and others",
-    writer:
+    writers:
       "Melissa Rosenberg, Micah Schraft, Dana Baratta, Edward Ricourt and others",
     genres: [
       "Detective",
@@ -611,9 +685,9 @@ const seriesData = {
     seasons: 1,
     episodes: 21,
     creators: "Brandon Camp and Mike Thompson",
-    director:
+    directors:
       "Mimi Leder, Henry Bronchtein, Bill L. Norton, Félix Enríquez Alcalá and others",
-    writer:
+    writers:
       "Brandon Camp, Mike Thompson, Gardner Stern, Russel Friend and others",
     genres: ["Drama", "Science fiction"],
     seasonsWatched: 1,
@@ -630,8 +704,8 @@ const seriesData = {
     seasons: 3,
     episodes: 41,
     creators: "Álex Pina",
-    director: "Jesús Colmenar",
-    writer: "Álex Pina",
+    directors: "Jesús Colmenar",
+    writers: "Álex Pina",
     genres: ["Heist", "Crime drama", "Thriller"],
     seasonsWatched: 3,
     genreChars: "iab",
@@ -647,9 +721,9 @@ const seriesData = {
     seasons: 3,
     episodes: 28,
     creators: "Ra'uf Glasgow and Kevin Lafferty",
-    director:
+    directors:
       "Michael Morris, Tim Southam, Mark Tonderai-Hodges, Dawn Wilkinson and others",
-    writer:
+    writers:
       "Joe Hill, Aron Eli Coleite, Liz Phang, Meredith Averill and others",
     genres: ["Fantasy drama", "Supernatural horror"],
     seasonsWatched: 3,
@@ -666,8 +740,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Joe Cornish",
-    director: "William McGregor, Catherine Morshead and Joe Cornish",
-    writer: "Joy Wilkinson, Kara Smith, Joe Cornish, Ed Hime and others",
+    directors: "William McGregor, Catherine Morshead and Joe Cornish",
+    writers: "Joy Wilkinson, Kara Smith, Joe Cornish, Ed Hime and others",
     genres: ["Action-adventure", "Detective", "Drama", "Supernatural horror"],
     seasonsWatched: 1,
     genreChars: "aeh",
@@ -683,8 +757,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Michael Waldron",
-    director: "Kate Herron",
-    writer:
+    directors: "Kate Herron",
+    writers:
       "Michael Waldron, Elissa Karasik, Bisha K. Ali, Eric Martin and others",
     genres: [
       "Action-adventure",
@@ -698,6 +772,25 @@ const seriesData = {
     genreChars: "etf",
     status: "On Going",
   },
+  "Long Bright River": {
+    name: "Long Bright River",
+    description:
+      "Mickey Fitzpatrick is a police officer who patrols a Philadelphia neighborhood hard-hit by the opioid crisis. When a series of murders begins in her district, she realizes that her personal history might be related to the case. With an empathetic vision of those struggling with addiction and their families, Mickey's journey illustrates the collective power of an underserved community and, through several unexpected twists, subverts expectations around whom society perceives as heroes and villains.",
+    year: "2025",
+    rating: "3.9",
+    runningTime: "51–60 minutes",
+    seasons: 1,
+    episodes: 8,
+    creators: "Nikki Toscano and Liz Moore",
+    directors:
+      "Hagar Ben-Asher, Gwyneth Horder-Payton, Mona Fastvold, Jessica Yu and others",
+    writers:
+      "Nikki Toscano, Liz Moore, Russell Rothberg, Alexandra McNally and others",
+    genres: ["Crime drama"],
+    seasonsWatched: 1,
+    genreChars: "bdv",
+    status: "Ended",
+  },
   "Love & Death": {
     name: "Love & Death",
     description:
@@ -708,8 +801,8 @@ const seriesData = {
     seasons: 1,
     episodes: 7,
     creators: "David E. Kelley",
-    director: "Lesli Linka Glatter and Clark Johnson",
-    writer: "David E. Kelley",
+    directors: "Lesli Linka Glatter and Clark Johnson",
+    writers: "David E. Kelley",
     genres: ["Biographical drama", "Crime"],
     seasonsWatched: 1,
     genreChars: "dbv",
@@ -725,9 +818,9 @@ const seriesData = {
     seasons: 2,
     episodes: 26,
     creators: "Cheo Hodari Coker",
-    director:
+    directors:
       "Paul McGuigan, Guillermo Navarro, Vincenzo Natali, Sam Miller and others",
-    writer:
+    writers:
       "Cheo Hodari Coker, Matt Owens, Charles Murray, Jason Horwitch and others",
     genres: [
       "Action-adventure",
@@ -750,8 +843,8 @@ const seriesData = {
     seasons: 5,
     episodes: 94,
     creators: "Peter M. Lenkov",
-    director: "James Wan",
-    writer: "Paul Downs Colaizzo",
+    directors: "James Wan",
+    writers: "Paul Downs Colaizzo",
     genres: ["Action-adventure"],
     seasonsWatched: 5,
     genreChars: "eav",
@@ -762,13 +855,13 @@ const seriesData = {
     description:
       "A homeless man looking for work is mistaken by a business woman for her new house sitter. Wacky hi-jinks ensue as he tries to take care of this house while pursued by a mischievous bee.",
     year: "2022",
-    rating: "4.1",
+    rating: "3.8",
     runningTime: "10–20 minutes",
     seasons: 1,
     episodes: 9,
     creators: "Rowan Atkinson and William Davies",
-    director: "David Kerr",
-    writer: "William Davies",
+    directors: "David Kerr",
+    writers: "William Davies",
     genres: ["Comedy", "Slapstick"],
     seasonsWatched: 1,
     genreChars: "cvv",
@@ -784,8 +877,8 @@ const seriesData = {
     seasons: 1,
     episodes: 7,
     creators: "Monica Beletsky",
-    director: "Carl Franklin, John Dahl and Eva Sørhaug",
-    writer:
+    directors: "Carl Franklin, John Dahl and Eva Sørhaug",
+    writers:
       "Monica Beletsky, Matt Johnson, Tim Brittain, Ben H. Winters and others",
     genres: ["Conspiracy thriller", "Historical drama"],
     seasonsWatched: 1,
@@ -802,8 +895,8 @@ const seriesData = {
     seasons: 2,
     episodes: 20,
     creators: "Pete Docter",
-    director: "Kaitlyn Ritter, Shane Zalvin, Kay Hayes and others",
-    writer:
+    directors: "Kaitlyn Ritter, Shane Zalvin, Kay Hayes and others",
+    writers:
       "Colleen Evanson, Frank Contreras, Michelle Spitz, Bobs Gannaway and others",
     genres: ["Comedy", "Fantasy"],
     seasonsWatched: 2,
@@ -820,8 +913,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Jeremy Slater",
-    director: "Mohamed Diab, Aaron Moorhead, Justin Benson",
-    writer:
+    directors: "Mohamed Diab, Aaron Moorhead, Justin Benson",
+    writers:
       "Jeremy Slater, Michael Kastelein, Beau DeMayo, Peter Cameron and others",
     genres: [
       "Action-adventure",
@@ -843,9 +936,9 @@ const seriesData = {
     seasons: 3,
     episodes: 21,
     creators: "Kevin Hench",
-    director:
+    directors:
       "Andy Ackerman, Leonard R. Garner Jr., Phill Lewis, Victor Gonzalez and others",
-    writer:
+    writers:
       "Kevin Hench, Luisa Leschin, Isaac Gonzalez, Peter Murrieta and others",
     genres: ["Comedy", "Sitcom"],
     seasonsWatched: 3,
@@ -862,8 +955,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Bisha K. Ali",
-    director: "Adil & Bilall, Meera Menon, Sharmeen Obaid-Chinoy and others",
-    writer:
+    directors: "Adil & Bilall, Meera Menon, Sharmeen Obaid-Chinoy and others",
+    writers:
       "Bisha K. Ali, Kate Gritmon, Freddy Syborn, Sabir Pirzada and others",
     genres: ["Action-adventure", "Comedy", "Coming-of-age", "Superhero"],
     seasonsWatched: 1,
@@ -880,8 +973,8 @@ const seriesData = {
     seasons: 1,
     episodes: 12,
     creators: "Lim Dae-wung",
-    director: "Im Dae Woong",
-    writer: "Kang Min Ji",
+    directors: "Im Dae Woong",
+    writers: "Kang Min Ji",
     genres: ["Thriller", "Mystery", "Horror", "Youth"],
     seasonsWatched: 1,
     genreChars: "tmh",
@@ -897,9 +990,9 @@ const seriesData = {
     seasons: 2,
     episodes: 23,
     creators: "Casey Johnson and David Windsor",
-    director:
+    directors:
       "Dean Holland, Todd Holland, Gail Mancuso, Melanie Mayron and others",
-    writer:
+    writers:
       "Casey Johnson, David Windsor, Marc Firek, Josh Greenberg and others",
     genres: ["Sitcom"],
     seasonsWatched: 2,
@@ -911,17 +1004,19 @@ const seriesData = {
     description:
       "Taking place in 2052, 37 years since the end of the original 'Orphan Black' series, Echoes follows the life of the now adult Kira, played by Krysten Ritter, and her wife as they try to help an amnesiac woman. The futuristic series takes a deep dive into an exploration of the scientific manipulation of human existence. A group of women weave their way into each other's lives and embark on a thrilling journey, unraveling the mystery of their identity and uncovering a heartwrenching story of love and betrayal.",
     year: "2023-",
-    rating: "-",
+    rating: "3.7",
     runningTime: "41–48 minutes",
     seasons: 1,
     episodes: 10,
     creators: "Anna Fishko",
-    director: "John Fawcett, Dawn Wilkinson, Ingrid Jungermann and Samir Rehem",
-    writer: "Anna Fishko, Sharyn Rothstein, Amy Louise Johnson and C. Quintana",
+    directors:
+      "John Fawcett, Dawn Wilkinson, Ingrid Jungermann and Samir Rehem",
+    writers:
+      "Anna Fishko, Sharyn Rothstein, Amy Louise Johnson and C. Quintana",
     genres: ["Science fiction", "Drama", "Thriller"],
     seasonsWatched: 1,
     genreChars: "sct",
-    status: "On Going",
+    status: "Canceled",
   },
   "Prison Break": {
     name: "Prison Break",
@@ -933,8 +1028,8 @@ const seriesData = {
     seasons: 5,
     episodes: 90,
     creators: "Paul Scheuring",
-    director: "Brett Ratner",
-    writer: "Matt Olmstead and Nick Santora",
+    directors: "Brett Ratner",
+    writers: "Matt Olmstead and Nick Santora",
     genres: ["Serial drama", "Crime drama", "Action thriller"],
     seasonsWatched: 5,
     genreChars: "amt",
@@ -950,8 +1045,8 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Lee Jae-gyun",
-    director: "Park So-yeon",
-    writer: "Choi Soo-i",
+    directors: "Park So-yeon",
+    writers: "Choi Soo-i",
     genres: ["Psychological thriller", "Survival", "Mystery"],
     seasonsWatched: 1,
     genreChars: "tum",
@@ -962,17 +1057,17 @@ const seriesData = {
     description:
       "Jack Reacher, a veteran military police investigator, has recently entered civilian life when he is falsely accused of murder.",
     year: "2022-",
-    rating: "4.6",
+    rating: "4.8",
     runningTime: "42–56 minutes",
-    seasons: 2,
-    episodes: 16,
+    seasons: 3,
+    episodes: 24,
     creators: "Nick Santora",
-    director:
+    directors:
       "Thomas Vincent, Sam Hill, Stephen Surjik, Christine Moore and others",
-    writer:
+    writers:
       "Nick Santora, Scott Sullivan, Aadrita Mukerji, Cait Duffy and others",
     genres: ["Action", "Crime drama", "Detective fiction", "Thriller"],
-    seasonsWatched: 2,
+    seasonsWatched: 3,
     genreChars: "atc",
     status: "On Going",
   },
@@ -986,9 +1081,9 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Andrew Dabb",
-    director:
+    directors:
       "Bronwen Hughes, Rob Seidenglanz, Rachel Goldberg and Batan Silva",
-    writer:
+    writers:
       "Tara Knight, Andrew Dabb, Mary Leah Sutton, Jeff Howard and others",
     genres: ["Action", "Biopunk", "Horror", "Zombie apocalypse"],
     seasonsWatched: 1,
@@ -1005,9 +1100,9 @@ const seriesData = {
     seasons: 2,
     episodes: 23,
     creators: "Ryan Murphy, Brad Falchuk and Ian Brennan",
-    director:
+    directors:
       "Ryan Murphy, Brad Falchuk, Ian Brennan, Bradley Buecker and others",
-    writer: "Ryan Murphy, Brad Falchuk and Ian Brennan",
+    writers: "Ryan Murphy, Brad Falchuk and Ian Brennan",
     genres: [
       "Comedy horror",
       "Black comedy",
@@ -1029,8 +1124,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Kyle Bradstreet",
-    director: "Ali Selim",
-    writer:
+    directors: "Ali Selim",
+    writers:
       "Kyle Bradstreet, Brian Tucker, Roxanne Paredes, Michael Bhim and others",
     genres: [
       "Action-adventure",
@@ -1052,9 +1147,9 @@ const seriesData = {
     seasons: 3,
     episodes: 24,
     creators: "Steven Knight",
-    director:
+    directors:
       "Francis Lawrence, Anders Engström, Stephen Surjik, Frederick E.O. Toye and others",
-    writer:
+    writers:
       "Steven Knight, Robert Levine, Hadi Nicholas Deeb, Dan Shotz and others",
     genres: ["Action-adventure", "Drama", "Science fiction", "Thriller"],
     seasonsWatched: 3,
@@ -1071,8 +1166,8 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Jessica Gao",
-    director: "Kat Coiro and Anu Valia",
-    writer: "Jessica Gao, Dana Schwartz and Melissa Hunter",
+    directors: "Kat Coiro and Anu Valia",
+    writers: "Jessica Gao, Dana Schwartz and Melissa Hunter",
     genres: [
       "Action-adventure",
       "Comedy",
@@ -1094,9 +1189,9 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Rachel Kondo and Justin Marks",
-    director:
+    directors:
       "Jonathan van Tulleken, Charlotte Brändström, Frederick E.O. Toye, Takeshi Fukunaga and others",
-    writer:
+    writers:
       "Rachel Kondo, Justin Marks, Shannon Goss, Nigel Williams and others",
     genres: ["Historical drama", "Action"],
     seasonsWatched: 1,
@@ -1113,8 +1208,8 @@ const seriesData = {
     seasons: 2,
     episodes: 16,
     creators: "Hwang Dong-hyuk",
-    director: "Hwang Dong-hyuk",
-    writer: "Hwang Dong-hyuk",
+    directors: "Hwang Dong-hyuk",
+    writers: "Hwang Dong-hyuk",
     genres: ["Survival", "Thriller", "Horror", "Drama", "Action"],
     seasonsWatched: 2,
     genreChars: "atu",
@@ -1130,13 +1225,30 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Harlan Coben",
-    director: "Daniel O'Hara",
-    writer:
+    directors: "Daniel O'Hara",
+    writers:
       "Danny Brocklehurst, Mick Ford, Charlotte Coben, Victoria Asare-Archer",
     genres: ["Crime drama", "Mystery-thriller"],
     seasonsWatched: 1,
     genreChars: "mbt",
     status: "Ended",
+  },
+  Supacell: {
+    name: "Supacell",
+    description:
+      "In South London, a group of normal people suddenly develop superpowers, and the only apparent connection between them is that they are all Black; as they deal with the impact of their powers on their daily lives, one man must bring them together.",
+    year: "2024-",
+    rating: "-",
+    runningTime: "46–59 minutes",
+    seasons: 1,
+    episodes: 6,
+    creators: "Rapman",
+    directors: "Rapman",
+    writers: "Rapman",
+    genres: ["Action-adventure", "Crime drama", "Superhero"],
+    seasonsWatched: 1,
+    genreChars: "aed",
+    status: "On Going",
   },
   Ted: {
     name: "Ted",
@@ -1148,8 +1260,8 @@ const seriesData = {
     seasons: 1,
     episodes: 7,
     creators: "Seth MacFarlane",
-    director: "Seth MacFarlane",
-    writer:
+    directors: "Seth MacFarlane",
+    writers:
       "Seth MacFarlane, Paul Corrigan, Brad Walsh, Dana Gould, and others",
     genres: ["Comedy"],
     seasonsWatched: 1,
@@ -1166,8 +1278,8 @@ const seriesData = {
     seasons: 8,
     episodes: 200,
     creators: "Bonnie and Terry Turner and Mark Brazill",
-    director: "David Trainer and Terry Hughes",
-    writer:
+    directors: "David Trainer and Terry Hughes",
+    writers:
       "Bonnie Turner, Terry Turner, Jennifer Ventimilia, Dean Batali and others",
     genres: ["Teen Sitcom"],
     seasonsWatched: 1,
@@ -1184,11 +1296,28 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Han Jae-rim",
-    director: "Han Jae-rim",
-    writer: "Han Jae-rim",
+    directors: "Han Jae-rim",
+    writers: "Han Jae-rim",
     genres: ["Dark comedy", "Thriller", "Satirical drama"],
     seasonsWatched: 1,
     genreChars: "ctd",
+    status: "Ended",
+  },
+  "The ABC Murders": {
+    name: "The ABC Murders",
+    description:
+      "Retired detective Hercule Poirot receives cryptic letters from a killer who is out on a murderous spree and thirsty for his attention. To save lives, Poirot must decode the letters signed ABC.",
+    year: "2018",
+    rating: "3.6",
+    runningTime: "55-59 minutes",
+    seasons: 1,
+    episodes: 3,
+    creators: "Agatha Christie",
+    directors: "Alex Gabassi",
+    writers: "Sarah Phelps",
+    genres: ["Mystery", "Drama", "Thriller"],
+    seasonsWatched: 1,
+    genreChars: "mdt",
     status: "Ended",
   },
   "The Boss Baby Back in Business": {
@@ -1201,9 +1330,9 @@ const seriesData = {
     seasons: 4,
     episodes: 50,
     creators: "Ben Bromfield and Ryan Elder",
-    director:
+    directors:
       "Matt Engstrom, Allan Jacobsen, Pete Jacobs, Christo Stamboliev, and others",
-    writer:
+    writers:
       "Alexandra Decas, Melanie Kirschbaum, Brandon Sawyer, JD Ryznar, and others",
     genres: ["Comedy"],
     seasonsWatched: 3,
@@ -1220,9 +1349,9 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Douglas Petrie and Marco Ramirez",
-    director:
+    directors:
       "S. J. Clarkson, Peter Hoar, Phil Abraham, Uta Briesewitz, and others",
-    writer: "Douglas Petrie, Marco Ramirez, and Lauren Schmidt Hissrich",
+    writers: "Douglas Petrie, Marco Ramirez, and Lauren Schmidt Hissrich",
     genres: ["Action", "Drama", "Superhero"],
     seasonsWatched: 1,
     genreChars: "adq",
@@ -1238,8 +1367,8 @@ const seriesData = {
     seasons: 1,
     episodes: 6,
     creators: "Malcolm Spellman",
-    director: "Kari Skogland",
-    writer:
+    directors: "Kari Skogland",
+    writers:
       "Malcolm Spellman, Michael Kastelein, Derek Kolstad, Dalan Musson, and others",
     genres: [
       "Action-adventure",
@@ -1261,9 +1390,9 @@ const seriesData = {
     seasons: 2,
     episodes: 16,
     creators: "Steve Yockey",
-    director:
+    directors:
       "Susanna Fogel, Tom Vaughan, John Strickland, Glen Winter, and others",
-    writer:
+    writers:
       "Steve Yockey, Chris Bohjalian, Kara Lee Corthron, Ryan Jennifer Jones, and others",
     genres: ["Thriller", "Comedy drama", "Dark comedy", "Mystery"],
     seasonsWatched: 2,
@@ -1280,9 +1409,9 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Craig Mazin and Neil Druckmann",
-    director:
+    directors:
       "Craig Mazin, Neil Druckmann, Jeremy Webb, Jasmila Žbanić, and others",
-    writer: "Craig Mazin and Neil Druckmann",
+    writers: "Craig Mazin and Neil Druckmann",
     genres: ["Post-apocalyptic", "Drama", "Thriller"],
     seasonsWatched: 1,
     genreChars: "aew",
@@ -1298,8 +1427,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Joe Barton",
-    director: "Marco Kreuzpaintner, Laura Scrivano, Akaash Meeda",
-    writer: "Joe Barton",
+    directors: "Marco Kreuzpaintner, Laura Scrivano, Akaash Meeda",
+    writers: "Joe Barton",
     genres: ["Science fiction", "Action", "Thriller", "Drama"],
     seasonsWatched: 1,
     genreChars: "sat",
@@ -1312,15 +1441,15 @@ const seriesData = {
     year: "2023-",
     rating: "4.0",
     runningTime: "45–56 minutes",
-    seasons: 1,
-    episodes: 10,
+    seasons: 2,
+    episodes: 20,
     creators: "Shawn Ryan",
-    director: "Seth Gordon, Guy Ferland, Ramaa Mosley, Adam Arkin, and others",
-    writer: "Shawn Ryan, Munis Rashid, Seth Fisher, Corey Deshon, and others",
+    directors: "Seth Gordon, Guy Ferland, Ramaa Mosley, Adam Arkin, and others",
+    writers: "Shawn Ryan, Munis Rashid, Seth Fisher, Corey Deshon, and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
-    seasonsWatched: 1,
+    seasonsWatched: 2,
     genreChars: "atd",
-    status: "Ended",
+    status: "On Going",
   },
   "The Office": {
     name: "The Office",
@@ -1332,9 +1461,9 @@ const seriesData = {
     seasons: 9,
     episodes: 201,
     creators: "Greg Daniels",
-    director:
+    directors:
       "Steve Carell, Rainn Wilson, John Krasinski, B. J. Novak, and others",
-    writer:
+    writers:
       "Steve Carell, Mindy Kaling, B. J. Novak, Paul Lieberstein, and others",
     genres: ["Mockumentary", "Workplace comedy", "Cringe comedy", "Sitcom"],
     seasonsWatched: 9,
@@ -1344,15 +1473,15 @@ const seriesData = {
   "The Office AU": {
     name: "The Office AU",
     description:
-      "Hannah Howard is the managing director of Flinley Craddick. When she gets news that her branch will be shut down to work remotely, she goes into survival mode, making promises she can't keep in order to keep her 'work family' together.",
+      "Hannah Howard is the managing directors of Flinley Craddick. When she gets news that her branch will be shut down to work remotely, she goes into survival mode, making promises she can't keep in order to keep her 'work family' together.",
     year: "2024-",
     rating: "4.1",
     runningTime: "23-26 minutes",
     seasons: 1,
     episodes: 8,
     creators: "Ricky Gervais and Stephen Merchant",
-    director: "Jackie van Beek, Christiaan Van Vuuren	and Jessie Griffin",
-    writer: "Jackie van Beek, Julie De Fina and Jesse Griffin",
+    directors: "Jackie van Beek, Christiaan Van Vuuren	and Jessie Griffin",
+    writers: "Jackie van Beek, Julie De Fina and Jesse Griffin",
     genres: ["Mockumentary", "Workplace comedy", "Cringe comedy", "Sitcom"],
     seasonsWatched: 1,
     genreChars: "cov",
@@ -1368,9 +1497,9 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Richard Price",
-    director:
+    directors:
       "Jason Bateman, Andrew Bernstein, Igor Martinović, Karyn Kusama, and others",
-    writer: "Richard Price, Jessie Nickson-Lopez, Dennis Lehane",
+    writers: "Richard Price, Jessie Nickson-Lopez, Dennis Lehane",
     genres: ["Crime drama", "Mystery", "Horror"],
     seasonsWatched: 1,
     genreChars: "hbm",
@@ -1386,8 +1515,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Scott B. Smith",
-    director: "Vincenzo Natali, Alrick Riley",
-    writer: "Scott B. Smith, Jamie Chan, Greg Plageman",
+    directors: "Vincenzo Natali, Alrick Riley",
+    writers: "Scott B. Smith, Jamie Chan, Greg Plageman",
     genres: ["Science fiction", "Thriller", "Drama"],
     seasonsWatched: 1,
     genreChars: "std",
@@ -1403,8 +1532,8 @@ const seriesData = {
     seasons: 2,
     episodes: 26,
     creators: "Steve Lightfoot",
-    director: "Tom Shankland, Andy Goddard, Kari Skogland, Dearbhla Walsh",
-    writer:
+    directors: "Tom Shankland, Andy Goddard, Kari Skogland, Dearbhla Walsh",
+    writers:
       "Steve Lightfoot, Dario Scardapane, Michael Jones-Morales, Christine Boylan",
     genres: ["Action", "Conspiracy thriller", "Crime drama", "Superhero"],
     seasonsWatched: 2,
@@ -1421,8 +1550,8 @@ const seriesData = {
     seasons: 1,
     episodes: 7,
     creators: "Scott Frank and Allan Scott",
-    director: "Scott Frank",
-    writer: "Scott Frank",
+    directors: "Scott Frank",
+    writers: "Scott Frank",
     genres: ["Coming-of-age", "Period drama"],
     seasonsWatched: 1,
     genreChars: "dvv",
@@ -1436,12 +1565,12 @@ const seriesData = {
     rating: "4.6",
     runningTime: "42–45 minutes",
     seasons: 7,
-    episodes: 110,
+    episodes: 116,
     creators: "Alexi Hawley",
-    director: "Liz Friedlander",
-    writer: "Alexi Hawley",
+    directors: "Liz Friedlander",
+    writers: "Alexi Hawley",
     genres: ["Police procedural", "Crime drama", "Action"],
-    seasonsWatched: 6,
+    seasonsWatched: 7,
     genreChars: "adb",
     status: "On Going",
   },
@@ -1455,9 +1584,9 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "David DiGilio",
-    director:
+    directors:
       "Antoine Fuqua, Ellen Kuras, M. J. Bassett, Frederick E.O. Toye and others",
-    writer:
+    writers:
       "David DiGilio, Daniel Shattuck, John Lopez, Tolu Awosika and others",
     genres: ["Action", "Conspiracy thriller", "Drama"],
     seasonsWatched: 1,
@@ -1474,9 +1603,9 @@ const seriesData = {
     seasons: 2,
     episodes: 18,
     creators: "Sarah Streicher",
-    director:
+    directors:
       "Susanna Fogel, John Polson, Cherie Nowlan, Haifaa Al-Mansour and others",
-    writer:
+    writers:
       "Sarah Streicher, Daniel Paige, Tonya Kong, Shalisha Francis-Feusner and others",
     genres: ["Drama"],
     seasonsWatched: 2,
@@ -1493,8 +1622,8 @@ const seriesData = {
     seasons: 1,
     episodes: 4,
     creators: "Lauren Schmidt Hissrich and Declan de Barra",
-    director: "Sarah O'Gorman and Vicky Jewson",
-    writer:
+    directors: "Sarah O'Gorman and Vicky Jewson",
+    writers:
       "Alex Meenehan, Aaron Stewart-Ahn, Tania Lotia, Kiersten Van Horne and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
     seasonsWatched: 1,
@@ -1511,9 +1640,9 @@ const seriesData = {
     seasons: 3,
     episodes: 21,
     creators: "Lauren Schmidt Hissrich",
-    director:
+    directors:
       "Alik Sakharov, Alex Garcia Lopez, Charlotte Brändström, Marc Jobst and others",
-    writer:
+    writers:
       "Lauren Schmidt Hissrich, Jenny Klein, Beau DeMayo, Declan de Barra and others",
     genres: ["Action", "Adventure", "Drama", "Fantasy"],
     seasonsWatched: 3,
@@ -1530,8 +1659,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Rachel Ramras, Hugh Davidson, Larry Dorf",
-    director: "Michael Lehmann",
-    writer: "Rachel Ramras, Hugh Davidson, Larry Dorf",
+    directors: "Michael Lehmann",
+    writers: "Rachel Ramras, Hugh Davidson, Larry Dorf",
     genres: ["Dark comedy", "Mystery", "Thriller"],
     seasonsWatched: 1,
     genreChars: "mtc",
@@ -1547,8 +1676,8 @@ const seriesData = {
     seasons: 2,
     episodes: 35,
     creators: "Chuck Lorre",
-    director: "Mark Cendrowski and Nikki Lorre",
-    writer:
+    directors: "Mark Cendrowski and Nikki Lorre",
+    writers:
       "Andy Gordon, Bobby Telatovich, Habib Zahori, Maria Ferrari and others",
     genres: ["Sitcom"],
     seasonsWatched: 2,
@@ -1565,8 +1694,8 @@ const seriesData = {
     seasons: 1,
     episodes: 9,
     creators: "Jac Schaeffer",
-    director: "Matt Shakman",
-    writer:
+    directors: "Matt Shakman",
+    writers:
       "Jac Schaeffer, Gretchen Enders, Megan McDonnell, Bobak Esfarjani and others",
     genres: ["Drama", "Mystery", "Romance", "Sitcom", "Superhero"],
     seasonsWatched: 1,
@@ -1583,8 +1712,8 @@ const seriesData = {
     seasons: 1,
     episodes: 8,
     creators: "Miles Millar and Alfred Gough",
-    director: "Tim Burton, Gandja Monteiro and James Marshall",
-    writer:
+    directors: "Tim Burton, Gandja Monteiro and James Marshall",
+    writers:
       "Charles Addams, Miles Millar, Alfred Gough, Kayla Alpert and others",
     genres: ["Comedy horror", "Coming-of-age", "Supernatural"],
     seasonsWatched: 1,
@@ -1601,8 +1730,8 @@ const seriesData = {
     seasons: 2,
     episodes: 18,
     creators: "A. C. Bradley",
-    director: "Bryan Andrews and Stephan Franck",
-    writer: "A. C. Bradley and Matthew Chauncey",
+    directors: "Bryan Andrews and Stephan Franck",
+    writers: "A. C. Bradley and Matthew Chauncey",
     genres: ["Action-adventure", "Anthology", "Science fiction", "Superhero"],
     seasonsWatched: 2,
     genreChars: "aes",
@@ -1613,14 +1742,14 @@ const seriesData = {
     description:
       "Justin embraces mortality to live with his family. However, a new challenge arises when Alex introduces him to Billie, a wizard-in-training, who needs Justin's mentorship.",
     year: "2024-",
-    rating: "",
+    rating: "4.0",
     runningTime: "22-27 minutes",
     seasons: 1,
     episodes: 21,
     creators: "	Todd J. Greenwald",
-    director:
+    directors:
       "Andy Fickman, Jody Margolin Hahn, Bob Koherr and Victor Gonzalez",
-    writer: "Jed Elinoff, Scott Thomas, Brittany Assaly and Danielle Calvert",
+    writers: "Jed Elinoff, Scott Thomas, Brittany Assaly and Danielle Calvert",
     genres: ["Comedy"],
     seasonsWatched: 1,
     genreChars: "cvv",
@@ -1636,9 +1765,9 @@ const seriesData = {
     seasons: 1,
     episodes: 10,
     creators: "Eliza Clark",
-    director:
+    directors:
       "Louise Friedberg, Daisy von Scherler Mayer, Destiny Ekaragha, Mairzee Almas and others",
-    writer:
+    writers:
       "Pia Guerra, Brian K. Vaughan, Tian Jun Gu, Donnetta Lavinia Grays and others",
     genres: ["Action-adventure", "Drama", "Post-apocalyptic"],
     seasonsWatched: 1,
@@ -1655,8 +1784,9 @@ const seriesData = {
     seasons: 2,
     episodes: 19,
     creators: "Ashley Lyle and Bart Nickerson",
-    director: "Karyn Kusama, Jamie Travis, Eva Sørhaug, Deepa Mehta and others",
-    writer:
+    directors:
+      "Karyn Kusama, Jamie Travis, Eva Sørhaug, Deepa Mehta and others",
+    writers:
       "Jonathan Lisco, Ashley Lyle, Bart Nickerson, Sarah L. Thompson and others",
     genres: [
       "Psychological drama",
@@ -1679,9 +1809,10 @@ const seriesData = {
     seasons: 7,
     episodes: 141,
     creators: "Chuck Lorre and Steven Molaro",
-    director:
+    directors:
       "Jason Alexander, Casey Childs, Timothy Marx, Craig T. Nelson and others",
-    writer: "Chuck Lorre, Steven Molaro, Kurt Koehler, David Bickel and others",
+    writers:
+      "Chuck Lorre, Steven Molaro, Kurt Koehler, David Bickel and others",
     genres: ["Period sitcom"],
     seasonsWatched: 7,
     genreChars: "ocd",

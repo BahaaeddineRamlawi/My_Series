@@ -1,3 +1,4 @@
+addSeriesAudio()
 document.addEventListener("keydown", function (event) {
   const activeElement = document.activeElement;
   const isSearchInput = activeElement.id === "searchInput";
@@ -13,6 +14,20 @@ document.addEventListener("keydown", function (event) {
     event.preventDefault();
   }
 });
+
+function addSeriesAudio() {
+  const seriesAudioContainer = document.querySelector(".series_audio");
+
+  for (const [key, value] of Object.entries(sortedSeriesData)) {
+      const audioElement = document.createElement("audio");
+      audioElement.id = key;
+      audioElement.src = `Sound/${value.name}.mp3`;
+      audioElement.preload = "auto";
+      audioElement.loop = true;
+
+      seriesAudioContainer.appendChild(audioElement);
+  }
+}
 
 let i = 0;
 let initialMusic;
